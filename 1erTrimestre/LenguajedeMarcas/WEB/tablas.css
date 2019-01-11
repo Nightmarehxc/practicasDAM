@@ -1,0 +1,65 @@
+table 
+{
+    display:table;
+}
+#cabecera
+{
+    background-color: grey;
+    border-left-color: white;
+    border-right-color: white;
+    color: aliceblue;
+
+}
+.totales
+{
+    border-bottom:1px; 
+    border-bottom-color: red;
+    border-top:1px;
+    
+    background-color: darkgrey; 
+    border-top-style: solid;
+    border-bottom-style: solid;
+
+}
+#nobg
+{
+    border-bottom:1px; 
+    border-bottom-color: red;
+    border-top:1px;
+    border-top-color:  red;
+    
+    border-top-style: solid;
+    border-bottom-style: solid;}
+.primeraColumna
+{
+    border-left-color: grey;
+    border-left-width: 2px;
+    border-style: solid;
+    border-bottom:1px; 
+    border-bottom-color: red;
+    border-top:1px;
+    border-top-color:  red;
+    
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+#bg
+{
+    border-bottom:1px; 
+    border-bottom-color: red;
+    border-top:1px;
+    border-top-color:  red;
+    background-color: grey;
+    border-top-style: solid;
+    border-bottom-style: solid;}
+.final
+{
+    border-bottom:1px; 
+    border-bottom-color: red;
+    border-top:1px;
+    border-top-color:  red;
+    background-color: grey;
+    
+    color: aliceblue;
+    text-shadow: 1px;
+}

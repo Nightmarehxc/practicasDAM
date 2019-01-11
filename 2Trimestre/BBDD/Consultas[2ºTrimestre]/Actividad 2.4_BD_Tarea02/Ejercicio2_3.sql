@@ -1,0 +1,3 @@
+ALTER TABLE cursos
+ADD CONSTRAINT CHK_maxHoras CHECK (Horas LIKE  30 OR 40 or 60)
+;
