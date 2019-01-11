@@ -1,1 +1,1 @@
-practicas de cada asignatura
+Cada trimestre con sus carpetas
