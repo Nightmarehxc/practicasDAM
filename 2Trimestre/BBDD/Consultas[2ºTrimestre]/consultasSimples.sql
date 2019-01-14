@@ -122,3 +122,22 @@ Obtener el nombre, gama, dimensiones, cantidad en stock y el precio de venta de 
 */
 select nombre,Gama,Dimensiones,CantidadEnStock,PrecioVenta from productos
 group by precioVenta desc limit 5;
+
+/*
+Ejercicio 22:
+Obtener el código y la facturación de aquellos pedidos mayores de 2000 euros
+*/
+SELECT  CodigoCliente,Cantidad from pagos
+where Cantidad > 2000;
+/*
+Ejercicio 23:
+Obtener una lista de los productos mostrando el stock total, la gama y el proveedor.
+*/
+select CodigoProducto,Gama,CantidadEnStock,Proveedor
+from productos;
+/*
+Ejercicio 24:
+Obtener el número de pedidos y código de cliente de aquellos pedidos cuya fecha de pedido sea igual a la de la fecha de entrega.
+*/
+select count(CodigoPedido),codigoCliente,FechaEntrega,FechaPedido from pedidos
+where fechaPedido like fechaEntrega;
