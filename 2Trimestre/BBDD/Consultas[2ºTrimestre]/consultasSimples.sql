@@ -148,4 +148,4 @@ SUBCONSULTAS NBA
 Ejercicio 1:
 Obtener los jugadores que pesan más que la media de peso de todos los jugadores españoles.
 */
-select 
+select nombre
