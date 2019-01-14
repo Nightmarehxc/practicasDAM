@@ -141,3 +141,11 @@ Obtener el número de pedidos y código de cliente de aquellos pedidos cuya fech
 */
 select count(CodigoPedido),codigoCliente,FechaEntrega,FechaPedido from pedidos
 where fechaPedido like fechaEntrega;
+/*
+SUBCONSULTAS NBA
+*/
+/*
+Ejercicio 1:
+Obtener los jugadores que pesan más que la media de peso de todos los jugadores españoles.
+*/
+select 
