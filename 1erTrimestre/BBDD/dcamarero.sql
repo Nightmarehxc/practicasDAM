@@ -1,5 +1,6 @@
-create database nba;
-use nba;
+drop database if exists nba2; 
+create database nba2;
+use nba2;
 CREATE TABLE equipos (
 Nombre VARCHAR (20),
 Ciudad VARCHAR (20),
@@ -41,10 +42,12 @@ Foreign key (jugador) references jugadores (codigo));
 fin parte 1
 Inicio parte 2
 */
+drop user if exists 'admind';
+drop user if exists 'usu_nba2';
 CREATE user 'admind' IDENTIFIED BY 'ad234t4';
-GRANT ALL PRIVILEGES ON nba.* to 'admind';
-CREATE user'usu_nba' IDENTIFIED BY 'app57193';
-GRANT select,insert, update, delete on nba.* to 'usu_nba';
+GRANT ALL PRIVILEGES ON nba2.* to 'admind';
+CREATE user'usu_nba2' IDENTIFIED BY 'app57193';
+GRANT select,insert, update, delete on nba2.* to 'usu_nba2';
 /*
 fin parte 2
 Inicio parte 3 
