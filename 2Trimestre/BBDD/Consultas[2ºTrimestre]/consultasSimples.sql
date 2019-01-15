@@ -1,3 +1,4 @@
+USE jardineria;
 /*/EJERCICIO 1 
 Obtener la ciudad y el teléfono de las oficinas de EEUU.*/ 
 select ciudad,telefono from oficinas
@@ -142,10 +143,57 @@ Obtener el número de pedidos y código de cliente de aquellos pedidos cuya fech
 select count(CodigoPedido),codigoCliente,FechaEntrega,FechaPedido from pedidos
 where fechaPedido like fechaEntrega;
 /*
-SUBCONSULTAS NBA
-*/
+Consultas simples de la Base de Datos “NBA” (I)*/
+use nba;
 /*
 Ejercicio 1:
-Obtener los jugadores que pesan más que la media de peso de todos los jugadores españoles.
+Jugadores cuya tercera letra de su nombre sea la “v”.
 */
-select nombre
+select nombre 
+	from jugadores
+		where substring(nombre,3,1) like '%v%';
+/*
+Ejercicio 2:
+Mostrar un listado de jugadores con el formato nombre(equipo) en una sola columna.
+*/
+select concat(Nombre," ( ",Nombre_Equipo," ) " )
+	from jugadores
+;
+/*
+Ejercicio 3:
+Primeros 10 jugadores por orden alfabético.
+*/
+select Nombre 
+	from jugadores
+		group by nombre asc limit 10;
+        
+/*
+Ejercicio 4:
+	Nombre de las divisiones de la conferencia Este.
+*/
+select division from equipos 
+	where conferencia like 'East';
+    
+/*Ejercicio 5:
+Sacar cuántas letras tiene el nombre de cada jugador de los ‘grizzlies’. (Usar la función LENGTH).
+*/
+select nombre,length(nombre) from jugadores
+	where nombre_equipo like 'grizzlies';
+/*
+Ejercicio 6:
+Número de jugadores argentinos en la NBA.
+*/
+select count(nombre) from jugadores
+	where Procedencia like '%arg%';
+/*
+Número de jugadores italianos y franceses en la NBA.
+*/
+select count(codigo) from jugadores
+	where Procedencia in ('France' and 'Italy')
+    ;
+/*
+	Ejercicio 8:
+	Número de pivots (los pivots son representados en la BBDD con la letra C) que tiene cada equipo.
+*/
+select count(posicion) from jugadores
+	where posicion like ('c');

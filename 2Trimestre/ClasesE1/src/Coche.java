@@ -1,18 +1,32 @@
 import java.util.Scanner;
 
-public class Coche
-{
+public class Coche {
     Scanner sc = new Scanner(System.in);
 
-    public String color;
-    public String modelo;
-    public String marca;
-    public  float velocidad;
-    public boolean motor= false;
-    public  String GetColor()
+    private static String color;
+    private String modelo;
+    private String marca;
+    public float velocidad;
+    public boolean motor = false;
+    Motor mot = new Motor();
+
+
+    public Coche (
+                    String color,
+                    float velocidad,
+                    String modelo,
+                    String marca,
+                    Motor mot
+                  )
     {
-        System.out.println("Introduce el color");
-        sc.next();
-        return GetColor();
+        this.color = color;
+        this.velocidad = velocidad;
+        this.modelo = modelo;
+        this.marca = marca;
+        this.mot = mot;
     }
+
+
+
+
 }
