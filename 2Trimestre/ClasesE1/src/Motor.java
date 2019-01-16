@@ -1,22 +1,41 @@
 public class Motor extends Coche
 {
 
-    public Motor(String color, float velocidad, String modelo, String marca, Motor mot) {
-        super(color, velocidad, modelo, marca, mot);
+    public static boolean motor = false;
+
+    public Motor(String color, float velocidad, String modelo, String marca/* Motor mot*/)
+    {
+        super(color, velocidad, modelo, marca/*mot*/);
     }
 
-    public void Encender()
+/*
+    public boolean Encender()
     {
-        if (motor == true)
+        Mover a setOn
+        if (motor)
         {
             System.out.println("El motor ya esta encendido");
         }
         else
             {
-                this.motor = true;
-                this.velocidad = 0.01f;
+                motor = true;
+                System.out.println("Motor encendido");
+                Motor.acelerar();
+
+
             }
+        return Coche.motor;
     }
+    */
+    public static boolean setOn()
+    {
+        motor = true;
+        System.out.println("Motor encendido");
+
+
+        return motor;
+    }
+
     public void Apagar()
     {
         if (motor == false)
@@ -25,16 +44,23 @@ public class Motor extends Coche
         }
         else
         {
-            this.motor = false;
-            this.velocidad = 0.00f;
+            motor = false;
+            velocidad = 0.00f;
         }
     }
-    public void acelerar()
+    public static float acelerar()
     {
-        this.velocidad++;
+        velocidad++;
+        return velocidad;
     }
-    public void frenar()
+    public float getVelocidad()
     {
-        this.velocidad--;
+        return velocidad;
     }
+    public float frenar()
+    {
+        velocidad--;
+        return velocidad;
+    }
+
 }
