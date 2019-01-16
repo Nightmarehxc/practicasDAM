@@ -3,20 +3,25 @@ import java.util.Scanner;
 public class Curso
 {
     private String nombre;
-    private int nHoras;
+    private static int nHoras;
     private static int nCursos;
     Scanner sc = new Scanner(System.in);
 
+    public Curso()
+    {
+        Curso.nHoras = nHoras;
+
+    }
     public String setNombre()
     {
         return nombre;
     }
-    public int setHoras()
+    public static int setHoras(int hor)
     {
-
+        nHoras = hor;
         return nHoras;
     }
-    public String getName()
+    private String getName()
     {
         this.nombre = sc.next();
         return nombre;
