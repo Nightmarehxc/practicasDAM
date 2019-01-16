@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9ed894-b51d-4efd-8b13-de5269cf1945" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/src/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/src/Coche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/src/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2Trimestre/ClasesE1/src/Motor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/src/Ventas.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -402,7 +399,7 @@
     <entry file="file://$PROJECT_DIR$/src/Ventas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
