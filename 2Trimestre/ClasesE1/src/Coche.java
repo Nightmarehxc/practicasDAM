@@ -25,9 +25,12 @@ public class Coche {
         Coche.marca = marca;
       //  this.mot = mot;
     }
-    public void setModelo(String modelo)
+    public static String setModelo()
     {
+        System.out.println("Introduce el modelo del coche");
         Coche.modelo = sc.next();
+
+        return modelo;
     }
 
     public String getModelo()
@@ -43,6 +46,13 @@ public class Coche {
         System.out.println("Introduce el color");
         color = sc.next();
         return color;
+    }
+    public static String setMarca()
+    {
+        System.out.println("Introduce la marca del coche");
+        Coche.marca= sc.next();
+
+        return modelo;
     }
     public float getVelocidad()
     {

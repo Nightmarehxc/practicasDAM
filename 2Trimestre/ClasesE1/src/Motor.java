@@ -55,6 +55,7 @@ public class Motor extends Coche
     }
     public float getVelocidad()
     {
+        velocidad = velocidad;
         return velocidad;
     }
     public float frenar()
