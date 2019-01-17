@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e515724-948e-4790-a7f7-6a61f9b26a1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../1erTrimestre/Programacion/Java/UT3-Metodos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1erTrimestre/Programacion/Java/UT3-Metodos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programacion/clasesE2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion/clasesE2/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Programacion/clasesE2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion/clasesE2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programacion/clasesE2/src/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion/clasesE2/src/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programacion/clasesE2/out/production/clasesE2/CreadorCursos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion/clasesE2/out/production/clasesE2/CreadorCursos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programacion/clasesE2/out/production/clasesE2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion/clasesE2/out/production/clasesE2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programacion/clasesE2/src/CreadorCursos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion/clasesE2/src/CreadorCursos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Programacion/clasesE2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion/clasesE2/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +22,8 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Motor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="951">
+            <state relative-caret-position="969">
               <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
             </state>
           </provider>
@@ -97,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -114,7 +119,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,7 +178,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -218,7 +222,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Motor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
+        <state relative-caret-position="969">
           <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
         </state>
       </provider>

@@ -3,7 +3,8 @@ public class CreadorCursos
 {
      private static int id=0;
      public int ncursos= 0;
-     private Curso[] lista;
+
+     private Curso[] lista = new Curso[10] ;
 
      public CreadorCursos()
      {
@@ -11,7 +12,7 @@ public class CreadorCursos
 
 
      }
-        public void CrearCurso(String a_nombre,int a_nHoras)
+        public void CrearCurso(String a_nombre, int a_nHoras)
         {
 
             lista[id] = new Curso();

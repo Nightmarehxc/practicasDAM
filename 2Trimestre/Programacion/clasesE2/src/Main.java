@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     static int nCurso=0;
-    static Curso curso = new Curso();
+    static Curso curso1 = new Curso();
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args)
@@ -12,11 +12,11 @@ public class Main {
 
 
         System.out.println("Introduce las horas");
-        curso.setNombre(sc.next());
+        curso1.setNombre(sc.next());
         System.out.println("Introduce las horas");
-        curso.setHoras(sc.nextInt());
+        curso1.setHoras(sc.nextInt());
 
-        cCursos.CrearCurso(curso.getName(),curso.getnHoras());
+        cCursos.CrearCurso(curso1.getName(),curso1.getnHoras());
         ///la siguiente instruccion deberia ser recoger la nogitud del array
         /// y añadirle el numerodel curso
 
