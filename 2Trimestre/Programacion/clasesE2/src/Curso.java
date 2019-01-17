@@ -10,13 +10,15 @@ public class Curso
     public Curso()
     {
         Curso.nombre = nombre;
+        Curso.nHoras = nHoras;
 
     }
-    public  String setNombre()
+    public  String setNombre(String a_nombre)
 
     {
-        System.out.println("Introduce tu nombre");
-        nombre = sc.next();
+        nombre = a_nombre;
+
+
         return nombre;
     }
 
@@ -25,10 +27,9 @@ public class Curso
         //nombre = nombre;
         return nombre;
     }
-    public  int setHoras()
+    public  int setHoras(int a_nHoras)
     {
-        System.out.println("Introduce las horas");
-        nHoras = sc.nextInt();
+        nHoras = a_nHoras;
         return nHoras;
     }
 
