@@ -2,33 +2,39 @@ import java.util.Scanner;
 
 public class Curso
 {
-    private String nombre;
+    private static String nombre;
     private static int nHoras;
-    private static int nCursos;
-    Scanner sc = new Scanner(System.in);
+    private static int nCursos;///esta variable no deberia ir en este objeto, mañana añado la clase CURSOS y CrearCursos la cual se encargara de gestionar los cursos
+    private static Scanner sc = new Scanner(System.in);
 
     public Curso()
     {
-        Curso.nHoras = nHoras;
+        Curso.nombre = nombre;
 
     }
-    public String setNombre()
+    public  String setNombre()
+
     {
+        System.out.println("Introduce tu nombre");
+        nombre = sc.next();
         return nombre;
     }
-    public static int setHoras(int hor)
+
+    public String getName()
     {
-        nHoras = hor;
+        //nombre = nombre;
+        return nombre;
+    }
+    public  int setHoras()
+    {
+        System.out.println("Introduce las horas");
+        nHoras = sc.nextInt();
         return nHoras;
     }
-    private String getName()
-    {
-        this.nombre = sc.next();
-        return nombre;
-    }
+
     public int getnHoras()
     {
-        this.nHoras = nHoras;
+
         return nHoras;
     }
 }
