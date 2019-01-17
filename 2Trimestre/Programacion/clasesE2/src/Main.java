@@ -11,7 +11,7 @@ public class Main {
 
 
 
-        System.out.println("Introduce las horas");
+        System.out.println("Introduce nombre");
         curso1.setNombre(sc.next());
         System.out.println("Introduce las horas");
         curso1.setHoras(sc.nextInt());
