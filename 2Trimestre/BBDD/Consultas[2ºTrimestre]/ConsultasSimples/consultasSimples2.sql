@@ -1,4 +1,3 @@
-use nba;
 /*
 	Ejercicio 11
 	Peso medio (el peso de los jugadores viene especificado en libras en la BBDD) de los jugadores de los Raptors.

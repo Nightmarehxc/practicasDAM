@@ -23,12 +23,5 @@ public class Main {
         cCursos.SelectCurso(sc.nextInt());///Seleccionar curso
         cCursos.MostrarCurso();///Mostrar curso
 
-
-
-/*
-        System.out.println("Nombre del curso: "+curso.getName());
-        System.out.println("Horas: "+curso.getnHoras());
-*/
-
     }
 }
