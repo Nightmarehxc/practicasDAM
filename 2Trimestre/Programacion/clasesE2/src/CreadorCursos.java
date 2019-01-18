@@ -19,6 +19,7 @@ public class CreadorCursos
             lista[id].setNombre(a_nombre);
             lista[id].setHoras(a_nHoras);
             ncursos = id++;
+            System.out.println("ok");
         }
 
 }
