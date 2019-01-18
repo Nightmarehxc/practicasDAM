@@ -197,3 +197,17 @@ select count(codigo) from jugadores
 */
 select count(posicion) from jugadores
 	where posicion like ('c');
+/*Ejercicio 9:
+¿Cuánto mide el pívot (los pivots son representados en la BBDD con la letra C) más alto
+ (la altura en la BBDD viene representada en pies) de la NBA?
+ 
+*/
+select max(altura),nombre from jugadores
+where posicion like ('c');
+    
+/*
+Ejercicio 10:
+Número de jugadores cuyo nombre empieza por “r”.
+*/    
+select count(nombre) as numeroJugadores from jugadores 
+	where nombre like '%R%';
