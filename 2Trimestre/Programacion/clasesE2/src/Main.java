@@ -17,6 +17,9 @@ public class Main {
         curso1.setHoras(sc.nextInt());
 
         cCursos.CrearCurso(curso1.getName(),curso1.getnHoras());
+        cCursos.SelectCurso(sc.nextInt());
+        cCursos.MostrarCurso();
+        //cCursos.MostrarCurso();
         ///la siguiente instruccion deberia ser recoger la nogitud del array
         /// y añadirle el numerodel curso
 
