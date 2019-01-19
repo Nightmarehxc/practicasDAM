@@ -20,7 +20,7 @@ public class CreadorCursos
             lista[id].setNombre(a_nombre);
             lista[id].setHoras(a_nHoras);
             ncursos = id + 1;
-            System.out.println("Curso "+a_nombre+"Creado con exito. "+" ID del curso: "+id);
+            System.out.println("Curso "+a_nombre+" Creado con exito. "+" ID del curso: "+id);
             System.out.println("Numero de cursos "+ncursos);
         }
         public int SelectCurso(int a_id)

@@ -10,22 +10,18 @@ public class Main {
         CreadorCursos cCursos = new CreadorCursos();
 
 
-
+///
         System.out.println("Introduce nombre");
         curso1.setNombre(sc.next());
         System.out.println("Introduce las horas");
         curso1.setHoras(sc.nextInt());
-
         cCursos.CrearCurso(curso1.getName(),curso1.getnHoras());
-        cCursos.SelectCurso(sc.nextInt());
-        cCursos.MostrarCurso();
-        //cCursos.MostrarCurso();
-        ///la siguiente instruccion deberia ser recoger la nogitud del array
-        /// y añadirle el numerodel curso
+        ////Se termina de crear el curso
 
-/*
-        System.out.println("Nombre del curso: "+curso.getName());
-        System.out.println("Horas: "+curso.getnHoras());
-*/
+
+        System.out.println("Introduce la id del curso a buscar...");
+        cCursos.SelectCurso(sc.nextInt());///Seleccionar curso
+        cCursos.MostrarCurso();///Mostrar curso
+
     }
 }
