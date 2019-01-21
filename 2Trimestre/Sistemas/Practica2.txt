@@ -1,0 +1,6 @@
+﻿Tipo: Tipo de extension que tiene el fichero
+ Atributos: Tipo de acceso(Solo lectura, Oculto, Archivo Historicos,Index Service.......)
+ Páginas: Metadatos numero
+ Duración: Metadato con la duracion de la pista
+ Número de pista: Metadato el numero de pista
+ Género: Metadato con el genero musical

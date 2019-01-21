@@ -1,5 +1,6 @@
 public class Rueda
 {
+    public int getNruedas;
     String tipoRueda;
     int nRuedas;
     public Rueda()

@@ -9,6 +9,7 @@ public class Coche {
     public static float velocidad = 0;
     public static boolean motor = false;
     static public int nRuedas;
+    static  Rueda lista[] = new Rueda[nRuedas];
 
     //Motor mot = new Motor();
 
@@ -27,6 +28,7 @@ public class Coche {
         Coche.velocidad = velocidad;
         Coche.modelo = modelo;
         Coche.marca = marca;
+        nRuedas = sc.nextInt();
       //  this.mot = mot;
     }
     public static String setModelo()
@@ -72,6 +74,7 @@ public class Coche {
         System.out.println("Marca "+ marca);
         System.out.println("Modelo "+modelo);
         System.out.println("Velocidad actual " + velocidad);
+        System.out.println("Numero de ruedas "+ nRuedas);
         return 0;
     }
 
