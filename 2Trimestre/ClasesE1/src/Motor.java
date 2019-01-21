@@ -38,7 +38,7 @@ public class Motor extends Coche
 
     public void Apagar()
     {
-        if (motor == false)
+        if (!motor)
         {
             System.out.println("El motor ya esta apagado");
         }

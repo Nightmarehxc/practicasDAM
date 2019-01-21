@@ -8,10 +8,14 @@ public class Coche {
     private static String marca= "lamborgini";
     public static float velocidad = 0;
     public static boolean motor = false;
+    static public int nRuedas;
+
     //Motor mot = new Motor();
 
 
+
     public Coche (
+
                     String color,
                     float velocidad,
                     String modelo,
