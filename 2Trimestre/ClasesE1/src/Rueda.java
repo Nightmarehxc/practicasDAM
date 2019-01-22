@@ -15,6 +15,7 @@ public class Rueda
         return nRuedas;
     }
     public int getNruedas()
+
     {
         return nRuedas;
     }

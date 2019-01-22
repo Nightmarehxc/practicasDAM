@@ -6,13 +6,14 @@ public class Main
     {
         ///Instancio un coche///
         Coche car1 = new Coche(Coche.setColor(),0f,Coche.setModelo(),Coche.setMarca());
-        System.out.println("Introduce el numero de ruedas");
+
         Rueda ruedas[] = new Rueda[Coche.nRuedas];
-        System.out.println("ejecutar");
+        System.out.println("Introduce el numero de ruedas");
+        //System.out.println("numero de ruedas" + ruedas[Coche.nRuedas]);
         Scanner sc = new Scanner(System.in);
         for (int i=0; i > ruedas[Coche.nRuedas].getNruedas;i++)
         {
-            ruedas[i].SetType(sc.next());
+            ruedas[Coche.nRuedas].SetType(sc.next());
         }
         Motor.setOn();
         Coche.imprimir();
