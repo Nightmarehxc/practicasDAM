@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c22a62d1-6ae8-43e4-b3b0-a1462c7c60e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../ClasesE1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClasesE1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ClasesE1/out/production/ClasesE1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClasesE1/out/production/ClasesE1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ClasesE1/out/production/ClasesE1/Rueda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClasesE1/out/production/ClasesE1/Rueda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ClasesE1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClasesE1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ClasesE1/src/Rueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClasesE1/src/Rueda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clasesE2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../clasesE2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClasesE5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClasesE5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,7 +139,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33260393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33260393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
