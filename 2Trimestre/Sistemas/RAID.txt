@@ -1,5 +1,5 @@
 ¿Existen más niveles RAID? ¿En qué consisten, explica brevemente 6 de ellos?
-Raid 0 - Sin paridad, dedundancia  o tolerancia a errores
+Raid 0 - Sin paridad, redundancia  o tolerancia a errores
 Dico 1	Disco 2
 A1	A2
 A3	A4

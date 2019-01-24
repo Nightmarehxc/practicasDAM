@@ -428,7 +428,6 @@ CREATE INDEX DOCTOR_HOSP_ESP ON sanitat.DOCTOR (HOSPITAL_COD, ESPECIALITAT);]]><
           <content-type name="SQL" enabled="true" />
           <content-type name="PL/SQL" enabled="true" />
           <content-type name="Groovy" enabled="true" />
-          <content-type name="AIDL" enabled="true" />
           <content-type name="YAML" enabled="true" />
           <content-type name="Manifest" enabled="true" />
         </content-types>
