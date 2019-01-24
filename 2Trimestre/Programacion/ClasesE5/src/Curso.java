@@ -22,8 +22,6 @@ public class Curso
     {
         name = a_name;
         return name;
-
-        
     }
     public String getName()
     {
