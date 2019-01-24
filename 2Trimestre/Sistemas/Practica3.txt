@@ -1,0 +1,31 @@
+﻿TIPO DE ARCHIVO		EXTENSION
+Texto			*.txt
+Basic
+Binarios
+Documentos		*.XLS,Docx,ppt
+graficos			*.png.jpg.bmp...
+graficos			*.png.jpg.bmp...
+graficos			*.png.jpg.bmp...
+archivos de sistema		.exe.bat
+librerias			dll
+Archivos de compilacion	.jar
+ejecutables		exe
+procesoLotes		bat
+
+2. Para los siguientes sistemas operativos indicar:
+OS		Que nombres admite		Diferencia entre mayusculas y minusculas?
+MS_DOS		\			no
+UNIX		./			SI
+Windows		\			no
+
+Para los sistemas de archivos que se indican a continuación, decir cuales son sus sistemas operativos correspondientes. Y en alguno de los sistemas de archivos indicar las particiones que usan.
+
+FAT 16	MSDOS
+FAT 32	Windows 95 OSR2, Windows 98, and Windows Me
+NTFS	Windows NT 3.1 and later Mac OS X 10.3 and later (read-only) Linux kernel version 2.6 and later Linux kernel versions 2.2-2.4 (read-only) ReactOS (read-only)
+S5	UNIX, Obsoleto desde el 95, en BSD
+EXT2	 Linux, BSD, ReactOS, Windows (through an IFS), macOS (through an IFS)
+EXT3:	 Linux, BSD, ReactOS, Windows (through an IFS)
+HPFS	Supported operating systems: OS/2, Windows NT, Linux, DragonFly BSD, eComStation
+CDFS	Linux
+VFAT	Windows 3.0

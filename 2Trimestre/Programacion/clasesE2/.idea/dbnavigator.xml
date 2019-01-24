@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DBNavigator.Project.DataEditorManager">
+    <record-view-column-sorting-type value="BY_INDEX" />
+    <value-preview-text-wrapping value="false" />
+    <value-preview-pinned value="false" />
+  </component>
+  <component name="DBNavigator.Project.DataExportManager">
+    <export-instructions>
+      <create-header value="true" />
+      <quote-values-containing-separator value="true" />
+      <quote-all-values value="false" />
+      <value-separator value="" />
+      <file-name value="" />
+      <file-location value="" />
+      <scope value="GLOBAL" />
+      <destination value="FILE" />
+      <format value="EXCEL" />
+      <charset value="windows-1252" />
+    </export-instructions>
+  </component>
+  <component name="DBNavigator.Project.DatabaseBrowserManager">
+    <autoscroll-to-editor value="false" />
+    <autoscroll-from-editor value="true" />
+    <show-object-properties value="true" />
+    <loaded-nodes />
+  </component>
+  <component name="DBNavigator.Project.DatabaseConsoleManager">
+    <connection id="59719145-b281-4625-bd05-93dfc957ac63">
+      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[SET AUTOCOMMIT=1;
+
+CREATE DATABASE IF NOT EXISTS sanitat;
+
+USE sanitat;
+
+CREATE TABLE IF NOT EXISTS sanitat.HOSPITAL(
+ HOSPITAL_COD   TINYINT (2) PRIMARY KEY,
+ NOM            VARCHAR(10) NOT NULL,
+ ADRECA         VARCHAR(20),
+ TELEFON        VARCHAR(8),
+ QTAT_LLITS     SMALLINT(3) UNSIGNED DEFAULT 0 );
+
+CREATE INDEX HOSPITAL_NOM ON sanitat.HOSPITAL(NOM);
+
+
+INSERT INTO sanitat.HOSPITAL VALUES (13,'Provincial','O Donell 50','964-4264',0);
+INSERT INTO sanitat.HOSPITAL VALUES (18,'General','Atocha s/n','595-3111',0);
+INSERT INTO sanitat.HOSPITAL VALUES (22,'La Paz','Castellana 1000','923-5411',0);
+INSERT INTO sanitat.HOSPITAL VALUES (45,'San Carlos','Ciudad Universitaria', '597-1500',0);
+
+CREATE TABLE IF NOT EXISTS sanitat.SALA (
+ HOSPITAL_COD  TINYINT (2),
+ SALA_COD      TINYINT (2),
+ NOM           VARCHAR(20) NOT NULL,
+ QTAT_LLITS    SMALLINT(3) UNSIGNED DEFAULT 0,
+ CONSTRAINT SALA_PK PRIMARY KEY (HOSPITAL_COD, SALA_COD),
+ INDEX IDX_SALA_HOSPITAL_COD (HOSPITAL_COD),
+ FOREIGN KEY (HOSPITAL_COD) REFERENCES sanitat.HOSPITAL(HOSPITAL_COD)) ;
+
+CREATE INDEX SALA_HOSP_NOM ON sanitat.SALA (HOSPITAL_COD, NOM);
+
+
+INSERT INTO sanitat.SALA VALUES (13,3,'Cures Intensives',21);
+INSERT INTO sanitat.SALA VALUES (13,6,'Psiquiᵲic',67);
+INSERT INTO sanitat.SALA VALUES (18,3,'Cures Intensives',10);
+INSERT INTO sanitat.SALA VALUES (18,4,'Cardiologia',53);
+INSERT INTO sanitat.SALA VALUES (22,1,'Recuperaci󧬱0);
+INSERT INTO sanitat.SALA VALUES (22,6,'Psiquiᵲic',118);
+INSERT INTO sanitat.SALA VALUES (22,2,'Maternitat',34);
+INSERT INTO sanitat.SALA VALUES (45,4,'Cardiologia',55);
+INSERT INTO sanitat.SALA VALUES (45,1,'Recuperaci󧬱3);
+INSERT INTO sanitat.SALA VALUES (45,2,'Maternitat',24);
+
+
+
+UPDATE sanitat.HOSPITAL 
+SET QTAT_LLITS = (SELECT SUM(QTAT_LLITS) 
+                  FROM sanitat.SALA 
+                  WHERE sanitat.HOSPITAL.HOSPITAL_COD = sanitat.SALA.HOSPITAL_COD);
+
+
+CREATE TABLE IF NOT EXISTS sanitat.PLANTILLA (
+ HOSPITAL_COD  TINYINT (2),
+ SALA_COD      TINYINT (2),
+ EMPLEAT_NO    SMALLINT(4) NOT NULL,
+ COGNOM        VARCHAR (15) NOT NULL,
+ FUNCIO        VARCHAR (10), 
+ TORN          VARCHAR (1) CHECK (TORN IN ('M','T','N')),
+ SALARI        INT (10),
+ CONSTRAINT PLANTILLA_PK PRIMARY KEY (HOSPITAL_COD, SALA_COD, EMPLEAT_NO),
+ INDEX IDX_PLANTILLA_HOSP_SALA (HOSPITAL_COD, SALA_COD),
+ FOREIGN KEY (HOSPITAL_COD, SALA_COD) REFERENCES sanitat.SALA (HOSPITAL_COD, SALA_COD)) ;  
+
+CREATE INDEX PLANTILLA_HOSP_COGNOM ON sanitat.PLANTILLA (HOSPITAL_COD, COGNOM);
+CREATE INDEX PLANTILLA_HOSP_FUNCIO ON sanitat.PLANTILLA (HOSPITAL_COD, FUNCIO);
+CREATE INDEX PLANTILLA_FUNCIO_HOSP_SALA ON sanitat.PLANTILLA (FUNCIO, HOSPITAL_COD, SALA_COD);
+
+
+INSERT INTO sanitat.PLANTILLA VALUES(13,6,3754,'D B.','Infermera','T',2262000);
+INSERT INTO sanitat.PLANTILLA VALUES(13,6,3106,'Hern⯤ez J.','Infermer','T',2755000); 
+INSERT INTO sanitat.PLANTILLA VALUES(18,4,6357,'Karplus W.','Intern','T',3379000);
+INSERT INTO sanitat.PLANTILLA VALUES(22,6,1009,'Higueras D.','Infermera','T',2005000);
+INSERT INTO sanitat.PLANTILLA VALUES(22,6,8422,'Bocina G.','Infermer','M',1638000);
+INSERT INTO sanitat.PLANTILLA VALUES(22,2,9901,'Adams C.','Intern','M',2210000);
+INSERT INTO sanitat.PLANTILLA VALUES(22,1,6065,'Rivera G.','Infermera','N',1626000);
+INSERT INTO sanitat.PLANTILLA VALUES(22,1,7379,'Carlos R.','Infermera','T',2119000);
+INSERT INTO sanitat.PLANTILLA VALUES(45,4,1280,'Amig󠒮','Intern','N',2210000);
+INSERT INTO sanitat.PLANTILLA VALUES(45,1,8526,'Frank H.','Infermera','T',2522000);
+
+
+
+CREATE TABLE IF NOT EXISTS sanitat.MALALT (
+ INSCRIPCIO    INT (5) PRIMARY KEY,  
+ COGNOM        VARCHAR (15) NOT NULL,
+ ADRECA        VARCHAR (20),
+ DATA_NAIX     DATE,
+ SEXE          CHAR (1) NOT NULL  CHECK (SEXE = 'H' OR SEXE = 'D'),
+ NSS           CHAR(9)) ;
+
+CREATE INDEX MALALT_NAIX_COGNOM ON sanitat.MALALT (DATA_NAIX, COGNOM);
+CREATE INDEX MALALT_COGNOM_NAIX ON sanitat.MALALT (COGNOM, DATA_NAIX);
+
+
+INSERT INTO sanitat.MALALT VALUES(10995,'LaguM.','Goya 20','1956-05-16','H',280862482);
+INSERT INTO sanitat.MALALT VALUES(18004,'Serrano V.','Alcala 12','1960-05-21','D',284991452);
+INSERT INTO sanitat.MALALT VALUES(14024,'Fern⯤ez M.','Recoletos 50','1967-06-23','D',321790059);
+INSERT INTO sanitat.MALALT VALUES(36658,'Domin S.','Mayor 71','1942-01-01','H',160657471);
+INSERT INTO sanitat.MALALT VALUES(38702,'Neal R.','Orense 11','1940-06-18','D',380010217);
+INSERT INTO sanitat.MALALT VALUES(39217,'Cervantes M.','Peron 38','1952-02-29','H',440294390);
+INSERT INTO sanitat.MALALT VALUES(59076,'Miller G.','Lopez de Hoyos 2','1945-09-16','D',311969044);
+INSERT INTO sanitat.MALALT VALUES(63827,'RuP.','Esquerdo 103','1980-12-26','H',100973253);
+INSERT INTO sanitat.MALALT VALUES(64823,'Fraser A.','Soto 3','1980-07-10','D',285201776);
+INSERT INTO sanitat.MALALT VALUES(74835,'Benz E.','Argentina 5','1957-10-05','H',154811767);
+
+
+CREATE TABLE IF NOT EXISTS sanitat.INGRESSOS (
+ INSCRIPCIO    INT (5) PRIMARY KEY,
+ HOSPITAL_COD  TINYINT (2) NOT NULL,
+ SALA_COD      TINYINT (2) NOT NULL,
+ LLIT          SMALLINT(4) UNSIGNED,
+ INDEX IDX_INGRESSOS_INSCRIPCIO (INSCRIPCIO),
+ INDEX IDX_INGRESSOS_HOSP_SALA (HOSPITAL_COD, SALA_COD),
+ FOREIGN KEY (INSCRIPCIO) REFERENCES sanitat.MALALT(INSCRIPCIO),
+ FOREIGN KEY (HOSPITAL_COD, SALA_COD) REFERENCES sanitat.SALA (HOSPITAL_COD, SALA_COD));
+
+CREATE INDEX INGRESSOS_HOSP_SALA ON sanitat.INGRESSOS (HOSPITAL_COD, SALA_COD);
+
+
+INSERT INTO sanitat.INGRESSOS VALUES(10995,13,3,1);
+INSERT INTO sanitat.INGRESSOS VALUES(18004,13,3,2);
+INSERT INTO sanitat.INGRESSOS VALUES(14024,13,3,3);
+INSERT INTO sanitat.INGRESSOS VALUES(36658,18,4,1);
+INSERT INTO sanitat.INGRESSOS VALUES(38702,18,4,2);
+INSERT INTO sanitat.INGRESSOS VALUES(39217,22,6,1);
+INSERT INTO sanitat.INGRESSOS VALUES(59076,22,6,2);
+INSERT INTO sanitat.INGRESSOS VALUES(63827,22,6,3);
+INSERT INTO sanitat.INGRESSOS VALUES(64823,22,2,1);
+
+
+
+CREATE TABLE IF NOT EXISTS sanitat.DOCTOR (
+ HOSPITAL_COD  TINYINT (2),
+ DOCTOR_NO     SMALLINT(3),
+ COGNOM        VARCHAR(13) NOT NULL,
+ ESPECIALITAT  VARCHAR(16) NOT NULL,
+ CONSTRAINT DOCTOR_PK PRIMARY KEY (HOSPITAL_COD, DOCTOR_NO),
+ INDEX IDX_DOCTOR_HOSP (HOSPITAL_COD),
+ FOREIGN KEY (HOSPITAL_COD) REFERENCES sanitat.HOSPITAL(HOSPITAL_COD)) ;
+
+
+INSERT INTO sanitat.DOCTOR VALUES(13,435,'L󰥺 A.','Cardiologia');
+INSERT INTO sanitat.DOCTOR VALUES(18,585,'Miller G.','Ginecologia');
+INSERT INTO sanitat.DOCTOR VALUES(18,982,'Cajal R.','Cardiologia');
+INSERT INTO sanitat.DOCTOR VALUES(22,453,'Galo D.','Pediatria');
+INSERT INTO sanitat.DOCTOR VALUES(22,398,'Best K.','Urologia');
+INSERT INTO sanitat.DOCTOR VALUES(22,386,'Cabeza D.','Psiquiatria');
+INSERT INTO sanitat.DOCTOR VALUES(45,607,'Nico P.','Pediatria');
+INSERT INTO sanitat.DOCTOR VALUES(45,522,'Adams C.','Neurologia');
+
+
+CREATE INDEX DOCTOR_ESP_HOSP ON sanitat.DOCTOR (ESPECIALITAT, HOSPITAL_COD);
+CREATE INDEX DOCTOR_HOSP_ESP ON sanitat.DOCTOR (HOSPITAL_COD, ESPECIALITAT);]]></console>
+    </connection>
+  </component>
+  <component name="DBNavigator.Project.DatabaseFileManager">
+    <open-files />
+  </component>
+  <component name="DBNavigator.Project.DatabaseSessionManager">
+    <connection id="59719145-b281-4625-bd05-93dfc957ac63" />
+  </component>
+  <component name="DBNavigator.Project.EditorStateManager">
+    <last-used-providers />
+  </component>
+  <component name="DBNavigator.Project.MethodExecutionManager">
+    <method-browser />
+    <execution-history>
+      <group-entries value="true" />
+      <execution-inputs />
+    </execution-history>
+    <argument-values-cache />
+  </component>
+  <component name="DBNavigator.Project.ObjectDependencyManager">
+    <last-used-dependency-type value="INCOMING" />
+  </component>
+  <component name="DBNavigator.Project.ObjectQuickFilterManager">
+    <last-used-operator value="EQUAL" />
+    <filters />
+  </component>
+  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+    <recently-used-interfaces />
+  </component>
+  <component name="DBNavigator.Project.Settings">
+    <connections>
+      <connection id="59719145-b281-4625-bd05-93dfc957ac63" active="true">
+        <database>
+          <name value="Connection" />
+          <description value="" />
+          <database-type value="MYSQL" />
+          <config-type value="BASIC" />
+          <database-version value="8.0" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="DATABASE" />
+          <host value="localhost" />
+          <port value="3306" />
+          <database value="mysql" />
+          <os-authentication value="false" />
+          <empty-password value="true" />
+          <user value="root" />
+          <password value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <proxy-password value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <password-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+    </connections>
+    <browser-settings>
+      <general>
+        <display-mode value="TABBED" />
+        <navigation-history-size value="100" />
+        <show-object-details value="false" />
+      </general>
+      <filters>
+        <object-type-filter>
+          <object-type name="SCHEMA" enabled="true" />
+          <object-type name="USER" enabled="true" />
+          <object-type name="ROLE" enabled="true" />
+          <object-type name="PRIVILEGE" enabled="true" />
+          <object-type name="CHARSET" enabled="true" />
+          <object-type name="TABLE" enabled="true" />
+          <object-type name="VIEW" enabled="true" />
+          <object-type name="MATERIALIZED_VIEW" enabled="true" />
+          <object-type name="NESTED_TABLE" enabled="true" />
+          <object-type name="COLUMN" enabled="true" />
+          <object-type name="INDEX" enabled="true" />
+          <object-type name="CONSTRAINT" enabled="true" />
+          <object-type name="DATASET_TRIGGER" enabled="true" />
+          <object-type name="DATABASE_TRIGGER" enabled="true" />
+          <object-type name="SYNONYM" enabled="true" />
+          <object-type name="SEQUENCE" enabled="true" />
+          <object-type name="PROCEDURE" enabled="true" />
+          <object-type name="FUNCTION" enabled="true" />
+          <object-type name="PACKAGE" enabled="true" />
+          <object-type name="TYPE" enabled="true" />
+          <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+          <object-type name="ARGUMENT" enabled="true" />
+          <object-type name="DIMENSION" enabled="true" />
+          <object-type name="CLUSTER" enabled="true" />
+          <object-type name="DBLINK" enabled="true" />
+        </object-type-filter>
+      </filters>
+      <sorting>
+        <object-type name="COLUMN" sorting-type="NAME" />
+        <object-type name="FUNCTION" sorting-type="NAME" />
+        <object-type name="PROCEDURE" sorting-type="NAME" />
+        <object-type name="ARGUMENT" sorting-type="POSITION" />
+      </sorting>
+      <default-editors>
+        <object-type name="VIEW" editor-type="SELECTION" />
+        <object-type name="PACKAGE" editor-type="SELECTION" />
+        <object-type name="TYPE" editor-type="SELECTION" />
+      </default-editors>
+    </browser-settings>
+    <navigation-settings>
+      <lookup-filters>
+        <lookup-objects>
+          <object-type name="SCHEMA" enabled="true" />
+          <object-type name="USER" enabled="false" />
+          <object-type name="ROLE" enabled="false" />
+          <object-type name="PRIVILEGE" enabled="false" />
+          <object-type name="CHARSET" enabled="false" />
+          <object-type name="TABLE" enabled="true" />
+          <object-type name="VIEW" enabled="true" />
+          <object-type name="MATERIALIZED VIEW" enabled="true" />
+          <object-type name="NESTED TABLE" enabled="false" />
+          <object-type name="COLUMN" enabled="false" />
+          <object-type name="INDEX" enabled="true" />
+          <object-type name="CONSTRAINT" enabled="true" />
+          <object-type name="DATASET TRIGGER" enabled="true" />
+          <object-type name="DATABASE TRIGGER" enabled="true" />
+          <object-type name="SYNONYM" enabled="false" />
+          <object-type name="SEQUENCE" enabled="true" />
+          <object-type name="PROCEDURE" enabled="true" />
+          <object-type name="FUNCTION" enabled="true" />
+          <object-type name="PACKAGE" enabled="true" />
+          <object-type name="TYPE" enabled="true" />
+          <object-type name="TYPE ATTRIBUTE" enabled="false" />
+          <object-type name="ARGUMENT" enabled="false" />
+          <object-type name="DIMENSION" enabled="false" />
+          <object-type name="CLUSTER" enabled="false" />
+          <object-type name="DBLINK" enabled="true" />
+        </lookup-objects>
+        <force-database-load value="false" />
+        <prompt-connection-selection value="true" />
+        <prompt-schema-selection value="true" />
+      </lookup-filters>
+    </navigation-settings>
+    <dataset-grid-settings>
+      <general>
+        <enable-zooming value="true" />
+        <enable-column-tooltip value="true" />
+      </general>
+      <sorting>
+        <nulls-first value="true" />
+        <max-sorting-columns value="4" />
+      </sorting>
+      <tracking-columns>
+        <columnNames value="" />
+        <visible value="true" />
+        <editable value="false" />
+      </tracking-columns>
+    </dataset-grid-settings>
+    <dataset-editor-settings>
+      <text-editor-popup>
+        <active value="false" />
+        <active-if-empty value="false" />
+        <data-length-threshold value="100" />
+        <popup-delay value="1000" />
+      </text-editor-popup>
+      <values-list-popup>
+        <show-popup-button value="true" />
+        <element-count-threshold value="1000" />
+        <data-length-threshold value="250" />
+      </values-list-popup>
+      <general>
+        <fetch-block-size value="100" />
+        <fetch-timeout value="30" />
+        <trim-whitespaces value="true" />
+        <convert-empty-strings-to-null value="true" />
+        <select-content-on-cell-edit value="true" />
+        <large-value-preview-active value="true" />
+      </general>
+      <filters>
+        <prompt-filter-dialog value="true" />
+        <default-filter-type value="BASIC" />
+      </filters>
+      <qualified-text-editor text-length-threshold="300">
+        <content-types>
+          <content-type name="Text" enabled="true" />
+          <content-type name="Properties" enabled="true" />
+          <content-type name="XML" enabled="true" />
+          <content-type name="DTD" enabled="true" />
+          <content-type name="HTML" enabled="true" />
+          <content-type name="XHTML" enabled="true" />
+          <content-type name="Java" enabled="true" />
+          <content-type name="SQL" enabled="true" />
+          <content-type name="PL/SQL" enabled="true" />
+          <content-type name="Groovy" enabled="true" />
+          <content-type name="AIDL" enabled="true" />
+          <content-type name="YAML" enabled="true" />
+          <content-type name="Manifest" enabled="true" />
+        </content-types>
+      </qualified-text-editor>
+      <record-navigation>
+        <navigation-target value="VIEWER" />
+      </record-navigation>
+    </dataset-editor-settings>
+    <code-editor-settings>
+      <general>
+        <show-object-navigation-gutter value="false" />
+        <show-spec-declaration-navigation-gutter value="true" />
+        <enable-spellchecking value="true" />
+        <enable-reference-spellchecking value="false" />
+      </general>
+      <confirmations>
+        <save-changes value="false" />
+        <revert-changes value="true" />
+      </confirmations>
+    </code-editor-settings>
+    <code-completion-settings>
+      <filters>
+        <basic-filter>
+          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
+          <filter-element type="RESERVED_WORD" id="function" selected="true" />
+          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
+          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
+          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
+          <filter-element type="OBJECT" id="schema" selected="true" />
+          <filter-element type="OBJECT" id="role" selected="true" />
+          <filter-element type="OBJECT" id="user" selected="true" />
+          <filter-element type="OBJECT" id="privilege" selected="true" />
+          <user-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="false" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </user-schema>
+          <public-schema>
+            <filter-element type="OBJECT" id="table" selected="false" />
+            <filter-element type="OBJECT" id="view" selected="false" />
+            <filter-element type="OBJECT" id="materialized view" selected="false" />
+            <filter-element type="OBJECT" id="index" selected="false" />
+            <filter-element type="OBJECT" id="constraint" selected="false" />
+            <filter-element type="OBJECT" id="trigger" selected="false" />
+            <filter-element type="OBJECT" id="synonym" selected="false" />
+            <filter-element type="OBJECT" id="sequence" selected="false" />
+            <filter-element type="OBJECT" id="procedure" selected="false" />
+            <filter-element type="OBJECT" id="function" selected="false" />
+            <filter-element type="OBJECT" id="package" selected="false" />
+            <filter-element type="OBJECT" id="type" selected="false" />
+            <filter-element type="OBJECT" id="dimension" selected="false" />
+            <filter-element type="OBJECT" id="cluster" selected="false" />
+            <filter-element type="OBJECT" id="dblink" selected="false" />
+          </public-schema>
+          <any-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </any-schema>
+        </basic-filter>
+        <extended-filter>
+          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
+          <filter-element type="RESERVED_WORD" id="function" selected="true" />
+          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
+          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
+          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
+          <filter-element type="OBJECT" id="schema" selected="true" />
+          <filter-element type="OBJECT" id="user" selected="true" />
+          <filter-element type="OBJECT" id="role" selected="true" />
+          <filter-element type="OBJECT" id="privilege" selected="true" />
+          <user-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </user-schema>
+          <public-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </public-schema>
+          <any-schema>
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
+          </any-schema>
+        </extended-filter>
+      </filters>
+      <sorting enabled="true">
+        <sorting-element type="RESERVED_WORD" id="keyword" />
+        <sorting-element type="RESERVED_WORD" id="datatype" />
+        <sorting-element type="OBJECT" id="column" />
+        <sorting-element type="OBJECT" id="table" />
+        <sorting-element type="OBJECT" id="view" />
+        <sorting-element type="OBJECT" id="materialized view" />
+        <sorting-element type="OBJECT" id="index" />
+        <sorting-element type="OBJECT" id="constraint" />
+        <sorting-element type="OBJECT" id="trigger" />
+        <sorting-element type="OBJECT" id="synonym" />
+        <sorting-element type="OBJECT" id="sequence" />
+        <sorting-element type="OBJECT" id="procedure" />
+        <sorting-element type="OBJECT" id="function" />
+        <sorting-element type="OBJECT" id="package" />
+        <sorting-element type="OBJECT" id="type" />
+        <sorting-element type="OBJECT" id="dimension" />
+        <sorting-element type="OBJECT" id="cluster" />
+        <sorting-element type="OBJECT" id="dblink" />
+        <sorting-element type="OBJECT" id="schema" />
+        <sorting-element type="OBJECT" id="role" />
+        <sorting-element type="OBJECT" id="user" />
+        <sorting-element type="RESERVED_WORD" id="function" />
+        <sorting-element type="RESERVED_WORD" id="parameter" />
+      </sorting>
+      <format>
+        <enforce-code-style-case value="true" />
+      </format>
+    </code-completion-settings>
+    <execution-engine-settings>
+      <statement-execution>
+        <fetch-block-size value="100" />
+        <execution-timeout value="20" />
+        <debug-execution-timeout value="600" />
+        <focus-result value="false" />
+        <prompt-execution value="false" />
+      </statement-execution>
+      <script-execution>
+        <command-line-interfaces />
+        <execution-timeout value="300" />
+      </script-execution>
+      <method-execution>
+        <execution-timeout value="30" />
+        <debug-execution-timeout value="600" />
+        <parameter-history-size value="10" />
+      </method-execution>
+    </execution-engine-settings>
+    <operation-settings>
+      <transactions>
+        <uncommitted-changes>
+          <on-project-close value="ASK" />
+          <on-disconnect value="ASK" />
+          <on-autocommit-toggle value="ASK" />
+        </uncommitted-changes>
+        <multiple-uncommitted-changes>
+          <on-commit value="ASK" />
+          <on-rollback value="ASK" />
+        </multiple-uncommitted-changes>
+      </transactions>
+      <session-browser>
+        <disconnect-session value="ASK" />
+        <kill-session value="ASK" />
+        <reload-on-filter-change value="false" />
+      </session-browser>
+      <compiler>
+        <compile-type value="KEEP" />
+        <compile-dependencies value="ASK" />
+        <always-show-controls value="false" />
+      </compiler>
+      <debugger>
+        <debugger-type value="ASK" />
+        <use-generic-runners value="true" />
+      </debugger>
+    </operation-settings>
+    <ddl-file-settings>
+      <extensions>
+        <mapping file-type-id="VIEW" extensions="vw" />
+        <mapping file-type-id="TRIGGER" extensions="trg" />
+        <mapping file-type-id="PROCEDURE" extensions="prc" />
+        <mapping file-type-id="FUNCTION" extensions="fnc" />
+        <mapping file-type-id="PACKAGE" extensions="pkg" />
+        <mapping file-type-id="PACKAGE_SPEC" extensions="pks" />
+        <mapping file-type-id="PACKAGE_BODY" extensions="pkb" />
+        <mapping file-type-id="TYPE" extensions="tpe" />
+        <mapping file-type-id="TYPE_SPEC" extensions="tps" />
+        <mapping file-type-id="TYPE_BODY" extensions="tpb" />
+      </extensions>
+      <general>
+        <lookup-ddl-files value="true" />
+        <create-ddl-files value="false" />
+        <synchronize-ddl-files value="true" />
+        <use-qualified-names value="false" />
+        <make-scripts-rerunnable value="true" />
+      </general>
+    </ddl-file-settings>
+    <general-settings>
+      <regional-settings>
+        <date-format value="MEDIUM" />
+        <number-format value="UNGROUPED" />
+        <locale value="SYSTEM_DEFAULT" />
+        <use-custom-formats value="false" />
+      </regional-settings>
+      <environment>
+        <environment-types>
+          <environment-type id="development" name="Development" description="Development environment" color="-2430209/-12296320" readonly-code="false" readonly-data="false" />
+          <environment-type id="integration" name="Integration" description="Integration environment" color="-2621494/-12163514" readonly-code="true" readonly-data="false" />
+          <environment-type id="production" name="Production" description="Productive environment" color="-11574/-10271420" readonly-code="true" readonly-data="true" />
+          <environment-type id="other" name="Other" description="" color="-1576/-10724543" readonly-code="false" readonly-data="false" />
+        </environment-types>
+        <visibility-settings>
+          <connection-tabs value="true" />
+          <dialog-headers value="true" />
+          <object-editor-tabs value="true" />
+          <script-editor-tabs value="false" />
+          <execution-result-tabs value="true" />
+        </visibility-settings>
+      </environment>
+    </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
+  </component>
+</project>

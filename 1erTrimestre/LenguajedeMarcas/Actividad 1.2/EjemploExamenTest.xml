@@ -1,0 +1,30 @@
+<Examen>
+    <Preguntas>
+        <1>
+            <"¿El cielo es azul?>
+        </1>
+
+        <2>
+        </2>
+        
+    </Preguntas>
+    <Respuestas>
+        <1>
+            <a> Azul</a>
+            <b> Verde</b>
+            <c> No tiene color</c>
+        </1>
+        <2>
+        </2>
+    </Respuestas>
+
+    <Soluciones>
+     <1>
+        "C"
+     </1>
+     <2>
+     </2>
+    </Soluciones>
+</Examen>
+
+

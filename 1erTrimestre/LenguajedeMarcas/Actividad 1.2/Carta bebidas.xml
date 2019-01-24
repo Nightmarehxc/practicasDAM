@@ -1,0 +1,30 @@
+<!--- VOCABULARIO: Categorías,Precios,ID -->
+<!--- REGLAS: Los objetos irán la PRIMERA EN MAYúSCULA, los parámetros en minúscula. Cada sección tendrá distintas categorias en función del tipo de producto que sea, y cada item dispondrá de un precio -->
+
+<epos>  <!-- Raíz del documento -->
+    <bebidas> <!--- Sección de bebidas -->
+        <Cervezas>
+        <!---Carta de cervezas -->
+            <Mahou>
+                <id>1</id>
+                <precio>2</precio>
+            </Mahou>
+            <EstrellaGaliza>
+                <id>2</id>
+                <precio>2</precio>
+            </estrellaGaliza>
+        </Cervezas>
+        <!---No alcohólicas -->
+        <agua>
+        <aguaMineral>
+                <id>52</id>   
+                <precio>2.50</precio>
+        </AguaMineral>
+        <Cruzcampo>
+            <id>666</id>
+                <precio>1</precio>
+        </Cruzcampo>
+        </agua>
+    </bebidas>
+    <!--- Futuras secciones -->
+</epos>

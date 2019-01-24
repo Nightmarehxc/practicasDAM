@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UT3-Metodos:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UT3_Metodos_jar</output-path>
+    <root id="archive" name="UT3-Metodos.jar">
+      <element id="module-output" name="UT3-Metodos" />
+    </root>
+  </artifact>
+</component>

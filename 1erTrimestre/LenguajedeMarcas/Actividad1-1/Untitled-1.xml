@@ -1,0 +1,25 @@
+<epos>
+    <bebidas>
+        <Cervezas>
+            <Mahou>
+                <id>1</id>
+                <precio>2</precio>
+            </Mahou>
+            <EstrellaGaliza>
+                <id>2</id>
+                <precio>2</precio>
+            </estrellaGaliza>
+        </Cervezas>
+        <agua>
+        <aguaMineral>
+                <id>52</id>   
+                <precio>2.50</precio>
+                <id>
+        </AguaMineral>
+        <Cruzcampo>
+            <id>666</id>
+                <precio>1</precio>
+        </Cruzcampo>
+        </agua>
+    </bebidas>
+</epos>
