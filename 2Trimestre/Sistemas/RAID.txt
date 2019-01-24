@@ -1,0 +1,47 @@
+¿Existen más niveles RAID? ¿En qué consisten, explica brevemente 6 de ellos?
+Raid 0 - Sin paridad, dedundancia  o tolerancia a errores
+Dico 1	Disco 2
+A1	A2
+A3	A4
+A5	A6
+DE MANERA QUE SI FALLA EL DISCO 2, se ven comprometidos la integridad de los datos.
+
+RAID 1
+Mirror, Copia exacta de un disco en otro
+tolerancia a errores , si falla un disco se inserta otro y se copiaria la informacion
+DISCO 1	DISCO 2
+A1	A1
+A2	A2
+A3	A3
+
+RAID 2
+Rara vez se usa, usa paridad en 3 discos 
+
+DISCO0	DISCO 1	DISCO2	DISCO3	DISCO4	DISCO5	DISCO6
+A1	A2	A3	A4	Ap1	Ap2	Ap3
+B1	B2	B3	B4	Bp1	Bp2	Bp3
+C1	C2	C3	C4	Cp1	Cp2	Cp3
+D1	D2	D3	D4	Dp1	Dp2	Dp3
+
+RAID 3
+Rara vez se usa en practica
+DISCO 0	DISCO 1	DISCO 2	DISCO 3
+A1	A2	A3	Ap(1-3)
+A4	A5	A6	Ap(4-6)
+B1	B2	B3	Bp(1-3)
+B4	B5	B6	Bp(4-6)
+RAID 4
+
+DISCO 0	DISCO 1	DISCO 2	DISCO 3
+A1	A2	A3	Ap
+B1	B2	B3	Bp
+C1	C2	C3	Cp
+D1	D2	D3	Dp
+
+RAID 5
+Raid 5 guarda la paridad en diferentes discos con relativo a cada seccion
+DISCO 0	DISCO 1	DISCO 2	DISCO 3
+1a	1b	1c	p B1
+2a	2b	pb2	2c
+3a 	pB3	3b	3c
+pB4	4a	4b	4c
