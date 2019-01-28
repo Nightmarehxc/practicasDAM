@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     static int nCurso=0;
-    static Curso curso1 = new Curso();
     static Scanner sc = new Scanner(System.in);
+
+    static Curso curso1 = new Curso();
+    //static Curso curso2 = new Curso();
 
     public static void main(String[] args)
     {
@@ -17,6 +19,7 @@ public class Main {
         curso1.setHoras(sc.nextInt());
         cCursos.CrearCurso(curso1.getName(),curso1.getnHoras());
         ////Se termina de crear el curso
+      ///  curso2.getName(sc.next());
 
 
         System.out.println("Introduce la id del curso a buscar...");
