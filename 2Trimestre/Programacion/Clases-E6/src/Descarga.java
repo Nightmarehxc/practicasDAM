@@ -5,7 +5,7 @@ public class Descarga
     private float vel;
     public Descarga()
     {
-        String name;
+        String a_name;
         float peso;
         float vel;
     }
@@ -16,6 +16,7 @@ public class Descarga
         return name;
     }
     public String getName()
+
     {
         return name;
     }
