@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="7e515724-948e-4790-a7f7-6a61f9b26a1f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClasesE1/Coche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClasesE1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClasesE1/Motor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClasesE1/Rueda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programacion/clasesE2/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion/clasesE2/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programacion/clasesE2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion/clasesE2/.idea/workspace.xml" afterDir="false" />
+    </list>
+=======
     <list default="true" id="7e515724-948e-4790-a7f7-6a61f9b26a1f" name="Default Changelist" comment="" />
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +26,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="153">
+              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+=======
             <state relative-caret-position="493">
               <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
             </state>
           </provider>
         </entry>
@@ -23,8 +40,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Coche.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="544">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+=======
             <state relative-caret-position="131">
               <caret line="23" column="31" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="23" selection-end-column="31" />
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
             </state>
           </provider>
         </entry>
@@ -32,11 +54,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rueda.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="272">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+=======
             <state relative-caret-position="306">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#327#328#0" expanded="true" />
               </folding>
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
             </state>
           </provider>
         </entry>
@@ -90,6 +117,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+=======
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,9 +144,12 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Course" />
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,10 +219,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+=======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -232,16 +272,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rueda.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="272">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+=======
         <state relative-caret-position="306">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#327#328#0" expanded="true" />
           </folding>
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Coche.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="544">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+=======
         <state relative-caret-position="131">
           <caret line="23" column="31" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="23" selection-end-column="31" />
         </state>
@@ -251,13 +300,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="153">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+=======
         <state relative-caret-position="493">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+>>>>>>> 2130f49d957f496b2f781ebb5f54143a7a4f3002
         </state>
       </provider>
     </entry>
