@@ -34,6 +34,7 @@ public class Descarga
         vel = a_vel;
         return vel;
     }
+
     public float getVel()
     {
         return vel;
