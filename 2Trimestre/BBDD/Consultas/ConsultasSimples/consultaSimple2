@@ -1,0 +1,136 @@
+mysql> source consultasSimples2.sql
++------------+
+| peso_medio |
++------------+
+|   224.2857 |
++------------+
+1 row in set (0.00 sec)
+
++-------------+----------+
+| conferencia | count(*) |
++-------------+----------+
+| East        |       15 |
+| West        |       15 |
++-------------+----------+
+2 rows in set (0.00 sec)
+
++-----------+
+| Division  |
++-----------+
+| Atlantic  |
+| SouthEast |
+| Central   |
+| Central   |
+| Central   |
+| Atlantic  |
+| SouthEast |
+| SouthEast |
+| Atlantic  |
+| SouthEast |
+| Atlantic  |
+| Central   |
+| Central   |
+| Atlantic  |
+| SouthEast |
++-----------+
+15 rows in set (0.00 sec)
+
++------------------+----------+
+| nombre           | longitud |
++------------------+----------+
+| Shannon Brown    |       13 |
+| JamesOn Curry    |       13 |
+| Luol Deng        |        9 |
+| Chris Duhon      |       11 |
+| Drew Gooden      |       11 |
+| Ben Gordon       |       10 |
+| Aaron Gray       |       10 |
+| Kirk Hinrich     |       12 |
+| Larry Hughes     |       12 |
+| Demetris Nichols |       16 |
+| Joakin Noah      |       11 |
+| Andres Nocioni   |       14 |
+| Thabo Sefolosha  |       15 |
+| Cedric Simmons   |       14 |
+| Tyrus Thonas     |       12 |
++------------------+----------+
+15 rows in set (0.00 sec)
+
++-----------+---------------+
+| mediapeso | Nombre_equipo |
++-----------+---------------+
+|  220.8571 | 76ers         |
+|  219.9286 | Bobcats       |
+|  225.7143 | Bucks         |
+|  215.9333 | Bulls         |
+|  227.4286 | Cavaliers     |
+|  222.0667 | Celtics       |
+|  219.0667 | Clippers      |
+|  221.0000 | Grizzlies     |
+|  215.3846 | Hawks         |
+|  221.8125 | Heat          |
+|  217.4286 | Hornets       |
+|  230.0714 | Jazz          |
+|  224.7333 | Kings         |
+|  235.4667 | Knicks        |
+|  230.0000 | Lakers        |
+|  226.6667 | Magic         |
+|  222.7333 | Mavericks     |
+|  223.4286 | Nets          |
+|  222.0769 | Nuggets       |
+|  224.0000 | Pacers        |
+|  217.8667 | Pistons       |
+|  224.2857 | Raptors       |
+|  225.3333 | Rockets       |
+|  217.7333 | Spurs         |
+|  228.8462 | Suns          |
+|  225.4000 | Supersonics   |
+|  217.5000 | Timberwolves  |
+|  223.0000 | Trail Blazers |
+|  218.0714 | Warriors      |
+|  229.6923 | Wizards       |
++-----------+---------------+
+30 rows in set (0.00 sec)
+
++---------------+-----------+
+| Nombre_equipo | avg(peso) |
++---------------+-----------+
+| Jazz          |  230.0714 |
+| Knicks        |  235.4667 |
+| Lakers        |  230.0000 |
+| Suns          |  228.8462 |
+| Wizards       |  229.6923 |
++---------------+-----------+
+5 rows in set (0.00 sec)
+
++---------------+---------------+
+| Nombre_equipo | count(nombre) |
++---------------+---------------+
+| Grizzlies     |             1 |
+| Lakers        |             1 |
+| Raptors       |             2 |
+| Trail Blazers |             1 |
++---------------+---------------+
+4 rows in set (0.00 sec)
+
++---------------+---------------+
+| Nombre_equipo | count(nombre) |
++---------------+---------------+
+| Grizzlies     |             1 |
+| Lakers        |             1 |
+| Raptors       |             2 |
+| Trail Blazers |             1 |
++---------------+---------------+
+4 rows in set (0.00 sec)
+
++---------------+-----------+
+| Nombre_equipo | avg(peso) |
++---------------+-----------+
+| Grizzlies     |  170.0000 |
+| Lakers        |  250.0000 |
+| Raptors       |  227.5000 |
+| Trail Blazers |  168.0000 |
++---------------+-----------+
+4 rows in set, 8 warnings (0.00 sec)
+
+mysql> notee

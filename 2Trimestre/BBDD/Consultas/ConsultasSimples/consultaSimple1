@@ -1,0 +1,1432 @@
+mysql> source consultasSimples.sql
+Database changed
++---------------+-----------------+
+| ciudad        | telefono        |
++---------------+-----------------+
+| Boston        | +1 215 837 0825 |
+| San Francisco | +1 650 219 4782 |
++---------------+-----------------+
+2 rows in set (0.15 sec)
+
++--------+-----------+-----------+----------------------+
+| Nombre | Apellido1 | Apellido2 | email                |
++--------+-----------+-----------+----------------------+
+| Marcos | Maga¤a    | Perez     | marcos@jardineria.es |
++--------+-----------+-----------+----------------------+
+1 row in set (0.09 sec)
+
++----------+------------+-----------+-----------------------+
+| Nombre   | Apellido1  | Apellido2 | puesto                |
++----------+------------+-----------+-----------------------+
+| Marcos   | Maga¤a     | Perez     | Director General      |
+| Ruben    | L¢pez      | Martinez  | Subdirector Marketing |
+| Alberto  | Soria      | Carrasco  | Subdirector Ventas    |
+| Maria    | Sol¡s      | Jerez     | Secretaria            |
+| Carlos   | Soria      | Jimenez   | Director Oficina      |
+| Emmanuel | Maga¤a     | Perez     | Director Oficina      |
+| Francois | Fignon     |           | Director Oficina      |
+| Michael  | Bolton     |           | Director Oficina      |
+| Hilary   | Washington |           | Director Oficina      |
+| Nei      | Nishikori  |           | Director Oficina      |
+| Amy      | Johnson    |           | Director Oficina      |
+| Kevin    | Fallmer    |           | Director Oficina      |
++----------+------------+-----------+-----------------------+
+12 rows in set (0.00 sec)
+
++----------+
+| count(*) |
++----------+
+|       36 |
++----------+
+1 row in set (0.05 sec)
+
++--------------------------------+
+| NombreCliente                  |
++--------------------------------+
+| Lasas S.A.                     |
+| Beragua                        |
+| Club Golf Puerta del hierro    |
+| Naturagua                      |
+| DaraDistribuciones             |
+| Madrile¤a de riegos            |
+| Lasas S.A.                     |
+| Camunas Jardines S.L.          |
+| Dardena S.A.                   |
+| Jardin de Flores               |
+| Flores Marivi                  |
+| Flowers, S.A                   |
+| Naturajardin                   |
+| Golf S.A.                      |
+| AYMERICH GOLF MANAGEMENT, SL   |
+| Aloha                          |
+| El Prat                        |
+| Sotogrande                     |
+| Vivero Humanes                 |
+| Fuenla City                    |
+| Jardines y Mansiones CACTUS SL |
+| Jardiner¡as Mat¡as SL          |
+| Agrojardin                     |
+| Top Campo                      |
+| Jardineria Sara                |
+| Campohermoso                   |
+| FLORES S.L.                    |
++--------------------------------+
+27 rows in set (0.00 sec)
+
++----------+----------------+
+| count(*) | pais           |
++----------+----------------+
+|        2 | Australia      |
+|        2 | France         |
+|       27 | Spain          |
+|        1 | United Kingdom |
+|        4 | USA            |
++----------+----------------+
+5 rows in set (0.02 sec)
+
++----------+
+| count(*) |
++----------+
+|       11 |
++----------+
+1 row in set (0.00 sec)
+
++----------------+--------------+
+| CodigoEmpleado | NÂº clientes |
++----------------+--------------+
+|              5 |            5 |
+|              8 |            4 |
+|              9 |            2 |
+|             11 |            5 |
+|             12 |            5 |
+|             16 |            2 |
+|             18 |            2 |
+|             19 |            2 |
+|             22 |            2 |
+|             30 |            5 |
+|             31 |            2 |
++----------------+--------------+
+11 rows in set (0.00 sec)
+
++-------------+--------------+
+| Primer pago | Ãšltimo pago |
++-------------+--------------+
+| 2009-01-16  | 2009-02-19   |
++-------------+--------------+
+1 row in set (0.09 sec)
+
++---------------+
+| codigoCliente |
++---------------+
+|             1 |
+|             1 |
+|            13 |
+|            14 |
+|            26 |
++---------------+
+5 rows in set (0.00 sec)
+
++-----------+
+| estado    |
++-----------+
+| Entregado |
+| Pendiente |
+| Rechazado |
++-----------+
+3 rows in set (0.03 sec)
+
++--------------+---------------+---------------+--------------+
+| codigopedido | codigoCliente | fechaEsperada | fechaEntrega |
++--------------+---------------+---------------+--------------+
+|            4 |             5 | 2009-01-26    | NULL         |
+|           10 |             3 | 2009-01-20    | NULL         |
+|           11 |             1 | 2009-01-27    | NULL         |
+|           12 |             1 | 2009-01-27    | NULL         |
+|           19 |             9 | 2009-02-12    | NULL         |
+|           20 |             9 | 2009-02-15    | NULL         |
+|           37 |             4 | 2009-11-13    | NULL         |
+|           39 |            19 | 2009-03-07    | 2009-03-09   |
+|           43 |            23 | 2009-03-26    | 2009-03-28   |
+|           44 |            23 | 2009-03-27    | 2009-03-30   |
+|           50 |            26 | 2008-08-09    | NULL         |
+|           52 |            26 | 2008-12-21    | NULL         |
+|           54 |            14 | 2009-02-11    | NULL         |
+|           57 |            13 | 2009-02-05    | NULL         |
+|           61 |             3 | 2009-01-20    | NULL         |
+|           62 |             1 | 2009-01-27    | NULL         |
+|           63 |             1 | 2009-01-27    | NULL         |
+|           77 |            15 | 2009-01-08    | NULL         |
+|           80 |            28 | 2009-01-26    | NULL         |
+|           90 |            27 | 2008-02-17    | NULL         |
+|           94 |            27 | 2009-11-01    | NULL         |
+|           98 |            35 | 2009-02-13    | NULL         |
+|           99 |            16 | 2009-02-27    | NULL         |
+|          103 |            30 | 2009-01-20    | 2009-01-24   |
+|          106 |            30 | 2009-05-15    | 2009-05-20   |
+|          112 |            36 | 2009-04-06    | 2009-05-07   |
+|          115 |            36 | 2009-01-26    | 2009-02-27   |
+|          118 |            16 | 2009-02-27    | NULL         |
+|          123 |            30 | 2009-01-20    | 2009-01-24   |
+|          126 |            30 | 2009-05-15    | 2009-05-20   |
++--------------+---------------+---------------+--------------+
+30 rows in set (0.00 sec)
+
++-----------------------+
+| count(CodigoProducto) |
++-----------------------+
+|                   292 |
++-----------------------+
+1 row in set (0.03 sec)
+
++----------------+
+| codigoProducto |
++----------------+
+| FR-67          |
+| OR-127         |
+| OR-141         |
+| OR-241         |
+| OR-99          |
+| FR-4           |
+| FR-40          |
+| OR-140         |
+| OR-141         |
+| OR-159         |
+| OR-227         |
+| OR-247         |
+| FR-48          |
+| OR-122         |
+| OR-123         |
+| OR-213         |
+| OR-217         |
+| OR-218         |
+| FR-31          |
+| FR-34          |
++----------------+
+20 rows in set (0.00 sec)
+
++----------+------------+-----------+---------------+
+| Nombre   | Apellido1  | Apellido2 | CodigoOficina |
++----------+------------+-----------+---------------+
+| Marcos   | Maga¤a     | Perez     | TAL-ES        |
+| Ruben    | L¢pez      | Martinez  | TAL-ES        |
+| Maria    | Sol¡s      | Jerez     | TAL-ES        |
+| Carlos   | Soria      | Jimenez   | MAD-ES        |
+| Emmanuel | Maga¤a     | Perez     | BCN-ES        |
+| Francois | Fignon     |           | PAR-FR        |
+| Michael  | Bolton     |           | SFC-USA       |
+| Hilary   | Washington |           | BOS-USA       |
+| Nei      | Nishikori  |           | TOK-JP        |
+| Amy      | Johnson    |           | LON-UK        |
+| Kevin    | Fallmer    |           | SYD-AU        |
++----------+------------+-----------+---------------+
+11 rows in set (0.00 sec)
+
++----------+-------------------------+
+| count(*) | CodigoEmpleadoRepVentas |
++----------+-------------------------+
+|        5 |                       5 |
+|        4 |                       8 |
+|        2 |                       9 |
+|        5 |                      11 |
+|        5 |                      12 |
+|        2 |                      16 |
+|        2 |                      18 |
+|        2 |                      19 |
+|        2 |                      22 |
+|        5 |                      30 |
+|        2 |                      31 |
++----------+-------------------------+
+11 rows in set (0.00 sec)
+
++-------------+----------------+
+| precioVenta | CodigoProducto |
++-------------+----------------+
+|       14.00 | 11679          |
+|       14.00 | 21636          |
+|       12.00 | 22225          |
+|       12.00 | 30310          |
+|        1.00 | AR-001         |
+|        1.00 | AR-002         |
+|        1.00 | AR-003         |
+|        1.00 | AR-004         |
+|        1.00 | AR-005         |
+|        1.00 | AR-006         |
+|        1.00 | AR-007         |
+|        1.00 | AR-008         |
+|        1.00 | AR-009         |
+|        1.00 | AR-010         |
+|        7.00 | FR-1           |
+|        7.00 | FR-10          |
+|       11.00 | FR-100         |
+|       13.00 | FR-101         |
+|       18.00 | FR-102         |
+|       25.00 | FR-103         |
+|       49.00 | FR-104         |
+|       70.00 | FR-105         |
+|       11.00 | FR-106         |
+|       22.00 | FR-107         |
+|       32.00 | FR-108         |
+|      100.00 | FR-11          |
+|       21.00 | FR-12          |
+|       57.00 | FR-13          |
+|       10.00 | FR-14          |
+|       25.00 | FR-15          |
+|       45.00 | FR-16          |
+|        2.00 | FR-17          |
+|        4.00 | FR-18          |
+|        4.00 | FR-19          |
+|        6.00 | FR-2           |
+|        4.00 | FR-20          |
+|        4.00 | FR-21          |
+|        4.00 | FR-22          |
+|        8.00 | FR-23          |
+|        8.00 | FR-24          |
+|        8.00 | FR-25          |
+|        8.00 | FR-26          |
+|        8.00 | FR-27          |
+|        8.00 | FR-28          |
+|        8.00 | FR-29          |
+|        7.00 | FR-3           |
+|        8.00 | FR-30          |
+|        8.00 | FR-31          |
+|        8.00 | FR-32          |
+|        8.00 | FR-33          |
+|        8.00 | FR-34          |
+|        8.00 | FR-35          |
+|        9.00 | FR-36          |
+|        9.00 | FR-37          |
+|        9.00 | FR-38          |
+|        9.00 | FR-39          |
+|       29.00 | FR-4           |
+|        8.00 | FR-40          |
+|        8.00 | FR-41          |
+|        8.00 | FR-42          |
+|        8.00 | FR-43          |
+|        8.00 | FR-44          |
+|        8.00 | FR-45          |
+|        8.00 | FR-46          |
+|        8.00 | FR-47          |
+|        9.00 | FR-48          |
+|        8.00 | FR-49          |
+|        6.00 | FR-5           |
+|        8.00 | FR-50          |
+|        8.00 | FR-51          |
+|        8.00 | FR-52          |
+|        8.00 | FR-53          |
+|        9.00 | FR-54          |
+|        8.00 | FR-55          |
+|        8.00 | FR-56          |
+|        9.00 | FR-57          |
+|       11.00 | FR-58          |
+|       22.00 | FR-59          |
+|        7.00 | FR-6           |
+|       32.00 | FR-60          |
+|       49.00 | FR-61          |
+|       70.00 | FR-62          |
+|       11.00 | FR-63          |
+|       22.00 | FR-64          |
+|       32.00 | FR-65          |
+|       49.00 | FR-66          |
+|       70.00 | FR-67          |
+|       80.00 | FR-68          |
+|       91.00 | FR-69          |
+|       29.00 | FR-7           |
+|       11.00 | FR-70          |
+|       22.00 | FR-71          |
+|       32.00 | FR-72          |
+|       13.00 | FR-73          |
+|       22.00 | FR-74          |
+|       32.00 | FR-75          |
+|       49.00 | FR-76          |
+|       70.00 | FR-77          |
+|       15.00 | FR-78          |
+|       22.00 | FR-79          |
+|        6.00 | FR-8           |
+|       32.00 | FR-80          |
+|       49.00 | FR-81          |
+|       70.00 | FR-82          |
+|       80.00 | FR-83          |
+|       13.00 | FR-84          |
+|       70.00 | FR-85          |
+|       11.00 | FR-86          |
+|       22.00 | FR-87          |
+|       32.00 | FR-88          |
+|       49.00 | FR-89          |
+|       29.00 | FR-9           |
+|       70.00 | FR-90          |
+|       80.00 | FR-91          |
+|       11.00 | FR-92          |
+|       22.00 | FR-93          |
+|       32.00 | FR-94          |
+|       49.00 | FR-95          |
+|       11.00 | FR-96          |
+|       22.00 | FR-97          |
+|       32.00 | FR-98          |
+|       49.00 | FR-99          |
+|        5.00 | OR-001         |
+|       12.00 | OR-100         |
+|        6.00 | OR-101         |
+|        6.00 | OR-102         |
+|       10.00 | OR-103         |
+|       10.00 | OR-104         |
+|        6.00 | OR-105         |
+|       10.00 | OR-106         |
+|        6.00 | OR-107         |
+|        5.00 | OR-108         |
+|        5.00 | OR-109         |
+|        2.00 | OR-110         |
+|        5.00 | OR-111         |
+|        5.00 | OR-112         |
+|        5.00 | OR-113         |
+|        5.00 | OR-114         |
+|        7.00 | OR-115         |
+|        7.00 | OR-116         |
+|        7.00 | OR-117         |
+|        7.00 | OR-118         |
+|        5.00 | OR-119         |
+|        5.00 | OR-120         |
+|        5.00 | OR-121         |
+|        5.00 | OR-122         |
+|        5.00 | OR-123         |
+|        5.00 | OR-124         |
+|        5.00 | OR-125         |
+|        5.00 | OR-126         |
+|        7.00 | OR-127         |
+|       98.00 | OR-128         |
+|      110.00 | OR-129         |
+|       18.00 | OR-130         |
+|       18.00 | OR-131         |
+|       18.00 | OR-132         |
+|        2.00 | OR-133         |
+|       38.00 | OR-134         |
+|        5.00 | OR-135         |
+|       18.00 | OR-136         |
+|        4.00 | OR-137         |
+|        4.00 | OR-138         |
+|        4.00 | OR-139         |
+|        4.00 | OR-140         |
+|        4.00 | OR-141         |
+|        2.00 | OR-142         |
+|        9.00 | OR-143         |
+|       12.00 | OR-144         |
+|        2.00 | OR-145         |
+|        4.00 | OR-146         |
+|        7.00 | OR-147         |
+|        7.00 | OR-148         |
+|       17.00 | OR-149         |
+|        2.00 | OR-150         |
+|        6.00 | OR-151         |
+|        6.00 | OR-152         |
+|        6.00 | OR-153         |
+|        6.00 | OR-154         |
+|        6.00 | OR-155         |
+|       10.00 | OR-156         |
+|       10.00 | OR-157         |
+|        6.00 | OR-158         |
+|        6.00 | OR-159         |
+|       10.00 | OR-160         |
+|        6.00 | OR-161         |
+|       10.00 | OR-162         |
+|       10.00 | OR-163         |
+|        6.00 | OR-164         |
+|       10.00 | OR-165         |
+|        6.00 | OR-166         |
+|        6.00 | OR-167         |
+|       10.00 | OR-168         |
+|       12.00 | OR-169         |
+|        6.00 | OR-170         |
+|       10.00 | OR-171         |
+|       18.00 | OR-172         |
+|        6.00 | OR-173         |
+|       18.00 | OR-174         |
+|       10.00 | OR-175         |
+|       10.00 | OR-176         |
+|       15.00 | OR-177         |
+|        6.00 | OR-178         |
+|        6.00 | OR-179         |
+|        6.00 | OR-180         |
+|       10.00 | OR-181         |
+|        6.00 | OR-182         |
+|       10.00 | OR-183         |
+|        6.00 | OR-184         |
+|        6.00 | OR-185         |
+|        6.00 | OR-186         |
+|       10.00 | OR-187         |
+|       25.00 | OR-188         |
+|       22.00 | OR-189         |
+|       32.00 | OR-190         |
+|       24.00 | OR-191         |
+|       22.00 | OR-192         |
+|       20.00 | OR-193         |
+|       20.00 | OR-194         |
+|        6.00 | OR-195         |
+|       10.00 | OR-196         |
+|       12.00 | OR-197         |
+|        4.00 | OR-198         |
+|        4.00 | OR-199         |
+|        4.00 | OR-200         |
+|        4.00 | OR-201         |
+|        4.00 | OR-202         |
+|       10.00 | OR-203         |
+|       10.00 | OR-204         |
+|       10.00 | OR-205         |
+|        5.00 | OR-206         |
+|        4.00 | OR-207         |
+|        4.00 | OR-208         |
+|       10.00 | OR-209         |
+|       39.00 | OR-210         |
+|       59.00 | OR-211         |
+|      217.00 | OR-212         |
+|      266.00 | OR-213         |
+|       10.00 | OR-214         |
+|      112.00 | OR-215         |
+|       19.00 | OR-216         |
+|       64.00 | OR-217         |
+|       25.00 | OR-218         |
+|       29.00 | OR-219         |
+|       36.00 | OR-220         |
+|       59.00 | OR-221         |
+|       87.00 | OR-222         |
+|        4.00 | OR-223         |
+|        7.00 | OR-224         |
+|       10.00 | OR-225         |
+|       38.00 | OR-226         |
+|       64.00 | OR-227         |
+|       32.00 | OR-228         |
+|       22.00 | OR-229         |
+|       38.00 | OR-230         |
+|       15.00 | OR-231         |
+|       34.00 | OR-232         |
+|       13.00 | OR-233         |
+|       64.00 | OR-234         |
+|       92.00 | OR-235         |
+|       49.00 | OR-236         |
+|       19.00 | OR-237         |
+|       19.00 | OR-238         |
+|       49.00 | OR-239         |
+|        6.00 | OR-240         |
+|       19.00 | OR-241         |
+|       21.00 | OR-242         |
+|       64.00 | OR-243         |
+|       11.00 | OR-244         |
+|       34.00 | OR-245         |
+|       18.00 | OR-246         |
+|      462.00 | OR-247         |
+|        3.00 | OR-248         |
+|        5.00 | OR-249         |
+|       10.00 | OR-250         |
+|      168.00 | OR-251         |
+|       14.00 | OR-99          |
++-------------+----------------+
+276 rows in set (0.02 sec)
+
++-----------+---------------+---------------------+
+| estado    | CodigoCliente | count(Codigopedido) |
++-----------+---------------+---------------------+
+| Entregado |             1 |                  11 |
+| Pendiente |             3 |                   9 |
+| Entregado |             4 |                   5 |
+| Entregado |             5 |                   5 |
+| Entregado |             7 |                   5 |
+| Entregado |             9 |                   5 |
+| Entregado |            13 |                   5 |
+| Entregado |            14 |                   5 |
+| Rechazado |            15 |                   5 |
+| Pendiente |            16 |                  10 |
+| Entregado |            19 |                   5 |
+| Pendiente |            23 |                   5 |
+| Entregado |            26 |                   5 |
+| Pendiente |            27 |                   5 |
+| Entregado |            28 |                   5 |
+| Pendiente |            30 |                  10 |
+| Entregado |            35 |                   5 |
+| Entregado |            36 |                   5 |
+| Entregado |            38 |                   5 |
++-----------+---------------+---------------------+
+19 rows in set (0.00 sec)
+
++---------------+----------------------+-------------------+--------+
+| CodigoOficina | Ciudad               | Region            | pais   |
++---------------+----------------------+-------------------+--------+
+| BCN-ES        | Barcelona            | Barcelona         | Espa¤a |
+| BOS-USA       | Boston               | MA                | EEUU   |
+| MAD-ES        | Madrid               | Madrid            | Espa¤a |
+| SFC-USA       | San Francisco        | CA                | EEUU   |
+| TAL-ES        | Talavera de la Reina | Castilla-LaMancha | Espa¤a |
++---------------+----------------------+-------------------+--------+
+5 rows in set (0.00 sec)
+
++-----------------------+--------------+-------------+-----------------+-------------+
+| nombre                | Gama         | Dimensiones | CantidadEnStock | PrecioVenta |
++-----------------------+--------------+-------------+-----------------+-------------+
+| Trachycarpus Fortunei | Ornamentales | 250-300     |               2 |      462.00 |
+| Bismarckia Nobilis    | Ornamentales | 240 - 260   |               4 |      266.00 |
+| Bismarckia Nobilis    | Ornamentales | 200 - 220   |               4 |      217.00 |
+| Zamia Furfuracaea     | Ornamentales | 90 - 110    |              15 |      168.00 |
+| Brahea Armata         | Ornamentales | 120 - 140   |             100 |      112.00 |
++-----------------------+--------------+-------------+-----------------+-------------+
+5 rows in set (0.00 sec)
+
++---------------+----------+
+| CodigoCliente | Cantidad |
++---------------+----------+
+|             3 |  5000.00 |
+|             3 |  5000.00 |
+|             4 | 20000.00 |
+|             4 | 20000.00 |
+|             4 | 20000.00 |
+|             4 | 20000.00 |
+|             5 | 23794.00 |
+|             7 |  2390.00 |
+|            13 |  2246.00 |
+|            14 |  4160.00 |
+|            15 |  2081.00 |
+|            15 | 10000.00 |
+|            16 |  4399.00 |
+|            26 | 18846.00 |
+|            27 | 10972.00 |
+|            28 |  8489.00 |
+|            30 |  7863.00 |
+|            35 |  3321.00 |
++---------------+----------+
+18 rows in set (0.00 sec)
+
++----------------+--------------+-----------------+---------------------------+
+| CodigoProducto | Gama         | CantidadEnStock | Proveedor                 |
++----------------+--------------+-----------------+---------------------------+
+| 11679          | Herramientas |              15 | HiperGarden Tools         |
+| 21636          | Herramientas |              15 | HiperGarden Tools         |
+| 22225          | Herramientas |              15 | HiperGarden Tools         |
+| 30310          | Herramientas |              15 | HiperGarden Tools         |
+| AR-001         | Arom ticas   |             140 | Murcia Seasons            |
+| AR-002         | Arom ticas   |             140 | Murcia Seasons            |
+| AR-003         | Arom ticas   |             140 | Murcia Seasons            |
+| AR-004         | Arom ticas   |             140 | Murcia Seasons            |
+| AR-005         | Arom ticas   |             140 | Murcia Seasons            |
+| AR-006         | Arom ticas   |             140 | Murcia Seasons            |
+| AR-007         | Arom ticas   |             140 | Murcia Seasons            |
+| AR-008         | Arom ticas   |             140 | Murcia Seasons            |
+| AR-009         | Arom ticas   |             140 | Murcia Seasons            |
+| AR-010         | Arom ticas   |             140 | Murcia Seasons            |
+| FR-1           | Frutales     |              15 | Frutales Talavera S.A     |
+| FR-10          | Frutales     |              15 | NaranjasValencianas.com   |
+| FR-100         | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-101         | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-102         | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-103         | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-104         | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-105         | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-106         | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-107         | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-108         | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-11          | Frutales     |              15 | NaranjasValencianas.com   |
+| FR-12          | Frutales     |              15 | NaranjasValencianas.com   |
+| FR-13          | Frutales     |              15 | NaranjasValencianas.com   |
+| FR-14          | Frutales     |              15 | Frutales Talavera S.A     |
+| FR-15          | Frutales     |              15 | Frutales Talavera S.A     |
+| FR-16          | Frutales     |              15 | Frutales Talavera S.A     |
+| FR-17          | Frutales     |              15 | Frutales Talavera S.A     |
+| FR-18          | Frutales     |             350 | Frutales Talavera S.A     |
+| FR-19          | Frutales     |             350 | NaranjasValencianas.com   |
+| FR-2           | Frutales     |              15 | NaranjasValencianas.com   |
+| FR-20          | Frutales     |             350 | Frutales Talavera S.A     |
+| FR-21          | Frutales     |             350 | Frutales Talavera S.A     |
+| FR-22          | Frutales     |             350 | Frutales Talavera S.A     |
+| FR-23          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-24          | Frutales     |             400 | Melocotones de Cieza S.A. |
+| FR-25          | Frutales     |             400 | Melocotones de Cieza S.A. |
+| FR-26          | Frutales     |             400 | Melocotones de Cieza S.A. |
+| FR-27          | Frutales     |             400 | Jerte Distribuciones S.L. |
+| FR-28          | Frutales     |             400 | Jerte Distribuciones S.L. |
+| FR-29          | Frutales     |             400 | Jerte Distribuciones S.L. |
+| FR-3           | Frutales     |              15 | NaranjasValencianas.com   |
+| FR-30          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-31          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-32          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-33          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-34          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-35          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-36          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-37          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-38          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-39          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-4           | Frutales     |              15 | NaranjasValencianas.com   |
+| FR-40          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-41          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-42          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-43          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-44          | Frutales     |             400 | Melocotones de Cieza S.A. |
+| FR-45          | Frutales     |             400 | Melocotones de Cieza S.A. |
+| FR-46          | Frutales     |             400 | Melocotones de Cieza S.A. |
+| FR-47          | Frutales     |             400 | Melocotones de Cieza S.A. |
+| FR-48          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-49          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-5           | Frutales     |              15 | Frutales Talavera S.A     |
+| FR-50          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-51          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-52          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-53          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-54          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-55          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-56          | Frutales     |             400 | Frutales Talavera S.A     |
+| FR-57          | Frutales     |             400 | NaranjasValencianas.com   |
+| FR-58          | Frutales     |             200 | Melocotones de Cieza S.A. |
+| FR-59          | Frutales     |             200 | Melocotones de Cieza S.A. |
+| FR-6           | Frutales     |              15 | Frutales Talavera S.A     |
+| FR-60          | Frutales     |             200 | Melocotones de Cieza S.A. |
+| FR-61          | Frutales     |             200 | Melocotones de Cieza S.A. |
+| FR-62          | Frutales     |             200 | Melocotones de Cieza S.A. |
+| FR-63          | Frutales     |             300 | Jerte Distribuciones S.L. |
+| FR-64          | Frutales     |              15 | Jerte Distribuciones S.L. |
+| FR-65          | Frutales     |             200 | Jerte Distribuciones S.L. |
+| FR-66          | Frutales     |              50 | Jerte Distribuciones S.L. |
+| FR-67          | Frutales     |              50 | Jerte Distribuciones S.L. |
+| FR-68          | Frutales     |              50 | Jerte Distribuciones S.L. |
+| FR-69          | Frutales     |              50 | Jerte Distribuciones S.L. |
+| FR-7           | Frutales     |              15 | Frutales Talavera S.A     |
+| FR-70          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-71          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-72          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-73          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-74          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-75          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-76          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-77          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-78          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-79          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-8           | Frutales     |              15 | NaranjasValencianas.com   |
+| FR-80          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-81          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-82          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-83          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-84          | Frutales     |              50 | NaranjasValencianas.com   |
+| FR-85          | Frutales     |              50 | NaranjasValencianas.com   |
+| FR-86          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-87          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-88          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-89          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-9           | Frutales     |              15 | NaranjasValencianas.com   |
+| FR-90          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-91          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-92          | Frutales     |              50 | Melocotones de Cieza S.A. |
+| FR-93          | Frutales     |              50 | Melocotones de Cieza S.A. |
+| FR-94          | Frutales     |              50 | Melocotones de Cieza S.A. |
+| FR-95          | Frutales     |              50 | Melocotones de Cieza S.A. |
+| FR-96          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-97          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-98          | Frutales     |              50 | Frutales Talavera S.A     |
+| FR-99          | Frutales     |              50 | Frutales Talavera S.A     |
+| OR-001         | Ornamentales |              25 | Valencia Garden Service   |
+| OR-100         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-101         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-102         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-103         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-104         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-105         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-106         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-107         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-108         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-109         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-110         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-111         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-112         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-113         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-114         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-115         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-116         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-117         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-118         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-119         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-120         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-121         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-122         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-123         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-124         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-125         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-126         | Ornamentales |             120 | Viveros EL OASIS          |
+| OR-127         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-128         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-129         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-130         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-131         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-132         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-133         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-134         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-135         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-136         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-137         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-138         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-139         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-140         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-141         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-142         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-143         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-144         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-145         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-146         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-147         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-148         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-149         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-150         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-151         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-152         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-153         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-154         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-155         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-156         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-157         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-158         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-159         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-160         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-161         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-162         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-163         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-164         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-165         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-166         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-167         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-168         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-169         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-170         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-171         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-172         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-173         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-174         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-175         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-176         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-177         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-178         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-179         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-180         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-181         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-182         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-183         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-184         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-185         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-186         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-187         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-188         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-189         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-190         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-191         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-192         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-193         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-194         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-195         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-196         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-197         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-198         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-199         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-200         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-201         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-202         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-203         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-204         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-205         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-206         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-207         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-208         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-209         | Ornamentales |              80 | Viveros EL OASIS          |
+| OR-210         | Ornamentales |               2 | Viveros EL OASIS          |
+| OR-211         | Ornamentales |               5 | Viveros EL OASIS          |
+| OR-212         | Ornamentales |               4 | Viveros EL OASIS          |
+| OR-213         | Ornamentales |               4 | Viveros EL OASIS          |
+| OR-214         | Ornamentales |               0 | Viveros EL OASIS          |
+| OR-215         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-216         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-217         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-218         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-219         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-220         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-221         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-222         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-223         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-224         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-225         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-226         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-227         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-228         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-229         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-230         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-231         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-232         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-233         | Ornamentales |               1 | Viveros EL OASIS          |
+| OR-234         | Ornamentales |               2 | Viveros EL OASIS          |
+| OR-235         | Ornamentales |               2 | Viveros EL OASIS          |
+| OR-236         | Ornamentales |             100 | Viveros EL OASIS          |
+| OR-237         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-238         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-239         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-240         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-241         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-242         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-243         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-244         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-245         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-246         | Ornamentales |              50 | Viveros EL OASIS          |
+| OR-247         | Ornamentales |               2 | Viveros EL OASIS          |
+| OR-248         | Ornamentales |              15 | Viveros EL OASIS          |
+| OR-249         | Ornamentales |              15 | Viveros EL OASIS          |
+| OR-250         | Ornamentales |              15 | Viveros EL OASIS          |
+| OR-251         | Ornamentales |              15 | Viveros EL OASIS          |
+| OR-99          | Ornamentales |             100 | Viveros EL OASIS          |
++----------------+--------------+-----------------+---------------------------+
+276 rows in set (0.00 sec)
+
++---------------------+---------------+--------------+-------------+
+| count(CodigoPedido) | codigoCliente | FechaEntrega | FechaPedido |
++---------------------+---------------+--------------+-------------+
+|                   1 |             9 | 2009-01-09   | 2009-01-09  |
++---------------------+---------------+--------------+-------------+
+1 row in set (0.00 sec)
+
+Database changed
++--------------------+
+| nombre             |
++--------------------+
+| Javaris Crittenton |
+| David Lee          |
+| Kevin Ollie        |
+| Devin Brown        |
+| Awvee Store        |
+| Kevin Garnett      |
+| Kevin Martin       |
+| David West         |
+| Devean George      |
+| Devin Harris       |
+| David Harrison     |
+| Kevin Durant       |
++--------------------+
+12 rows in set (0.04 sec)
+
++-------------------------------------------+
+| concat(Nombre," ( ",Nombre_Equipo," ) " ) |
++-------------------------------------------+
+| Corey Brever ( Timberwolves )             |
+| Greg Buckner ( Timberwolves )             |
+| Michael Doleac ( Timberwolves )           |
+| Randy Foye ( Timberwolves )               |
+| Ryan Gomes ( Timberwolves )               |
+| Marko Jaric ( Timberwolves )              |
+| Al Jefferson ( Timberwolves )             |
+| Mark Madsen ( Timberwolves )              |
+| Rashard McCants ( Timberwolves )          |
+| Chris Richard  ( Timberwolves )           |
+| Craig Smith ( Timberwolves )              |
+| Kirk Snyder ( Timberwolves )              |
+| Sebastian Telfair ( Timberwolves )        |
+| Antoine Walker ( Timberwolves )           |
+| Elton brand ( Clippers )                  |
+| Paul Davis ( Clippers )                   |
+| Dan Dickau ( Clippers )                   |
+| Nick Fazekas ( Clippers )                 |
+| Chris Kaman ( Clippers )                  |
+| Brevin Knight ( Clippers )                |
+| Shaun Livingston ( Clippers )             |
+| Corey Maggette ( Clippers )               |
+| Cuttino Mobley ( Clippers )               |
+| Smush Parker ( Clippers )                 |
+| Josh Powell ( Clippers )                  |
+| Quinton Ross ( Clippers )                 |
+| Tim Thomas ( Clippers )                   |
+| al thornton ( Clippers )                  |
+| Marcus Williams ( Clippers )              |
+| Andre Brown ( Grizzlies )                 |
+| Kwame Brown ( Grizzlies )                 |
+| Brian Cardinal ( Grizzlies )              |
+| Jason Collins ( Grizzlies )               |
+| Mike Conley ( Grizzlies )                 |
+| Javaris Crittenton ( Grizzlies )          |
+| Rudy Gay ( Grizzlies )                    |
+| Casey Jacobsen ( Grizzlies )              |
+| Kyle Lowry ( Grizzlies )                  |
+| Aaron Mckie ( Grizzlies )                 |
+| Darko Milicic ( Grizzlies )               |
+| Mike Miller ( Grizzlies )                 |
+| Juan Carlos Navarro ( Grizzlies )         |
+| Hakim Warrick ( Grizzlies )               |
+| Trevor Ariza ( Lakers )                   |
+| Kobe Bryant ( Lakers )                    |
+| Andrew Bynum ( Lakers )                   |
+| Jordan Farmar ( Lakers )                  |
+| Derek Fisher ( Lakers )                   |
+| Pau Gasol ( Lakers )                      |
+| Didier Ilunga-Mbenga ( Lakers )           |
+| Coby Karl ( Lakers )                      |
+| Chris Mihm ( Lakers )                     |
+| Ira Newble ( Lakers )                     |
+| Lamar Odom ( Lakers )                     |
+| Vladimir Radmanovic ( Lakers )            |
+| Ronny Turiaf ( Lakers )                   |
+| Sasha Vujacic ( Lakers )                  |
+| Luke Walton ( Lakers )                    |
+| Andrea Bargnani ( Raptors )               |
+| Maceo Baston ( Raptors )                  |
+| Primoz Brezec ( Raptors )                 |
+| Jose Calderon ( Raptors )                 |
+| Carlos Delfino ( Raptors )                |
+| T.J. Ford ( Raptors )                     |
+| Jorge Garbajosa ( Raptors )               |
+| Joey Graham ( Raptors )                   |
+| Kris Humphries ( Raptors )                |
+| Linton Johnson III ( Raptors )            |
+| Jason Kapono ( Raptors )                  |
+| Jamario Moon ( Raptors )                  |
+| Rasho Nesterovic ( Raptors )              |
+| Anthony Parker ( Raptors )                |
+| Renaldo Balkman ( Knicks )                |
+| Wilson Chandler ( Knicks )                |
+| Mardy Collins ( Knicks )                  |
+| Jamal Crawford ( Knicks )                 |
+| Eddy Curry ( Knicks )                     |
+| Jerome James ( Knicks )                   |
+| Jared Jeffries ( Knicks )                 |
+| Fred Jones ( Knicks )                     |
+| David Lee ( Knicks )                      |
+| Stephon Marbury ( Knicks )                |
+| Randolph Morris ( Knicks )                |
+| Zach Randolph ( Knicks )                  |
+| Quentin Richardson ( Knicks )             |
+| Nate Robinson ( Knicks )                  |
+| Malik Rose ( Knicks )                     |
+| Louis Amundson ( 76ers )                  |
+| Calvin Booth ( 76ers )                    |
+| Rodney Carney ( 76ers )                   |
+| Samuel Dalembert ( 76ers )                |
+| Reggie Evans ( 76ers )                    |
+| Willie Green ( 76ers )                    |
+| Herbert Hill ( 76ers )                    |
+| Andre Iguodala ( 76ers )                  |
+| Andre Miller ( 76ers )                    |
+| Kevin Ollie ( 76ers )                     |
+| Shavlik Randolph ( 76ers )                |
+| Jason Smith ( 76ers )                     |
+| Louis Williams ( 76ers )                  |
+| Thaddeus Young ( 76ers )                  |
+| Lance Allred ( Cavaliers )                |
+| Devin Brown ( Cavaliers )                 |
+| Daniel Gibson ( Cavaliers )               |
+| Zydrunas Ilgauskas ( Cavaliers )          |
+| LeBron James ( Cavaliers )                |
+| Damon Jones ( Cavaliers )                 |
+| Dwayne Jones ( Cavaliers )                |
+| Aleksandar Pavlovic ( Cavaliers )         |
+| Joe Smith ( Cavaliers )                   |
+| Eric Snow ( Cavaliers )                   |
+| Wally Szczerbiak ( Cavaliers )            |
+| Anderson Varejao ( Cavaliers )            |
+| Ben Wallace ( Cavaliers )                 |
+| Delonte West ( Cavaliers )                |
+| Derek Anderson ( Bobcats )                |
+| Earl Boykins ( Bobcats )                  |
+| Matt Carroll ( Bobcats )                  |
+| Jermareo Davidson ( Bobcats )             |
+| Jared Dudley ( Bobcats )                  |
+| Raymond Felton ( Bobcats )                |
+| Othella Harrington ( Bobcats )            |
+| Ryan Hollins ( Bobcats )                  |
+| Sean May ( Bobcats )                      |
+| Nazr Mohammed ( Bobcats )                 |
+| Adam Morrison ( Bobcats )                 |
+| Emeka Okafor ( Bobcats )                  |
+| Jason Richardson ( Bobcats )              |
+| Gerald Wallace ( Bobcats )                |
+| Charlie Bell ( Bucks )                    |
+| Andrew Bouqt ( Bucks )                    |
+| Dan Gadzuric ( Bucks )                    |
+| Royal Ivey ( Bucks )                      |
+| Desmond Mason ( Bucks )                   |
+| Michael Redd ( Bucks )                    |
+| Michael Ruffin ( Bucks )                  |
+| Ramon Sessions ( Bucks )                  |
+| Bobby Simmons ( Bucks )                   |
+| Awvee Store ( Bucks )                     |
+| Charlie Villanueva ( Bucks )              |
+| Jake Voskuhl ( Bucks )                    |
+| Mo Williams ( Bucks )                     |
+| Yi Jianlian ( Bucks )                     |
+| Shannon Brown ( Bulls )                   |
+| JamesOn Curry ( Bulls )                   |
+| Luol Deng ( Bulls )                       |
+| Chris Duhon ( Bulls )                     |
+| Drew Gooden ( Bulls )                     |
+| Ben Gordon ( Bulls )                      |
+| Aaron Gray ( Bulls )                      |
+| Kirk Hinrich ( Bulls )                    |
+| Larry Hughes ( Bulls )                    |
+| Demetris Nichols ( Bulls )                |
+| Joakin Noah ( Bulls )                     |
+| Andres Nocioni ( Bulls )                  |
+| Thabo Sefolosha ( Bulls )                 |
+| Cedric Simmons ( Bulls )                  |
+| Tyrus Thonas ( Bulls )                    |
+| Ray Allen ( Celtics )                     |
+| Tony Allen ( Celtics )                    |
+| P.J.Brown ( Celtics )                     |
+| Sam Cassell ( Celtics )                   |
+| Glen Davis ( Celtics )                    |
+| Kevin Garnett ( Celtics )                 |
+| Eddie House ( Celtics )                   |
+| Kendrick Perkins ( Celtics )              |
+| Paul Pierce ( Celtics )                   |
+| Scot Pollard ( Celtics )                  |
+| James Posey ( Celtics )                   |
+| Leon Powe ( Celtics )                     |
+| Gabe Pruitt ( Celtics )                   |
+| Rajon Rondo ( Celtics )                   |
+| Brian Scalabrine ( Celtics )              |
+| Mike Bibby ( Hawks )                      |
+| Josh Childress ( Hawks )                  |
+| Speedy Claxton ( Hawks )                  |
+| Al Horford ( Hawks )                      |
+| Joe Johnson ( Hawks )                     |
+| Solomon Jones ( Hawks )                   |
+| Acie Law ( Hawks )                        |
+| Zaza Pachulia ( Hawks )                   |
+| Jeremy Richardson ( Hawks )               |
+| Josh Smith ( Hawks )                      |
+| Salim Stoudamire ( Hawks )                |
+| Mario West ( Hawks )                      |
+| Marvin Williams ( Hawks )                 |
+| Blake Ahearn ( Heat )                     |
+| joel Anthony ( Heat )                     |
+| Marcus Banks ( Heat )                     |
+| Earl Barron ( Heat )                      |
+| Mark Blount ( Heat )                      |
+| Daequan Cook ( Heat )                     |
+| Ricky Davis ( Heat )                      |
+| Udonis Haslem ( Heat )                    |
+| Alexander Johnson ( Heat )                |
+| Stephane Lasme ( Heat )                   |
+| Shawn Marion ( Heat )                     |
+| Alonzo Mourning ( Heat )                  |
+| Chris Quinn ( Heat )                      |
+| Dwyane Wade ( Heat )                      |
+| Jason Williams ( Heat )                   |
+| Dorell Wright ( Heat )                    |
+| Shareef Abdur-Rahim ( Kings )             |
+| Ron Artest ( Kings )                      |
+| Quincy Douby ( Kings )                    |
+| Francisco Garcia ( Kings )                |
+| Spencer Hawes ( Kings )                   |
+| Anthony Johnson ( Kings )                 |
+| Kevin Martin ( Kings )                    |
+| Brad Miller ( Kings )                     |
+| Mikki More ( Kings )                      |
+| mike john salmons ( Kings )               |
+| Keny Thomas ( Kings )                     |
+| Beno Udrih ( Kings )                      |
+| Shelden Williams ( Kings )                |
+| Lorenzen Wright ( Kings )                 |
+| Brian Scalabrine ( Kings )                |
+| Chris Andersen ( Hornets )                |
+| Hilton Armstrong ( Hornets )              |
+| Ryan Bowen ( Hornets )                    |
+| Rasual Butler ( Hornets )                 |
+| Tyson Chandler ( Hornets )                |
+| Melvin Ely ( Hornets )                    |
+| Mike James ( Hornets )                    |
+| Jannero Pargo ( Hornets )                 |
+| Chris Paul ( Hornets )                    |
+| Morris Peterson ( Hornets )               |
+| Peja Stojakovic ( Hornets )               |
+| Bonzi Wells ( Hornets )                   |
+| David West ( Hornets )                    |
+| Julian Wright ( Hornets )                 |
+| Rafer ALston ( Rockets )                  |
+| Shane Battier ( Rockets )                 |
+| Aaron Brooks ( Rockets )                  |
+| Steve Francis ( Rockets )                 |
+| Mike Harris ( Rockets )                   |
+| Chuck Hayes ( Rockets )                   |
+| Luther Head ( Rockets )                   |
+| Bobby Jackson ( Rockets )                 |
+| Carl Landry ( Rockets )                   |
+| Tracy McGrady ( Rockets )                 |
+| Dikembre Mutombo ( Rockets )              |
+| Steve NOvak ( Rockets )                   |
+| Luis Scola ( Rockets )                    |
+| Loren Woods ( Rockets )                   |
+| Yao Ming ( Rockets )                      |
+| Brent Barry ( Spurs )                     |
+| Matt Bonner ( Spurs )                     |
+| Bruce Bowen ( Spurs )                     |
+| Tim Duncan ( Spurs )                      |
+| Michael Finley ( Spurs )                  |
+| Manu Ginobili ( Spurs )                   |
+| Robert Horry ( Spurs )                    |
+| Bobby Jones ( Spurs )                     |
+| Ian Mahinmi ( Spurs )                     |
+| Fabricio Oberto ( Spurs )                 |
+| Tony Parker ( Spurs )                     |
+| Damon Stoudamire ( Spurs )                |
+| Kurt Thomas ( Spurs )                     |
+| Ime Udoka ( Spurs )                       |
+| Jacque Vaughn ( Spurs )                   |
+| LaMarcus Aldridge ( Trail Blazers )       |
+| Steve Blake ( Trail Blazers )             |
+| Channing Frye ( Trail Blazers )           |
+| Jarrett Jack ( Trail Blazers )            |
+| James Jones ( Trail Blazers )             |
+| Raef LaFremtz ( Trail Blazers )           |
+| Josh McRoberts ( Trail Blazers )          |
+| Darius Miles ( Trail Blazers )            |
+| Greg Oden ( Trail Blazers )               |
+| Travis Outlaw ( Trail Blazers )           |
+| Joel Przybilla ( Trail Blazers )          |
+| Sergio Rodriguez ( Trail Blazers )        |
+| Brandon Roy ( Trail Blazers )             |
+| Von Wafer ( Trail Blazers )               |
+| Martell Webster ( Trail Blazers )         |
+| Gilbert Arenas ( Wizards )                |
+| Andray Blatche ( Wizards )                |
+| Caron Butler ( Wizards )                  |
+| Antonio Daniels ( Wizards )               |
+| Brendan Haywood ( Wizards )               |
+| Antawn Jamison ( Wizards )                |
+| Roger Mason ( Wizards )                   |
+| Dominic McGuire ( Wizards )               |
+| Oleksiy Pecherov ( Wizards )              |
+| Darius Songaila ( Wizards )               |
+| DeShawn Stevenson ( Wizards )             |
+| Etan Thomas ( Wizards )                   |
+| Nick Young ( Wizards )                    |
+| Carlos Arroyo ( Magic )                   |
+| James Augustine ( Magic )                 |
+| Tony Battie ( Magic )                     |
+| Keith Bogans ( Magic )                    |
+| Brian Cook ( Magic )                      |
+| Kenyon Dooling ( Magic )                  |
+| Maurice Evans ( Magic )                   |
+| Adonal Foyle ( Magic )                    |
+| Pat Garrity ( Magic )                     |
+| Marcin Gortat ( Magic )                   |
+| Dwight Howard ( Magic )                   |
+| Rashard Lewis ( Magic )                   |
+| Jammer Nelson ( Magic )                   |
+| J.J.Redick ( Magic )                      |
+| Hedo Turkoglu ( Magic )                   |
+| Malik Allen ( Mavericks )                 |
+| Jose Barea ( Mavericks )                  |
+| Brandon Bass ( Mavericks )                |
+| Erick Dampier ( Mavericks )               |
+| Josh Howard ( Mavericks )                 |
+| Juwan Howard ( Mavericks )                |
+| Eddie Jones ( Mavericks )                 |
+| Jason Kidd ( Mavericks )                  |
+| Tyronn Lue ( Mavericks )                  |
+| Jamaal Magloire ( Mavericks )             |
+| Dirk Nowitzki ( Mavericks )               |
+| Jerry Stackhouse ( Mavericks )            |
+| Jason Terry ( Mavericks )                 |
+| Antoine Wright ( Mavericks )              |
+| Devean George ( Mavericks )               |
+| Maurice Ager ( Nets )                     |
+| Darrel Armstrong ( Nets )                 |
+| Josh Boone ( Nets )                       |
+| Vince Carter ( Nets )                     |
+| DeSagana Diop ( Nets )                    |
+| Devin Harris ( Nets )                     |
+| Trenton Hassell ( Nets )                  |
+| Richard Jefferson ( Nets )                |
+| Nenad Krstic ( Nets )                     |
+| Bostjan Nachbar ( Nets )                  |
+| Stromile Swift ( Nets )                   |
+| Keith Van Horn ( Nets )                   |
+| Marcus Williams ( Nets )                  |
+| Sean Williams ( Nets )                    |
+| Carmelo Anthony ( Nuggets )               |
+| Chucky Atkins ( Nuggets )                 |
+| Marcus Camby ( Nuggets )                  |
+| Anthony Carter ( Nuggets )                |
+| Yakhouba Diawarra ( Nuggets )             |
+| Taurean Green ( Nuggets )                 |
+| Steven Hunter ( Nuggets )                 |
+| Allen Iverson ( Nuggets )                 |
+| Linas Kleiza ( Nuggets )                  |
+| Kenyon Martin ( Nuggets )                 |
+| Eduardo Najera ( Nuggets )                |
+| Nene ( Nuggets )                          |
+| JR Smith ( Nuggets )                      |
+| Morris Almond ( Jazz )                    |
+| Carlos Boozer ( Jazz )                    |
+| Ronnie Brewer ( Jazz )                    |
+| Jarron Collins ( Jazz )                   |
+| Kyrylo Fesenko ( Jazz )                   |
+| Matt Harpring ( Jazz )                    |
+| Jason Hart ( Jazz )                       |
+| Andrei Kirilenko ( Jazz )                 |
+| Kyle Korver ( Jazz )                      |
+| C.J. Miles ( Jazz )                       |
+| Paul Millsap ( Jazz )                     |
+| Mehmet Okur ( Jazz )                      |
+| Ronnie Price ( Jazz )                     |
+| Deron Williams ( Jazz )                   |
+| Marquis Daniels ( Pacers )                |
+| Travis Diener ( Pacers )                  |
+| Ike Diogu ( Pacers )                      |
+| Mike Dunleavy ( Pacers )                  |
+| Jeff Foster ( Pacers )                    |
+| Stephen Graham ( Pacers )                 |
+| Danny Granger ( Pacers )                  |
+| David Harrison ( Pacers )                 |
+| Troy Murphy ( Pacers )                    |
+| Ronald Murray ( Pacers )                  |
+| Jermaine O'Neal ( Pacers )                |
+| Andre Owens ( Pacers )                    |
+| Kareem Rush ( Pacers )                    |
+| Jamaal Tinsley ( Pacers )                 |
+| Shawne Williams ( Pacers )                |
+| Arron Afflalo ( Pistons )                 |
+| Chauncey Billups ( Pistons )              |
+| Juan Dixon ( Pistons )                    |
+| Richard Hamilton ( Pistons )              |
+| Jarvis Hayes ( Pistons )                  |
+| Walter Herrmann ( Pistons )               |
+| Lindsey Hunter ( Pistons )                |
+| Amir Johnson ( Pistons )                  |
+| Jason Maxiell ( Pistons )                 |
+| Antonio McDyess ( Pistons )               |
+| Tayshaun Prince ( Pistons )               |
+| Theo Ratliff ( Pistons )                  |
+| Cheikh Samb ( Pistons )                   |
+| Rodney Stuckey ( Pistons )                |
+| Rasheed Wallace ( Pistons )               |
+| Nick Collison ( Supersonics )             |
+| Ronald Dupree ( Supersonics )             |
+| Kevin Durant ( Supersonics )              |
+| Francisco Elson ( Supersonics )           |
+| Mickael Gelabale ( Supersonics )          |
+| Jeff Green ( Supersonics )                |
+| Adrian Griffin ( Supersonics )            |
+| Donyell Marshall ( Supersonics )          |
+| Johan Petro ( Supersonics )               |
+| Luke Ridnour ( Supersonics )              |
+| Mouhamed Sene ( Supersonics )             |
+| Robert Swift ( Supersonics )              |
+| Earl Watson ( Supersonics )               |
+| Chris Wilcox ( Supersonics )              |
+| Damien Wilkins ( Supersonics )            |
+| Leandro Barbosa ( Suns )                  |
+| Raja Bell ( Suns )                        |
+| Boris Diaw ( Suns )                       |
+| Gordan Giricek ( Suns )                   |
+| Grant Hill ( Suns )                       |
+| Sean Marks ( Suns )                       |
+| Steve Nash - C ( Suns )                   |
+| Shaquille ONeal ( Suns )                  |
+| Eric Piatkowski ( Suns )                  |
+| Brian Skinner ( Suns )                    |
+| Amare Stoudemire ( Suns )                 |
+| D.J. Strawberry ( Suns )                  |
+| Alando Tucker ( Suns )                    |
+| Kelenna Azubuike ( Warriors )             |
+| Matt Barnes ( Warriors )                  |
+| Marco Belinelli ( Warriors )              |
+| Andris Biedrns ( Warriors )               |
+| Austin Croshere ( Warriors )              |
+| Baron Davis ( Warriors )                  |
+| Monta Ellis ( Warriors )                  |
+| Al Harrington ( Warriors )                |
+| Stephen Jackson ( Warriors )              |
+| Patrick O'Bryant ( Warriors )             |
+| Kosta Perovic ( Warriors )                |
+| Mickael Pietrus ( Warriors )              |
+| C.J. Watson ( Warriors )                  |
+| Brandan Wright ( Warriors )               |
++-------------------------------------------+
+432 rows in set (0.00 sec)
+
++----------------+
+| Nombre         |
++----------------+
+| Aaron Brooks   |
+| Aaron Gray     |
+| Aaron Mckie    |
+| Acie Law       |
+| Adam Morrison  |
+| Adonal Foyle   |
+| Adrian Griffin |
+| Al Harrington  |
+| Al Horford     |
+| Al Jefferson   |
++----------------+
+10 rows in set (0.00 sec)
+
++-----------+
+| division  |
++-----------+
+| Atlantic  |
+| SouthEast |
+| Central   |
+| Central   |
+| Central   |
+| Atlantic  |
+| SouthEast |
+| SouthEast |
+| Atlantic  |
+| SouthEast |
+| Atlantic  |
+| Central   |
+| Central   |
+| Atlantic  |
+| SouthEast |
++-----------+
+15 rows in set (0.04 sec)
+
++---------------------+----------------+
+| nombre              | length(nombre) |
++---------------------+----------------+
+| Andre Brown         |             11 |
+| Kwame Brown         |             11 |
+| Brian Cardinal      |             14 |
+| Jason Collins       |             13 |
+| Mike Conley         |             11 |
+| Javaris Crittenton  |             18 |
+| Rudy Gay            |              8 |
+| Casey Jacobsen      |             14 |
+| Kyle Lowry          |             10 |
+| Aaron Mckie         |             11 |
+| Darko Milicic       |             13 |
+| Mike Miller         |             11 |
+| Juan Carlos Navarro |             19 |
+| Hakim Warrick       |             13 |
++---------------------+----------------+
+14 rows in set (0.00 sec)
+
++---------------+
+| count(nombre) |
++---------------+
+|             6 |
++---------------+
+1 row in set (0.00 sec)
+
++---------------+
+| count(codigo) |
++---------------+
+|           418 |
++---------------+
+1 row in set, 425 warnings (0.00 sec)
+
++-----------------+
+| count(posicion) |
++-----------------+
+|              61 |
++-----------------+
+1 row in set (0.00 sec)
+
++-------------+----------------+
+| max(altura) | nombre         |
++-------------+----------------+
+| 7-6         | Michael Doleac |
++-------------+----------------+
+1 row in set (0.01 sec)
+
++-----------------+
+| numeroJugadores |
++-----------------+
+|             310 |
++-----------------+
+1 row in set (0.00 sec)
+
+mysql> notee

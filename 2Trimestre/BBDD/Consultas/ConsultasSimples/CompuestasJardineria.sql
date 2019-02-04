@@ -1,3 +1,4 @@
+USE jardineria;
 /*ejemplos
 EXPLAIN SELECT email FROM empleados
 WHERE nombre = "Carlos" \G
