@@ -69,5 +69,5 @@ SELECT nombreCliente,telefono FROM clientes WHERE CodigoCliente IN (SELECT Codig
 /*Ejercicio 9:
 Obtener la gama, el proveedor y la cantidad de aquellos productos cuyo estado sea pendiente.
 */
-SELECT gama,proveedor,cantidadEnStock FROM productos WHERE CodigoProducto IN (SELECT CodigoProducto FROM detallePedidos WHERE CodigoPedido
+SELECT DISTINCT nombre,gama,proveedor,cantidadEnStock FROM productos WHERE CodigoProducto IN (SELECT CodigoProducto FROM detallePedidos WHERE CodigoPedido
 								IN (SELECT CodigoPedido FROM Pedidos WHERE Estado LIKE 'Pendiente'));
