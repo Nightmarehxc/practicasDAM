@@ -5,25 +5,16 @@ import java.util.*;
  * 
  */
 public class Platano extends Fruta{
-    @Override
-    public void setName(String a_name)
+
+
+
+
+    public Platano(String a_name,String a_type,float a_peso,float a_optTemp)
     {
-
-        super.setName("Platano");
+        super(a_name,a_type,a_peso,a_optTemp);
+        name = "Platano";
+        tipo = "Fruta";
+        peso=0.5f;
+        optTemp = 9.f;
     }
-
-    /**
-     * Default constructor
-     */
-    public Platano()
-    {
-
-
-    }
-
-    /**
-     * 
-     */
-
-
 }

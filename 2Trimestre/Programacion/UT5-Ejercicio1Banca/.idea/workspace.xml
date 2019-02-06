@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45738dc8-6ee7-494d-8bee-77e240f5524d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Entornos/EJERCICIO PRUEBAS DE CAJA BLANCA.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Entornos/EJERCICIO PRUEBAS DE CAJA BLANCA.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Entornos/~$ERCICIO PRUEBAS DE CAJA BLANCA.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ejercicio8B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ejercicio8B/out/production/Ejercicio8B/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/out/production/Ejercicio8B/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio8B/out/production/Ejercicio8B/Nevera.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/out/production/Ejercicio8B/Nevera.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ejercicio8B/src/Alimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/src/Alimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8B/src/Fruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/src/Fruta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ejercicio8B/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio8B/src/Mueble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/src/Mueble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ejercicio8B/src/Nevera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/src/Nevera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ejercicio8B/src/Platano.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/src/Platano.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ejercicio8B/src/Verdura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/src/Verdura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

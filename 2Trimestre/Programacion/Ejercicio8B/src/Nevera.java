@@ -7,7 +7,8 @@ import java.util.*;
 public class Nevera extends Mueble{
     static public boolean stateDoor;
     static public float temp;
-    public String contenedor[] = new String[capacidad];
+    public Alimento alimentos[] = new Alimento[capacidad];
+
 
     /**
      * Default constructor
@@ -18,6 +19,7 @@ public class Nevera extends Mueble{
         sizeX =a_sizeX;
         sizeY =a_sizeY;
         capacidad = a_capacidad;
+
     }
 
 
@@ -71,4 +73,10 @@ public class Nevera extends Mueble{
         temp = temp;
         return temp;
     }
+    public void addPlatano()
+    {
+        Platano p[] =new Platano[capacidad];
+    }
+
+
 }
