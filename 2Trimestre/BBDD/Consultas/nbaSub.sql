@@ -116,17 +116,85 @@ SELECT Nombre FROM jugadores WHERE (codigo IN (SELECT jugador FROM estadisticas 
 Ejercicio 11:
 Obtener el número de jugadores que tiene cada equipo de la división NorthWest.
 */
+SELECT COUNT(codigo) FROM jugadores WHERE Nombre_equipo IN (SELECT nombre FROM equipos WHERE Division='NorthWest');
+
+/*
+Ejercicio 12:
+Obtener la temporada con más puntos por partido de Kobe Bryant.
+*/
+SELECT temporada FROM estadisticas WHERE jugador IN (SELECT codigo FROM jugadores WHERE Nombre='Kobe Bryant') ORDER BY puntos_por_partido DESC LIMIT 1;
+
+/*
+Ejercicio 13:
+Obtener el número de bases que tiene cada equipo de la Conferencia Este. (Los bases vienen representados por la letra ‘G’ en la BBDD).
+*/
+SELECT COUNT(codigo) FROM jugadores WHERE posicion='G' AND nombre_equipo IN (SELECT nombre FROM equipos WHERE conferencia='East');
+
+/*
+Ejercicio 14:
+¿Cuántas letras tiene el equipo con el nombre más largo de la NBA?. Obtener también el nombre del equipo y la ciudad de donde procede. 
+(Usar la función LENGTH, aunque en realidad esta función lo que nos dice es el nº de caracteres que ocupa el nombre del equipo en la BBDD 
+incluido los espacios en blanco, no su número de letras, pero haremos una excepción).
+*/
+SELECT nombre AS "Nombre más largo", ciudad AS "Ciudad de procedencia" FROM equipos ORDER BY LENGTH(nombre) DESC LIMIT 1;
+
+/*
+Ejercicio 15:
+Obtener la ciudad con el equipo cuya media de altura de los jugadores sea la más baja.
+*/
+SELECT ciudad FROM equipos WHERE Nombre IN (SELECT Nombre_equipo FROM jugadores ORDER BY AVG(altura) ASC);
+
+/*
+Ejercicio 16:
+Obtener los jugadores y los puntos por partido de los Timberwolves en la temporada 2003/2004.
+*/
+SELECT jugador, puntos_por_partido FROM estadisticas WHERE (jugador IN (SELECT codigo FROM jugadores WHERE Nombre_equipo='Timberwolves')) AND temporada='03/04';
+
+/*
+Ejercicio 17:
+Obtener el nombre y peso de los jugadores de la NBA que hayan hecho una media de más de 25 puntos por partido en alguna temporada.
+*/
+SELECT nombre, peso FROM jugadores WHERE codigo IN (SELECT jugador FROM estadisticas WHERE puntos_por_partido>25);
+
+/*
+Ejercicio 18:
+Obtener las asistencias por partido y los tapones por partido de los jugadores de los Miami Heat en la temporada 2005/2006
+*/
+SELECT jugador, asistencias_por_partido, tapones_por_partido FROM estadisticas WHERE (jugador IN (SELECT codigo FROM jugadores WHERE Nombre_equipo='Heat')) AND temporada='05/06';
+
+/*
+Ejercicio 19:
+Obtener la media de puntos por partido y la media de asistencias por partido de los Timberwolves en todas las temporadas.
+*/
+SELECT temporada, puntos_por_partido, asistencias_por_partido FROM estadisticas  WHERE  jugador IN (SELECT codigo FROM jugadores WHERE Nombre_equipo='Timberwolves');
+
+/*
+Ejercicio 20:
+Obtener la media de puntos por temporada de los jugadores que se llamen Steve y pesen más de 200 libras.
+*/
 SELECT 
-  COUNT(codigo)
+  jugador,
+  puntos_por_partido 
 FROM
-  jugadores 
-WHERE Nombre_equipo IN 
-  (SELECT
-    Nombre 
+  estadisticas 
+WHERE jugador IN 
+  (SELECT 
+    codigo 
   FROM
-    equipos 
-  WHERE division = 'NorthWest');
-  /*
-  
-  */
+    jugadores 
+  WHERE (nombre LIKE 'Steve%') 
+    AND (peso > '200')) ;
+
+/*
+Ejercicio 21:
+Obtener el nombre, la altura y el peso de los jugadores que juegan en la ciudad de Los Ángeles y que sean españoles.
+*/
+SELECT nombre, altura, peso FROM jugadores WHERE Procedencia='Spain' AND (Nombre_equipo IN(SELECT Nombre FROM equipos WHERE Ciudad='Los Angeles'));
+
+/*
+Ejercicio 22:
+Obtener los puntos por partido de los jugadores de los Lakers en la temporada 2007/2008.
+*/
+SELECT jugador, puntos_por_partido FROM estadisticas WHERE temporada='07/08' AND jugador IN(SELECT codigo FROM jugadores WHERE Nombre_equipo='Lakers');
+
 

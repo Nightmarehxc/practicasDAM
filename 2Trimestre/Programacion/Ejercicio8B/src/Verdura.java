@@ -4,12 +4,15 @@ import java.util.*;
 /**
  * 
  */
-public class Verdura extends Alimento {
+public class Verdura extends Alimento
+{
 
     /**
      * Default constructor
      */
-    public Verdura() {
+    public Verdura()
+    {
+
     }
 
 

@@ -4,21 +4,22 @@ import java.util.*;
 /**
  * 
  */
-public class Nevera{
+public class Nevera extends Mueble{
     static public boolean stateDoor;
     static public float temp;
-
+    public String contenedor[] = new String[capacidad];
 
     /**
      * Default constructor
      */
-    public Nevera(boolean stateDoor,float sizeX,float sizeY)
+    public Nevera(int a_capacidad,float a_temp, boolean a_stateDoor,float a_sizeX,float a_sizeY)
     {
-
-        sizeX=0.5f;
-        sizeY=1.5f;
-        float temp;
+        temp = a_temp;
+        sizeX =a_sizeX;
+        sizeY =a_sizeY;
+        capacidad = a_capacidad;
     }
+
 
     public void abrirPuerta()
     {
@@ -41,7 +42,7 @@ public class Nevera{
         else
         {
             stateDoor = false;
-            System.out.println("La puerta esta cerrada");
+            System.out.println("La puerta acaba de cerrase");
         }
     }
     public void cDoorState()
@@ -52,7 +53,7 @@ public class Nevera{
         }
         else
         {
-            System.out.println("La puerta esta abierta");
+            System.out.println("La puerta ya esta abierta");
         }
     }
 

@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * 
  */
-public class Platano extends Verdura{
+public class Platano extends Fruta{
     @Override
     public void setName(String a_name)
     {
