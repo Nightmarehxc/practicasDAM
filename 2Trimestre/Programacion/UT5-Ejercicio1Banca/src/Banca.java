@@ -1,9 +1,8 @@
 public class Banca
 {
-    double saldo;
+    public double saldo;
     public Banca()
     {
-        double saldo;
         saldo = 20;
     }
 
@@ -11,9 +10,11 @@ public class Banca
     public void abonar(double cantidad)
     {
         saldo = saldo + cantidad;
+
     }
     public double obtenerSaldo()
     {
+        System.out.printf("El saldo de la cuenta es: "+saldo);
         return saldo;
     }
 }

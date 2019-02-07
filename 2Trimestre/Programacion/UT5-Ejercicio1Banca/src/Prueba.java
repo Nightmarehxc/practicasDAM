@@ -2,25 +2,25 @@ import java.util.Scanner;
 
 public class Prueba
 {
-    static int nCuentas=1;
+    static int nCuentas=2;
     static Scanner sc = new Scanner(System.in);
     static public Banca banca[]=new Banca[nCuentas];
 
     public Prueba()
     {
-
-            int nCuentas=1;
-        Banca banca[]=new Banca[nCuentas];
+            int nCuentas=2;
 
     }
 
     static void crearCuenta()
     {
         System.out.println("Numero de cuentas es: "+nCuentas);
-        nCuentas++;
-        banca[nCuentas].abonar(20);
-        System.out.println("Cuenta creada el numero de cuentas es: "+nCuentas);
+        int i=0;
 
+        for (i=0;i<banca.length;i++) {
+            banca[i]=new Banca();
+            System.out.println("La cuenta " +(i+1)+" ha sido creada");
+        }
 
     }
     static void mostrarSaldo()
@@ -32,13 +32,14 @@ public class Prueba
     }
     static void addMoney()
     {
+
         for(int i= 0;i < nCuentas;i++)
         {
-            System.out.println("Introduce el dinero");
+            System.out.println("\nIntroduce el dinero que deseas ingresar en la cuenta: "+i);
             banca[i].abonar(sc.nextDouble());
-            System.out.println("El saldo añadido es "+ banca[i].obtenerSaldo());
         }
     }
+
     public static void  Instrucciones()
     {
         crearCuenta();
