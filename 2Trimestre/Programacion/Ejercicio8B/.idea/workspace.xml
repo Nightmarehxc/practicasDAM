@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd3e0129-03a2-4ed7-888c-544d340db410" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/src/Banca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/src/Banca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/src/Prueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/src/Prueba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/src/prueba.puml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -222,12 +218,12 @@
       <updated>1549374797973</updated>
       <workItem from="1549374803910" duration="6017000" />
       <workItem from="1549462516421" duration="5221000" />
-      <workItem from="1549548038328" duration="588000" />
+      <workItem from="1549548038328" duration="590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11826000" />
+    <option name="totallyTimeSpent" value="11828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -253,8 +249,8 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" id="Ant Build" order="2" visible="true" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="PlantUML" order="4" weight="0.32942432" />
       <window_info anchor="right" id="Palette" order="5" />
@@ -298,6 +294,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/casa.form" />
