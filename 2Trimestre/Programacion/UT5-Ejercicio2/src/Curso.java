@@ -5,6 +5,7 @@ public class Curso
     static int id;
     static String nombre;
     static float[] nota = new float[3];
+    public static float notaMedia;
 
     public static Scanner sc = new Scanner(System.in);
     public Curso()
@@ -28,5 +29,17 @@ public class Curso
         int i=a_trimestre;
         nota[i]=sc.nextFloat();
 
+    }
+    public static float getNotaMedia()
+    {
+
+        for (int i = 0 ; i<nota.length;i++)
+        {
+
+            notaMedia = getNota(i)+notaMedia;
+        }
+        notaMedia = notaMedia/nota.length;
+        System.out.println("la media es "+notaMedia);
+        return notaMedia;
     }
 }

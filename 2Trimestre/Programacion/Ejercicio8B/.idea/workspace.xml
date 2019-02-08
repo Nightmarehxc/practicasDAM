@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3e0129-03a2-4ed7-888c-544d340db410" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio2/out/production/UT5-Ejercicio2/GestorCursos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio2/out/production/UT5-Ejercicio2/GestorCursos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio2/src/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio2/src/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio2/src/GestorCursos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio2/src/GestorCursos.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Nevera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="501">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -122,36 +126,19 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Ejercicio8B" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ejercicio8B" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ejercicio8B" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ejercicio8B" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549475526189" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UT5-Ejercicio2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -219,14 +206,16 @@
       <workItem from="1549374803910" duration="6017000" />
       <workItem from="1549462516421" duration="5221000" />
       <workItem from="1549548038328" duration="590000" />
+      <workItem from="1549634382219" duration="1469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11828000" />
+    <option name="totallyTimeSpent" value="13297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.13965885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -353,14 +342,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Nevera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="501">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
@@ -422,6 +422,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

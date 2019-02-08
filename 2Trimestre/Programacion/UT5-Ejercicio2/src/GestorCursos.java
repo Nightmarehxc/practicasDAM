@@ -34,28 +34,26 @@ public class GestorCursos {
 
         System.out.println("El curso seleccionado es " + a_curso);
 
-        switch (a_curso) {
-            case 0:
+
                 System.out.println("Selecciona una opcion");
 
 
                 System.out.println("Definir Notas o Get notas");
                 switch (sc.nextInt()) {
-                    case 1:
+                    case 1:////Define notas
                         System.out.println("Selecciona un trimestre");
                         int tri = sc.nextInt();
                         Curso.setNota(tri);
                         break;
-                    case 2:
+                    case 2://////Muestra Notas
                         System.out.println("Selecciona un trimestre");
                         tri = sc.nextInt();
                         Curso.getNota(tri);
                         break;
+                    case 3:
+                        Curso.getNotaMedia();
+                        break;
                 }
-
-
-                break;
-        }
     }
 }
 /*
