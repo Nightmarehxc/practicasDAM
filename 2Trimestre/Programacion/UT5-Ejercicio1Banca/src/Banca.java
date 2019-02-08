@@ -14,7 +14,7 @@ public class Banca
     }
     public double obtenerSaldo()
     {
-        System.out.printf("El saldo de la cuenta es: "+saldo);
+        System.out.printf("El saldo de la cuenta es: "+saldo+"\n");
         return saldo;
     }
 }
