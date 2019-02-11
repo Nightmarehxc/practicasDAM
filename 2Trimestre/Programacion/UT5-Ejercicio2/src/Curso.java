@@ -25,7 +25,7 @@ public class Curso
     }
     public static void setNota(int a_trimestre)
     {
-        System.out.println("Introduce la nota del trimestre"+a_trimestre);
+        System.out.println("Introduce la nota del trimestre "+(a_trimestre+1));
         int i=a_trimestre;
         nota[i]=sc.nextFloat();
 

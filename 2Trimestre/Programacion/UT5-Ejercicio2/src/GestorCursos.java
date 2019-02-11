@@ -43,12 +43,12 @@ public class GestorCursos {
                     case 1:////Define notas
                         System.out.println("Selecciona un trimestre");
                         int tri = sc.nextInt();
-                        Curso.setNota(tri);
+                        Curso.setNota(tri-1);
                         break;
                     case 2://////Muestra Notas
                         System.out.println("Selecciona un trimestre");
                         tri = sc.nextInt();
-                        Curso.getNota(tri);
+                        Curso.getNota(tri-1);
                         break;
                     case 3:
                         Curso.getNotaMedia();
