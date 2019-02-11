@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args)
     {
-        System.out.println("Hello World!");
+
         MenuPrincipal();
 
         ///////
@@ -16,12 +16,16 @@ public class Main {
     }
     public static void MenuPrincipal()
     {
+        System.out.println("1)Crear curso");
+        System.out.println("2)Mostrar cursos");
+        System.out.println("3)Seleccionar curso");
         int x = sc.nextInt();
         switch (x)
         {
             case 1:
                 System.out.println("Creando curso");
                 GestorCursos.crearCurso();
+                System.out.flush();
                 MenuPrincipal();
 
                 break;
@@ -31,17 +35,21 @@ public class Main {
                 MenuPrincipal();
                 break;
             case 3:
-                System.out.println("Selecciona el curso");
-                for (int i=0;i<GestorCursos.nCursos;i++)
+                if(GestorCursos.nCursos == 0)
                 {
-                    System.out.println("Curso "+i);
+                    System.out.println("no hay cursos");
+                    System.out.flush();
+                    MenuPrincipal();
                 }
-                GestorCursos.selCurso(sc.nextInt());
-                MenuPrincipal();
+                else {
+                    System.out.println("Gestionar cursos");
+                    for (int i = 0; i < GestorCursos.nCursos; i++) {
+                        System.out.println("Curso " + i);
+                    }
+                    GestorCursos.selCurso(sc.nextInt());
+                    MenuPrincipal();
+                }
                 break;
-
-
-
         }
     }
 }
