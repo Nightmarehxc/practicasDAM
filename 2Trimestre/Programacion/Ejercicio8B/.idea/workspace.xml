@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3e0129-03a2-4ed7-888c-544d340db410" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Entornos/EJERCICIO PRUEBAS DE CAJA BLANCA.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Entornos/EJERCICIO PRUEBAS DE CAJA BLANCA.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zodiac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zodiac/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -203,16 +206,17 @@
       <workItem from="1549462516421" duration="5221000" />
       <workItem from="1549548038328" duration="590000" />
       <workItem from="1549634382219" duration="1469000" />
-      <workItem from="1549892727516" duration="585000" />
+      <workItem from="1549892727516" duration="684000" />
+      <workItem from="1549910350921" duration="452000" />
+      <workItem from="1549910988946" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13882000" />
+    <option name="totallyTimeSpent" value="14433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.13965885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
