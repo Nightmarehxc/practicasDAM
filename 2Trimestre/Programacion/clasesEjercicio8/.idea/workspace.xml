@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d92ae8-b269-4158-9549-68e7e2f2c8fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio1Banca/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8B/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT5-Ejercicio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UT5-Ejercicio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zodiac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zodiac/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zodiac/out/production/Zodiac/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Zodiac/out/production/Zodiac/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zodiac/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zodiac/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="628" />
     <option name="y" value="51" />
     <option name="width" value="1098" />
@@ -73,8 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,12 +94,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549292169276" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../export" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -145,16 +151,17 @@
       <updated>1549289951628</updated>
       <workItem from="1549289960504" duration="2400000" />
       <workItem from="1549373447183" duration="966000" />
+      <workItem from="1549979865732" duration="633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3366000" />
+    <option name="totallyTimeSpent" value="3999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="628" y="51" width="1098" height="1047" extended-state="0" />
+    <frame x="628" y="51" width="1098" height="1047" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25433525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2591522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

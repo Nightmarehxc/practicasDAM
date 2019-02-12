@@ -1,0 +1,216 @@
+Los siguientes documentos no están bien formados porque cada uno contiene dos errores (dos errores del mismo tipo cuentan como uno sólo). Corrige los errores y comprueba con XML Copy Editor que ya son documentos bien formados (si para corregir algún error hay que inventarse una etiqueta o atributo, utiliza un nombre que tenga relación con la información contenida en el documento).
+
+A. Deportistas (bf_01.xml)
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte nombre="Atletismo" />
+        <nombre>Jesse Owens</nombre>
+    </deportista>
+    <deportista>
+        <deporte nombre="Natación" />
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>
+
+B. Películas (bf_02.xml)
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula>
+        <titulo>Con faldas y a lo loco</titulo>
+        <director>Billy Wilder</director>
+    </pelicula>
+    <pelicula>
+        <director>Leo McCarey</director>
+        <titulo>Sopa de ganso</titulo>
+    </pelicula>
+    <autor>barto</autor>
+</peliculas>
+
+C. Texto (bf_03.xml)
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+    <titulo>XML explicado a los niños</titulo>
+    <párrafo>El <abreviatura>XML</abreviatura>define cómo crear
+        lenguajes de marcas.</párrafo>
+    <párrafo>Las marcas se añaden a un documento de texto
+        para añadir información.</párrafo>
+    <http>www.example.org</http>
+</texto>
+
+D. Información geográfica (bf_04.xml)
+<?xml version="1.0" encoding="UTF-8"?>
+<geografia-mundial>
+    <pais>
+        <pais>España</pais>
+        <continente>Europa</continente>
+        <capital>Madrid</capital>
+    </pais>
+</geografia-mundial>
+
+E. Programas (bf_05.xml)
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa nombre="Firefox" licencia="GPL MPL" />
+    <programa nombre="LibreOffice" licencia="LGPL" />
+    <programa nombre="Inkscape" licencia="GPL" />
+</programas>
+
+F. Mundiales de fútbol (bf_06.xml)
+<?xml version="1.0" encoding="UTF-8"?>
+<mundiales-de-futbol>
+    <mundial>
+        <pais>España</pais>
+        <año>1982</año>
+    </mundial>
+</mundiales-de-futbol>
+
+G. Medios de transporte (bf_07.xml)
+<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+    <bicicleta velocidad="v&lt;100km/h" />
+    <patinete velocidad-maxima="50 km/h" />
+</mediosDeTransporte>
+
+
+        8. 1. Definir un documento XML que permita representar un libro. Deber� contener los atributos t�picos como t�tulo, autores, editorial, fecha de publicaci�n, isbn, etc.
+<Libros>
+    <Libro>
+        <titulo>
+            Moby Dick
+        </titulo>
+        <autor>
+            Herman Melville
+        </autor>
+        <editorial>
+            Richard Bentley
+        </editorial>
+        <isbn>
+            41651864165a1
+        </isbn>
+        <fecha>
+            1851
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            El hobbit
+        </titulo>
+        <autor>
+            JRR TOLKIEN
+        </autor>
+        <editorial>
+            El anillo podrido
+        </editorial>
+        <isbn>
+            6541684161865404
+        </isbn>
+        <fecha>
+            1916
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            El señor de los anillos
+        </titulo>
+        <autor>
+            JRR TOLKIEN
+        </autor>
+        <editorial>
+            El anillo podrido
+        </editorial>
+        <isbn>
+                16651891984198161
+        </isbn>
+        <fecha>
+            1945
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero "El portatil perdido"
+        </titulo>
+        <autor>
+            Jorge de la cierva
+        </autor>
+        <editorial>
+            10101101
+        </editorial>
+        <isbn>
+            101101001 1001010 101001010
+        </isbn>
+        <fecha>
+            2016
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero " La  venganza del MAC"
+        </titulo>
+        <autor>
+            Jorge de la Cierva
+        </autor>
+        <editorial>
+            No sin mi IMEI
+        </editorial>
+        <isbn>
+            19163513510
+        </isbn>
+        <fecha>
+            1965
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero "La clase abstracta y la variable perdida"
+        </titulo>
+        <autor>
+            Jorge de la Cierva
+        </autor>
+        <editorial>
+            404 Not Found
+        </editorial>
+        <isbn>
+             198181361
+        </isbn>
+        <fecha>
+            1999
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero " Viaja en el tiempo"
+        </titulo>
+        <autor>
+            Jorge de la Cierva
+        </autor>
+        <editorial>
+            Mcfly Ed.
+        </editorial>
+        <isbn>
+            1651891913
+        </isbn>
+        <fecha>
+            1987
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero "Y el delorian prodigioso"
+        </titulo>
+        <autor>
+            Jorge de la Cierva
+        </autor>
+        <editorial>
+            Mcfly Ed.
+        </editorial>
+        <isbn>
+            1651891913
+        </isbn>
+        <fecha>
+            1988
+        </fecha>
+    </Libro>
+</Libros>
+        9. A partir de la definici�n anterior escribir un documento XML que al menos contenga 10 entradas de libros.
+
