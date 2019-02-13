@@ -4,6 +4,7 @@
     <list default="true" id="04ad7486-6669-413d-ac6f-ef6dc5a6a83b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../2a/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2a/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2a/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2a/.idea/vcs.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2a/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2a/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2a/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -33,6 +34,15 @@
       <change beforePath="$PROJECT_DIR$/../../../../../2Trimestre/LenguajedeMarcas/XML/Ejercicio_Documentos_Bien_Formados_XML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2Trimestre/LenguajedeMarcas/XML/Ejercicio_Documentos_Bien_Formados_XML.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2Trimestre/Programacion/Zodiac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2Trimestre/Programacion/Zodiac/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../2Trimestre/Programacion/Zodiac/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2Trimestre/Programacion/Zodiac/src/Main.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2b/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2b/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2c/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2c/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2c/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2c/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2c/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 38715c2193693db12e5a23a6d8b68de70908d094
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,6 +86,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+>>>>>>> 38715c2193693db12e5a23a6d8b68de70908d094
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
@@ -84,7 +99,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../2c" />
+=======
+>>>>>>> 38715c2193693db12e5a23a6d8b68de70908d094
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,15 +143,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544634668439</updated>
+<<<<<<< HEAD
       <workItem from="1550065128554" duration="274000" />
       <workItem from="1550065690828" duration="1181000" />
       <workItem from="1550076966310" duration="207000" />
       <workItem from="1550077452421" duration="299000" />
       <workItem from="1550077769134" duration="92000" />
+=======
+      <workItem from="1549969283694" duration="94000" />
+>>>>>>> 38715c2193693db12e5a23a6d8b68de70908d094
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2053000" />
   </component>
   <component name="ToolWindowManager">
@@ -141,15 +164,30 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
+=======
+    <option name="totallyTimeSpent" value="94000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+>>>>>>> 38715c2193693db12e5a23a6d8b68de70908d094
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+<<<<<<< HEAD
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
+=======
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+>>>>>>> 38715c2193693db12e5a23a6d8b68de70908d094
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -158,8 +196,15 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
+=======
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Theme Preview" />
+>>>>>>> 38715c2193693db12e5a23a6d8b68de70908d094
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
