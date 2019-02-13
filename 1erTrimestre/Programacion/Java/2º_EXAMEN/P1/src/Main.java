@@ -1,4 +1,4 @@
-//Corral González, Diego
+//Camarero Abella Daniel
 
 
 import java.util.Scanner;

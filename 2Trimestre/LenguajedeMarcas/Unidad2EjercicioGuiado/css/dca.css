@@ -17,12 +17,7 @@
     border:1px;
     border-style: solid;
 }
-.right
-{
-    background-color: gray;
-    
-    width: 20%;
-}
+
 .h1
 {
  background-color: gray;
@@ -33,4 +28,25 @@ article
     border-color: gray;
     border-style: solid;
     
+}
+.contenedor
+{
+    background-color: gray;
+    width: 80%;
+    
+    float :left;
+}
+.right
+{
+    background-color: gray;
+    float: right;   
+    width: 20%;
+    padding-top: 2%;
+}
+footer
+{
+    text-decoration-color: aliceblue;
+    background-color: azure;
+    float: left;
+    clear: both;
 }
