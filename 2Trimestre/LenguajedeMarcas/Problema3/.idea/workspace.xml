@@ -2,37 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7a75be8-6f69-407c-bf33-ba97c1e3c66e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2a/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2a/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2a/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2a/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2a/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2a/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2a/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2b/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2b/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2b/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2b/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2b/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2b/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2b/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2c/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2c/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2c/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2c/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2c/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2c/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/2c/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/out/production/P3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/out/production/P3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3m/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3m/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3m/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3m/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3m/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1erTrimestre/Programacion/Java/2º_EXAMEN/P3m/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Entornos/Junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Entornos/Junit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Entornos/~$ERCICIO PRUEBAS DE CAJA BLANCA.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad2EjercicioGuiado/Noticias.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad2EjercicioGuiado/Noticias.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unidad2EjercicioGuiado/css/dca.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad2EjercicioGuiado/css/dca.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/Ejercicio_Documentos_Bien_Formados_XML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/Ejercicio_Documentos_Bien_Formados_XML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/Zodiac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/Zodiac/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/Zodiac/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/Zodiac/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P2b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P3c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P3c/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problema1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problema1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problema2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problema2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problema2/out/production/Problema2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Problema3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Problema3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p2A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p2A/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p2A/out/production/p2A/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../p2A/out/production/p2A/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p2A/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../p2A/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p3b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p3b/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p3b/out/production/p3b/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../p3b/out/production/p3b/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="544">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -64,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="527" />
@@ -93,7 +74,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550080655513" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550082145744" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examen" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -136,23 +117,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550075907044</updated>
-      <workItem from="1550075913443" duration="4417000" />
+      <workItem from="1550075913443" duration="5373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4417000" />
+    <option name="totallyTimeSpent" value="5373000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="527" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5131291" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.51252407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -163,7 +143,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20050761" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.276273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -186,8 +166,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="544">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>

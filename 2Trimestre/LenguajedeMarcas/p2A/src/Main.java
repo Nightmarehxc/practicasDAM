@@ -18,7 +18,7 @@ public class Main {
         char [] patron = patronS.toCharArray();
 
         //Declaración de variables. Array de caracteres de tamaño variable predefinido
-        int i, j=0,c=0, tamaño=1000;
+        int i, j=0,c=0, tamaño=10;
         char[] intercepcion = new char [tamaño];
 
         System.out.println("El vector es: ");
