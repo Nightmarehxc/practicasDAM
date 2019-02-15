@@ -1,0 +1,42 @@
+/* DANIEL CAMARERO ABELLA*/
+.limite
+{   
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.body
+{
+  background-image: url("./fondo.gif");
+ background-color: #cccccc;
+background-repeat:round;
+}
+.hotelDAM
+{
+    background-color: crimson;
+    float:left;
+    width: 100%
+}
+.factura
+{
+    background-color: crimson;
+    float:inherit;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.bgInput
+{
+    
+    
+    background-color: yellow;
+}
+.left
+{
+    float: left;
+    width: 35%;
+}
+.right
+{ 
+    float: right;
+    width: 35%;
+    padding-right: 10%;
+}
