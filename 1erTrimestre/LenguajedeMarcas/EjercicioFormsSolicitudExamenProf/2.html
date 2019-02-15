@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/hoja.css">
+    </head>
+<body>
+    <header>
+        <h1 class = Titulo>Formulario de solicitud de examen profesional</h1>
+        
+    </header>
+    <nav>
+        
+        <div class=Logo>
+            <img src="./img/Pcprincipal.png" alt="Smiley face" height="50%" width="25%">
+        </div>
+        
+    </nav>
+    <form>
+        <div class = limite>       
+        <!-- Abro Contenedor para los Primeros campos -->  
+            <fieldset class = algore>
+            <legend class="hombreOsoCerdo">
+            Datos Personales
+            </legend>
+                    <div class = contenedor>
+                        <div class =campoNombre>
+                            <label for="campoNombre">Tipo de documento</label>
+                        </div>
+                        <div class = campo>
+                             <select name="cars">
+                                <option value="0">DNI</option><!--0 = DNI-->
+                                <option value="1">NIE</option><!--1 = NIE-->
+                                <option value="2">Pasaporte</option><!--2 = Pasaporte-->
+                            </select>
+                        </div>
+                        <div class =campoNombre>
+                                <label for="campoNombre">Numero de documento</label>
+                            </div>
+                            <div class = campo>
+                                <input type="text" class=nDocumento maxlength=100% size=100% />
+                            </div>
+                       <div class =campoNombre>
+                                <label for="campoNombre">Nombre</label>
+                            </div>
+                            <div class = campo>
+                                <input type="text" class=nombre maxlength=100% size=100% />
+                        </div>
+                       <div class =campoNombre>
+                                <label for="campoNombre">Apellido</label>
+                            </div>
+                            <div class = campo>
+                                <input type="text" class=Apellido maxlength=100% size=100% />
+                        </div>
+                       <div class =campoNombre>
+                                <label for="campoNombre">Sexo</label>
+                            </div>
+                            <div class = campo>
+                                <input type="radio" name="gender" value="male"> Male
+                                <input type="radio" name="gender" value="female"> Female
+                                <input type="radio" name="gender" value="other"> Other 
+                        </div>
+            </fieldset>
+        </div>
+<!-- Cierro Primeros campos-->
+
+        <div class = limite>       
+        <!-- Abro Contenedor para los segundos campos -->  
+            <fieldset class = algore>
+            <legend class="hombreOsoCerdo">
+            Datos de contacto
+            </legend>
+                    <div class = contenedor>
+                        <div class =campoNombre>
+                            <label for="campoNombre">Correo Electronico</label>
+                        </div>
+                        <div class = campo>
+                            <input type="text" class=correo maxlength=100% size=100% />
+                        </div>
+                        <div class =campoNombre>
+                                <label for="campoNombre">Telefono Fijo</label>
+                            </div>
+                            <div class = campo>
+                                <input type="text" id= "campo" class=telefono maxlength=100% size=100% />
+                            </div>
+            
+            </fieldset>
+        </div>
+     <!-- Cierro Contendor para Segundos Campos-->
+
+        <div class = limite>       
+        <!-- Abro Contenedor para los terceros campos -->  
+            <fieldset class = algore>
+            <legend class="hombreOsoCerdo">
+            Datos del Examen
+            </legend>
+                    <div class = contenedor>
+                        <div class =campoNombre>
+                            <label for="campoNombre">En que ciudad te gustaria realizar el examen</label>
+                        </div>
+                        <div class = campo>
+                            <input type="checkbox" name="ciudad" value="0">Madrid
+                            <input type="checkbox" name="ciudad" value="1">Barcelona
+                            <input type="checkbox" name="ciudad" value="2">A Coruña
+                            <input type="checkbox" name="ciudad" value="3">Sevilla
+                        </div>
+                        <div class =campoNombre>
+                                <label for="campoNombre">Selecciona los examenes que vas a ralizar *</label>
+                            </div>
+                            <div class = campo>
+                                    <select name="cars" multiple>
+                                        <optgroup>
+                                            <option  value= "">--Programacion--</option>
+                                            <option value="0">C</option>
+                                            <option value="1">C++</option>
+                                            <option value="2">Java</option>
+                                        </optgroup>
+                                          </select>
+                        </div>
+                        
+                        <div class =campoNombre>
+                                <label for="campoNombre">Fecha Solicitud</label>
+                            </div>
+                            <div class = campo>
+                                <input type="date" class=fecha />
+                            </div>
+
+                            <div class =campoNombre>
+                                <label for="campoNombre">Informacion Adicional</label>
+                            </div>
+                            <div class = campo>
+                                <textarea rows="4" cols="100%">
+                                </textarea>
+                            </div>
+                            <div class =campoNombre>
+                                    <label for="campoNombre">Meritos</label>
+                                </div>
+                                <div class = campo>
+                                    <input type="file" id="fileinput" multiple="multiple" accept="image/*" />
+                                </div>
+            
+            </fieldset>
+        </div>
+        <div class = marcoBotones>
+                <input class="btn" type="submit" value="Enviar" />
+                <input class="btn" type="submit" value="Borrar datos" />
+
+        </div>
+            
+
+</div>
+        
+
+        
+</form>
+</body>
+</html>

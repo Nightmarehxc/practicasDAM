@@ -1,0 +1,68 @@
+.titulo
+{
+    text-align: center;
+    background-color: crimson;
+}
+.limite
+{
+    
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.algore
+{
+    border-color: crimson;
+
+}
+.hombreOsoCerdo
+{
+    color: crimson;
+    
+}
+.campoNombre
+{
+    background-color: crimson;
+    color: white;
+float: left;
+max-width: 20%;
+width: 20%;
+text-align: right;
+}
+.campo
+{
+float: inherit;
+width: 100%;
+background-color: #cdcdcd;
+
+}
+.nombre
+{
+ width: 60%;
+ margin-left: 1px;
+}
+.Apellido
+{
+ width: 60%;
+ margin-left: 1px;
+}
+
+.Logo
+{
+    float:left;
+    padding-left: 40%;
+    padding-right: 40%;
+    width: 100%;
+    align-content: center;
+}
+.headerGRP
+{
+    text-decoration-style: solid;
+}
+.marcoBotones
+{
+    align-content: center;
+    padding-left: 40%;
+    padding-right: 40%; 
+
+}
+

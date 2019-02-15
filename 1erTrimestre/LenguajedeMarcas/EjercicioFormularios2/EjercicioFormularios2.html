@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario de solicitud</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="EjercicioFormularios2.css">
+
+    </head>
+    <body>
+    <center>
+        <h2>FORMULARIO DE SOLICITUD DE EXAMEN PROFESIONAL</h2>
+        <img src="pc.jpg">
+
+        <form>
+            <fieldset>
+                <table>
+                    <legend>Datos Personales</legend>
+                    <tr><td id="td1">Tipo de Documento*</td>
+                        <td id="td2"><Select name="Documento">
+                                <option value="Selecciona" selected>Selecciona...</option>
+                                <option value="NIF">NIF</option>
+                                <option value="NIE">NIE</option>
+                                <option value="Pasaporte">Pasaporte</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td id="td1">Número*</td>
+                        <td id="td2"><input type="text" name="Número" style="width: 100%"></td>
+                    </tr>
+                    <tr>
+                        <td id="td1">Nombre*</td>
+                        <td id="td2"><input type="text" name="Nombre" style="width: 100%"></td>
+                    </tr>
+                    <tr>
+                        <td id="td1">Apellido*</td>
+                        <td id="td2"><input type="text" name="Apellido" style="width: 100%"></td>
+                    </tr>
+                    <tr>
+                        <td id="td1">Sexo</td>
+                        <td id="td2"><input type="radio" name="gender" value="Hombre">Hombre<input type="radio" name="gender" value="Mujer">Mujer</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <table>
+                    <legend>Datos de Contacto</legend>
+                    <tr>
+                        <td id="td1">Correo electrónico</td>
+                        <td id="td2"><input type="text" name="Correo electrónico" style="width: 100%"></td>
+                    </tr>
+                    <tr>
+                        <td id="td1">Teléfono fijo</td>
+                        <td id="td2"><input type="text" name="Teléfono fijo" style="width: 100%"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <table>
+                    <legend>Datos del Examen</legend>
+                    <tr>
+                        <td id="td1">¿En qué ciudades te gustaría realizar el examen?*</td>
+                        <td id="td2"><input type="checkbox" name="ciudad" value="Madrid">Madrid
+                            <input type="checkbox" name="ciudad" value="Barcelona">Barcelona
+                            <input type="checkbox" name="ciudad" value="La Coruña">La Coruña
+                            <input type="checkbox" name="ciudad" value="Sevilla">Sevilla</td>
+                    </tr>
+                    <tr>
+                        <td id="td1">Selecciona los exámenes que vas a realizas*</td>
+                        <td id="td2"><select size="4">
+                                <optgroup label="---Programación---">
+                                    <option value="C">C</option>
+                                    <option value="C++">C++</option>
+                                    <option value="Java">Java</option>
+                                    <option value="html">Html</option>
+                                </optgroup></td>
+                    </tr>
+                    <tr>
+                        <td id="td1">Fecha Solicitud*</td>
+                        <td id="td2"><input type="text" name="Fecha" style="width: 100%"></td>
+                    </tr>
+                    <tr>
+                        <td id="td1">Información adicional</td>
+                        <td id="td2"><textarea name="Adicional" rows="6" style="width: 100%"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td id="td1">Méritos</td>
+                        <td id="td2"><input name="browse" type="button" value="Browse..." disabled="yes" style="border-radius: 5px"> No file selected.</td>
+                    </tr>
+                    <tr>    
+                        <td colspan="2"><center>
+                        <button name="enviar" type="submit" value="enviar">enviar</button>
+                        <button name="borrar" type="reset" value="borrar">borrar</button>
+                    </center>
+                    </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
