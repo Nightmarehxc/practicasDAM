@@ -1,0 +1,218 @@
+mysql> /*1*/
+mysql> USE jardineria;
+Database changed
+mysql> CREATE TABLE tempClientes LIKE clientes;
+Query OK, 0 rows affected (0.18 sec)
+
+mysql> 
+mysql> /*2*/
+mysql> INSERT INTO tempClientes 
+    -> (SELECT * FROM clientes);
+Query OK, 36 rows affected (0.01 sec)
+Records: 36  Duplicates: 0  Warnings: 0
+
+mysql> SET autocommit = 0;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> /*3*/
+mysql> SELECT COUNT(tc.`CodigoCliente`) FROM tempClientes tc;
++---------------------------+
+| COUNT(tc.`CodigoCliente`) |
++---------------------------+
+|                        36 |
++---------------------------+
+1 row in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> /*5*/
+mysql> BEGIN; /*4*/
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> INSERT INTO `tempClientes`(`CodigoCliente`,`NombreCliente`,`NombreContacto`,`ApellidoContacto`,`Telefono`,`Fax`,`LineaDireccion1`,`Ciudad`,`Region`,`Pais`,`CodigoPostal`,`CodigoEmpleadoRepVentas`,`LimiteCredito`)
+    -> VALUES (39,'Mi Empresa S.A.','Isabel','Moreno','34912345678','34123456789','C/Puerta del Angel, 7','Madrid','Madrid','Spain',28013,8,153240);
+Query OK, 1 row affected (0.04 sec)
+
+mysql> /*COMMIT;*/
+mysql> /*6*/
+mysql> SELECT * FROM tempClientes
+    -> WHERE CodigoCliente = 39;
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+| CodigoCliente | NombreCliente   | NombreContacto | ApellidoContacto | Telefono    | Fax         | LineaDireccion1       | LineaDireccion2 | Ciudad | Region | Pais  | CodigoPostal | CodigoEmpleadoRepVentas | LimiteCredito |
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+|            39 | Mi Empresa S.A. | Isabel         | Moreno           | 34912345678 | 34123456789 | C/Puerta del Angel, 7 | NULL            | Madrid | Madrid | Spain | 28013        |                       8 |     153240.00 |
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+1 row in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> /*7*/
+mysql> ROLLBACK;
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> /*8*/
+mysql> SELECT * FROM tempClientes
+    -> WHERE CodigoCliente = 39;
+Empty set (0.00 sec)
+
+mysql> BEGIN; /*4*/
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> /*9*/
+mysql> INSERT INTO `tempClientes`(`CodigoCliente`,`NombreCliente`,`NombreContacto`,`ApellidoContacto`,`Telefono`,`Fax`,`LineaDireccion1`,`Ciudad`,`Region`,`Pais`,`CodigoPostal`,`CodigoEmpleadoRepVentas`,`LimiteCredito`)
+    -> VALUES (39,'Mi Empresa S.A.','Isabel','Moreno','34912345678','34123456789','C/Puerta del Angel, 7','Madrid','Madrid','Spain',28013,8,153240);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> /*10*/
+mysql> SELECT * FROM tempClientes
+    -> WHERE CodigoCliente = 39;
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+| CodigoCliente | NombreCliente   | NombreContacto | ApellidoContacto | Telefono    | Fax         | LineaDireccion1       | LineaDireccion2 | Ciudad | Region | Pais  | CodigoPostal | CodigoEmpleadoRepVentas | LimiteCredito |
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+|            39 | Mi Empresa S.A. | Isabel         | Moreno           | 34912345678 | 34123456789 | C/Puerta del Angel, 7 | NULL            | Madrid | Madrid | Spain | 28013        |                       8 |     153240.00 |
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+1 row in set (0.00 sec)
+
+mysql> /*11*/
+mysql> COMMIT;
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> /*12*/
+mysql> SELECT * FROM tempClientes
+    -> WHERE CodigoCliente = 39;
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+| CodigoCliente | NombreCliente   | NombreContacto | ApellidoContacto | Telefono    | Fax         | LineaDireccion1       | LineaDireccion2 | Ciudad | Region | Pais  | CodigoPostal | CodigoEmpleadoRepVentas | LimiteCredito |
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+|            39 | Mi Empresa S.A. | Isabel         | Moreno           | 34912345678 | 34123456789 | C/Puerta del Angel, 7 | NULL            | Madrid | Madrid | Spain | 28013        |                       8 |     153240.00 |
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+1 row in set (0.00 sec)
+
+mysql> /*13*/
+mysql> BEGIN;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> /*14 ISABEL HELP*/ 
+mysql> UPDATE tempClientes
+    -> SET 'Fax' = 3491543256785
+    -> WHERE 
+    -> CodigoCliente = 39; 
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Fax' = 3491543256785
+WHERE 
+CodigoCliente = 39' at line 2
+mysql> /* 15*/
+mysql> SELECT Fax FROM tempClientes
+    -> WHERE codigoCliente = 39;
++-------------+
+| Fax         |
++-------------+
+| 34123456789 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> /*16*/
+mysql> ROLLBACK;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> /*17*/
+mysql> SELECT Fax FROM tempClientes
+    -> WHERE codigoCliente = 39;
++-------------+
+| Fax         |
++-------------+
+| 34123456789 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> /*18*/
+mysql> UPDATE tempClientes
+    -> SET 'Fax' = 3491543256785
+    -> WHERE 
+    -> CodigoCliente = 39; 
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Fax' = 3491543256785
+WHERE 
+CodigoCliente = 39' at line 2
+mysql> /*19*/
+mysql> SELECT Fax FROM tempClientes
+    -> WHERE codigoCliente = 39;
++-------------+
+| Fax         |
++-------------+
+| 34123456789 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> /*20*/
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> /*21*/
+mysql> SELECT Fax FROM tempClientes
+    -> WHERE codigoCliente = 39;
++-------------+
+| Fax         |
++-------------+
+| 34123456789 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> /*22*/
+mysql> BEGIN;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> /*23*/
+mysql> DELETE FROM tempClientes
+    -> WHERE codigoCliente = 39;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> /*24*/
+mysql> SELECT Fax FROM tempClientes
+    -> WHERE codigoCliente = 39;
+Empty set (0.00 sec)
+
+mysql> /*25*/
+mysql> ROLLBACK;
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> /*26*/
+mysql> DELETE * FROM tempClientes
+    -> WHERE codigoCliente = 39;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM tempClientes
+WHERE codigoCliente = 39' at line 1
+mysql> /*27*/
+mysql> SELECT Fax FROM tempClientes
+    -> WHERE codigoCliente = 39;
++-------------+
+| Fax         |
++-------------+
+| 34123456789 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> /*28*/
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> /*29*/
+mysql> SELECT * FROM tempClientes
+    -> WHERE codigoCliente = 39;
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+| CodigoCliente | NombreCliente   | NombreContacto | ApellidoContacto | Telefono    | Fax         | LineaDireccion1       | LineaDireccion2 | Ciudad | Region | Pais  | CodigoPostal | CodigoEmpleadoRepVentas | LimiteCredito |
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+|            39 | Mi Empresa S.A. | Isabel         | Moreno           | 34912345678 | 34123456789 | C/Puerta del Angel, 7 | NULL            | Madrid | Madrid | Spain | 28013        |                       8 |     153240.00 |
++---------------+-----------------+----------------+------------------+-------------+-------------+-----------------------+-----------------+--------+--------+-------+--------------+-------------------------+---------------+
+1 row in set (0.00 sec)
+
+mysql> 
+mysql> SELECT COUNT(codigoCliente) FROM tempClientes;
++----------------------+
+| COUNT(codigoCliente) |
++----------------------+
+|                   37 |
++----------------------+
+1 row in set (0.00 sec)
+
+mysql> /*30*/
+mysql> DROP TABLE tempClientes;
+Query OK, 0 rows affected (0.17 sec)
+
+mysql> notee
