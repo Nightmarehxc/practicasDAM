@@ -8,7 +8,8 @@ public class Main
         System.out.println("Introduce 1)Para crear venta");
 
         RegistroVentasDiaria rv = new RegistroVentasDiaria();
-
+        rv.crearVenta();
+        rv.imprimirRegistroVentas();
 
         System.out.println("Hello World!");
 

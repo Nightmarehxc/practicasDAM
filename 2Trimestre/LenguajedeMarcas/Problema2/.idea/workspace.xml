@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2238488b-8d08-4e64-97a0-da281ccad5c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Examen/P2b.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen/P2c.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen/P3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen/P3c.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen/p1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen/p2A.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen/p3b.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../P2b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P2b/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../P3c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P3c/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problema1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problema1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Problema2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problema3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problema3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problema3/out/production/Problema3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Problema3/out/production/Problema3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p2A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p2A/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p2A/out/production/p2A/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../p2A/out/production/p2A/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p2A/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../p2A/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p3b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p3b/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p3b/out/production/p3b/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../p3b/out/production/p3b/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/RegistroVentasDiaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/RegistroVentasDiaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/Venta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,10 +44,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="527" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -72,6 +57,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,7 +74,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -138,17 +123,18 @@
       <updated>1550075836897</updated>
       <workItem from="1550075844032" duration="5258000" />
       <workItem from="1550154034671" duration="1128000" />
+      <workItem from="1550497824780" duration="586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6386000" />
+    <option name="totallyTimeSpent" value="6972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28997868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
