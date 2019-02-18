@@ -1,0 +1,758 @@
+mysql> source /home/isabel/Escritorio/Multitablas.sql
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+ERROR 1054 (42S22): Unknown column 'LimiteCredito' in 'having clause'
++--------------------------------+-----------------+----------------------+
+| NombreCliente                  | Nombre          | Ciudad               |
++--------------------------------+-----------------+----------------------+
+| DGPRODUCTIONS GARDEN           | Walter Santiago | San Francisco        |
+| Gardening Associates           | Walter Santiago | San Francisco        |
+| Gerudo Valley                  | Lorena          | Boston               |
+| Tendo Garden                   | Lorena          | Boston               |
+| Lasas S.A.                     | Mariano         | Madrid               |
+| Beragua                        | Emmanuel        | Barcelona            |
+| Club Golf Puerta del hierro    | Emmanuel        | Barcelona            |
+| Naturagua                      | Emmanuel        | Barcelona            |
+| DaraDistribuciones             | Emmanuel        | Barcelona            |
+| Madrileña de riegos            | Emmanuel        | Barcelona            |
+| Lasas S.A.                     | Mariano         | Madrid               |
+| Camunas Jardines S.L.          | Mariano         | Madrid               |
+| Dardena S.A.                   | Mariano         | Madrid               |
+| Jardin de Flores               | Julian          | Sydney               |
+| Flores Marivi                  | Felipe          | Talavera de la Reina |
+| Flowers, S.A                   | Felipe          | Talavera de la Reina |
+| Naturajardin                   | Julian          | Sydney               |
+| Golf S.A.                      | José Manuel     | Barcelona            |
+| AYMERICH GOLF MANAGEMENT, SL   | José Manuel     | Barcelona            |
+| Aloha                          | José Manuel     | Barcelona            |
+| El Prat                        | José Manuel     | Barcelona            |
+| Sotogrande                     | José Manuel     | Barcelona            |
+| Vivero Humanes                 | Julian          | Sydney               |
+| Fuenla City                    | Felipe          | Talavera de la Reina |
+| Jardines y Mansiones CACTUS SL | Lucio           | Madrid               |
+| Jardinerías Matías SL          | Lucio           | Madrid               |
+| Agrojardin                     | Julian          | Sydney               |
+| Top Campo                      | Felipe          | Talavera de la Reina |
+| Jardineria Sara                | Felipe          | Talavera de la Reina |
+| Campohermoso                   | Julian          | Sydney               |
+| france telecom                 | Lionel          | Paris                |
+| Musée du Louvre                | Lionel          | Paris                |
+| Tutifruti S.A                  | Mariko          | Sydney               |
+| FLORES S.L.                    | Michael         | San Francisco        |
+| THE MAGIC GARDEN               | Michael         | San Francisco        |
+| El Jardin Viviente S.L         | Mariko          | Sydney               |
++--------------------------------+-----------------+----------------------+
+36 rows in set (0.00 sec)
+
++--------------------------------+-----------------+----------------------+
+| NombreCliente                  | Nombre          | Ciudad               |
++--------------------------------+-----------------+----------------------+
+| DGPRODUCTIONS GARDEN           | Walter Santiago | San Francisco        |
+| Gardening Associates           | Walter Santiago | San Francisco        |
+| Gerudo Valley                  | Lorena          | Boston               |
+| Tendo Garden                   | Lorena          | Boston               |
+| Lasas S.A.                     | Mariano         | Madrid               |
+| Beragua                        | Emmanuel        | Barcelona            |
+| Club Golf Puerta del hierro    | Emmanuel        | Barcelona            |
+| Naturagua                      | Emmanuel        | Barcelona            |
+| DaraDistribuciones             | Emmanuel        | Barcelona            |
+| Madrileña de riegos            | Emmanuel        | Barcelona            |
+| Lasas S.A.                     | Mariano         | Madrid               |
+| Camunas Jardines S.L.          | Mariano         | Madrid               |
+| Dardena S.A.                   | Mariano         | Madrid               |
+| Jardin de Flores               | Julian          | Sydney               |
+| Flores Marivi                  | Felipe          | Talavera de la Reina |
+| Flowers, S.A                   | Felipe          | Talavera de la Reina |
+| Naturajardin                   | Julian          | Sydney               |
+| Golf S.A.                      | José Manuel     | Barcelona            |
+| AYMERICH GOLF MANAGEMENT, SL   | José Manuel     | Barcelona            |
+| Aloha                          | José Manuel     | Barcelona            |
+| El Prat                        | José Manuel     | Barcelona            |
+| Sotogrande                     | José Manuel     | Barcelona            |
+| Vivero Humanes                 | Julian          | Sydney               |
+| Fuenla City                    | Felipe          | Talavera de la Reina |
+| Jardines y Mansiones CACTUS SL | Lucio           | Madrid               |
+| Jardinerías Matías SL          | Lucio           | Madrid               |
+| Agrojardin                     | Julian          | Sydney               |
+| Top Campo                      | Felipe          | Talavera de la Reina |
+| Jardineria Sara                | Felipe          | Talavera de la Reina |
+| Campohermoso                   | Julian          | Sydney               |
+| france telecom                 | Lionel          | Paris                |
+| Musée du Louvre                | Lionel          | Paris                |
+| Tutifruti S.A                  | Mariko          | Sydney               |
+| FLORES S.L.                    | Michael         | San Francisco        |
+| THE MAGIC GARDEN               | Michael         | San Francisco        |
+| El Jardin Viviente S.L         | Mariko          | Sydney               |
++--------------------------------+-----------------+----------------------+
+36 rows in set (0.00 sec)
+
++--------------------------------+---------------------+
+| NombreCliente                  | COUNT(CodigoPedido) |
++--------------------------------+---------------------+
+| Agrojardin                     |                   5 |
+| Beragua                        |                   5 |
+| Camunas Jardines S.L.          |                   5 |
+| Dardena S.A.                   |                   5 |
+| DGPRODUCTIONS GARDEN           |                  11 |
+| El Jardin Viviente S.L         |                   5 |
+| Flores Marivi                  |                  10 |
+| FLORES S.L.                    |                   5 |
+| Gardening Associates           |                   9 |
+| Gerudo Valley                  |                   5 |
+| Golf S.A.                      |                   5 |
+| Jardin de Flores               |                   5 |
+| Jardineria Sara                |                  10 |
+| Jardinerías Matías SL          |                   5 |
+| Jardines y Mansiones CACTUS SL |                   4 |
+| Naturagua                      |                   5 |
+| Sotogrande                     |                   5 |
+| Tendo Garden                   |                   5 |
+| Tutifruti S.A                  |                   5 |
++--------------------------------+---------------------+
+19 rows in set (0.00 sec)
+
++--------------------------------+---------------+
+| NombreCliente                  | SUM(Cantidad) |
++--------------------------------+---------------+
+| Agrojardin                     |       8489.00 |
+| Beragua                        |       2390.00 |
+| Camunas Jardines S.L.          |       2246.00 |
+| Dardena S.A.                   |       4160.00 |
+| DGPRODUCTIONS GARDEN           |       4000.00 |
+| El Jardin Viviente S.L         |       1171.00 |
+| Flores Marivi                  |       4399.00 |
+| Gardening Associates           |      10926.00 |
+| Gerudo Valley                  |      81849.00 |
+| Golf S.A.                      |        232.00 |
+| Jardin de Flores               |      12081.00 |
+| Jardineria Sara                |       7863.00 |
+| Jardinerías Matías SL          |      10972.00 |
+| Jardines y Mansiones CACTUS SL |      18846.00 |
+| Naturagua                      |        929.00 |
+| Sotogrande                     |        272.00 |
+| Tendo Garden                   |      23794.00 |
+| Tutifruti S.A                  |       3321.00 |
++--------------------------------+---------------+
+18 rows in set (0.00 sec)
+
++-----------------+------------+-----------+--------------------------------+
+| Nombre          | Apellido1  | Apellido2 | NombreCliente                  |
++-----------------+------------+-----------+--------------------------------+
+| Emmanuel        | Magaña     | Perez     | Naturagua                      |
+| Felipe          | Rosas      | Marquez   | Flores Marivi                  |
+| Felipe          | Rosas      | Marquez   | Jardineria Sara                |
+| José Manuel     | Martinez   | De la Osa | Golf S.A.                      |
+| José Manuel     | Martinez   | De la Osa | Sotogrande                     |
+| Julian          | Bellinelli |           | Agrojardin                     |
+| Julian          | Bellinelli |           | Jardin de Flores               |
+| Lorena          | Paxton     |           | Gerudo Valley                  |
+| Lucio           | Campoamor  | Martín    | Jardinerías Matías SL          |
+| Lucio           | Campoamor  | Martín    | Jardines y Mansiones CACTUS SL |
+| Mariano         | López      | Murcia    | Camunas Jardines S.L.          |
+| Mariano         | López      | Murcia    | Dardena S.A.                   |
+| Mariko          | Kishi      |           | El Jardin Viviente S.L         |
+| Mariko          | Kishi      |           | Tutifruti S.A                  |
+| Walter Santiago | Sanchez    | Lopez     | DGPRODUCTIONS GARDEN           |
+| Walter Santiago | Sanchez    | Lopez     | Gardening Associates           |
++-----------------+------------+-----------+--------------------------------+
+16 rows in set (0.00 sec)
+
++-----------------------+----------------------+
+| COUNT(CodigoEmpleado) | Ciudad               |
++-----------------------+----------------------+
+|                     4 | Barcelona            |
+|                     3 | Boston               |
+|                     3 | Londres              |
+|                     4 | Madrid               |
+|                     3 | Paris                |
+|                     2 | San Francisco        |
+|                     3 | Sydney               |
+|                     6 | Talavera de la Reina |
+|                     3 | Tokyo                |
++-----------------------+----------------------+
+9 rows in set (0.00 sec)
+
++-----------------+------------+----------------------+-----------------------+
+| Nombre          | Apellido1  | Ciudad               | Puesto                |
++-----------------+------------+----------------------+-----------------------+
+| Alberto         | Soria      | Talavera de la Reina | Subdirector Ventas    |
+| Amy             | Johnson    | Londres              | Director Oficina      |
+| Carlos          | Soria      | Madrid               | Director Oficina      |
+| David           | Palma      | Barcelona            | Representante Ventas  |
+| Emmanuel        | Magaña     | Barcelona            | Director Oficina      |
+| Felipe          | Rosas      | Talavera de la Reina | Representante Ventas  |
+| Francois        | Fignon     | Paris                | Director Oficina      |
+| Hilario         | Rodriguez  | Madrid               | Representante Ventas  |
+| Hilary          | Washington | Boston               | Director Oficina      |
+| John            | Walton     | Londres              | Representante Ventas  |
+| José Manuel     | Martinez   | Barcelona            | Representante Ventas  |
+| Juan Carlos     | Ortiz      | Talavera de la Reina | Representante Ventas  |
+| Julian          | Bellinelli | Sydney               | Representante Ventas  |
+| Kevin           | Fallmer    | Sydney               | Director Oficina      |
+| Larry           | Westfalls  | Londres              | Representante Ventas  |
+| Laurent         | Serra      | Paris                | Representante Ventas  |
+| Lionel          | Narvaez    | Paris                | Representante Ventas  |
+| Lorena          | Paxton     | Boston               | Representante Ventas  |
+| Lucio           | Campoamor  | Madrid               | Representante Ventas  |
+| Marcus          | Paxton     | Boston               | Representante Ventas  |
+| Maria           | Solís      | Talavera de la Reina | Secretaria            |
+| Mariano         | López      | Madrid               | Representante Ventas  |
+| Mariko          | Kishi      | Sydney               | Representante Ventas  |
+| Michael         | Bolton     | San Francisco        | Director Oficina      |
+| Narumi          | Riko       | Tokyo                | Representante Ventas  |
+| Nei             | Nishikori  | Tokyo                | Director Oficina      |
+| Oscar           | Palma      | Barcelona            | Representante Ventas  |
+| Ruben           | López      | Talavera de la Reina | Subdirector Marketing |
+| Takuma          | Nomura     | Tokyo                | Representante Ventas  |
+| Walter Santiago | Sanchez    | San Francisco        | Representante Ventas  |
++-----------------+------------+----------------------+-----------------------+
+30 rows in set (0.00 sec)
+
++---------------+---------------+
+| NombreCliente | IDTransaccion |
++---------------+---------------+
+| Gerudo Valley | ak-std-000006 |
+| Gerudo Valley | ak-std-000007 |
+| Gerudo Valley | ak-std-000008 |
+| Gerudo Valley | ak-std-000009 |
+| Gerudo Valley | ak-std-000010 |
+| Tutifruti S.A | ak-std-000025 |
++---------------+---------------+
+6 rows in set (0.00 sec)
+
++---------------+---------------+
+| NombreCliente | IDTransaccion |
++---------------+---------------+
+| Gerudo Valley | ak-std-000006 |
+| Gerudo Valley | ak-std-000007 |
+| Gerudo Valley | ak-std-000008 |
+| Gerudo Valley | ak-std-000009 |
+| Gerudo Valley | ak-std-000010 |
+| Tutifruti S.A | ak-std-000025 |
++---------------+---------------+
+6 rows in set (0.00 sec)
+
+Database changed
++-------------------------------------------------------------+--------------+--------------------------------------------------+
+| Nombre                                                      | Gama         | DescripcionTexto                                 |
++-------------------------------------------------------------+--------------+--------------------------------------------------+
+| Acer Negundo                                                | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Acer platanoides                                            | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Acer Pseudoplatanus                                         | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Ajedrea                                                     | Aromáticas   | Plantas aromáticas                               |
+| Albaricoquero                                               | Frutales     | Árboles pequeños de producción frutal            |
+| Archontophoenix Cunninghamiana                              | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Azadón                                                      | Herramientas | Herramientas para todo tipo de acción            |
+| Beucarnea Recurvata                                         | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Bismarckia Nobilis                                          | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Bougamvillea roja, naranja                                  | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Bougamvillea Sanderiana Tutor                               | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Brachychiton Discolor                                       | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Brachychiton Rupestris                                      | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Brahea Armata                                               | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Brahea Edulis                                               | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Butia Capitata                                              | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Calamondin Copa                                             | Frutales     | Árboles pequeños de producción frutal            |
+| Calamondin Copa EXTRA Con FRUTA                             | Frutales     | Árboles pequeños de producción frutal            |
+| Callistemom COPA                                            | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Camelia japonica                                            | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Camelia japonica ejemplar                                   | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Cedrus Deodara                                              | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Cerezo                                                      | Frutales     | Árboles pequeños de producción frutal            |
+| Cerezo Napoleón                                             | Frutales     | Árboles pequeños de producción frutal            |
+| Chamaerops Humilis                                          | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Ciruelo                                                     | Frutales     | Árboles pequeños de producción frutal            |
+| Ciruelo Friar                                               | Frutales     | Árboles pequeños de producción frutal            |
+| Ciruelo Reina C. De Ollins                                  | Frutales     | Árboles pequeños de producción frutal            |
+| Ciruelo Santa Rosa                                          | Frutales     | Árboles pequeños de producción frutal            |
+| Dracaena Drago                                              | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Erytrina Kafra                                              | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Eucalyptus Ficifolia                                        | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Expositor Árboles clima continental                         | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Expositor Cítricos Mix                                      | Frutales     | Árboles pequeños de producción frutal            |
+| Expositor Mimosa Semilla Mix                                | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Forsytia Intermedia "Lynwood"                               | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Granado                                                     | Frutales     | Árboles pequeños de producción frutal            |
+| Granado Mollar de Elche                                     | Frutales     | Árboles pequeños de producción frutal            |
+| Hibiscus Syriacus  "Diana" -Blanco Puro                     | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Higuera                                                     | Frutales     | Árboles pequeños de producción frutal            |
+| Higuera Napolitana                                          | Frutales     | Árboles pequeños de producción frutal            |
+| Jubaea Chilensis                                            | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Juniperus horizontalis Wiltonii                             | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Kaki                                                        | Frutales     | Árboles pequeños de producción frutal            |
+| Kaki Rojo Brillante                                         | Frutales     | Árboles pequeños de producción frutal            |
+| Kordes Perfect bicolor rojo-amarillo, Roundelay rojo fuerte | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Kunquat                                                     | Frutales     | Árboles pequeños de producción frutal            |
+| Kunquat  EXTRA con FRUTA                                    | Frutales     | Árboles pequeños de producción frutal            |
+| Lagunaria patersonii  calibre 8/10                          | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Landora Amarillo, Rose Gaujard bicolor blanco-rojo          | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Laurus Nobilis Arbusto - Ramificado Bajo                    | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Lavándula Dentata                                           | Aromáticas   | Plantas aromáticas                               |
+| Limonero -Plantón joven                                     | Frutales     | Árboles pequeños de producción frutal            |
+| Limonero 2 años injerto                                     | Frutales     | Árboles pequeños de producción frutal            |
+| Limonero 30/40                                              | Frutales     | Árboles pequeños de producción frutal            |
+| Limonero calibre 8/10                                       | Frutales     | Árboles pequeños de producción frutal            |
+| Livistonia Australis                                        | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Lonicera Nitida                                             | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Lonicera Pileata                                            | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Mandarino 2 años injerto                                    | Frutales     | Árboles pequeños de producción frutal            |
+| Mandarino calibre 8/10                                      | Frutales     | Árboles pequeños de producción frutal            |
+| Manzano                                                     | Frutales     | Árboles pequeños de producción frutal            |
+| Manzano Golden Delicious                                    | Frutales     | Árboles pequeños de producción frutal            |
+| Manzano Reineta                                             | Frutales     | Árboles pequeños de producción frutal            |
+| Manzano Starking Delicious                                  | Frutales     | Árboles pequeños de producción frutal            |
+| Mejorana                                                    | Aromáticas   | Plantas aromáticas                               |
+| Melissa                                                     | Aromáticas   | Plantas aromáticas                               |
+| Melocotonero                                                | Frutales     | Árboles pequeños de producción frutal            |
+| Melocotonero Amarillo de Agosto                             | Frutales     | Árboles pequeños de producción frutal            |
+| Melocotonero Paraguayo                                      | Frutales     | Árboles pequeños de producción frutal            |
+| Membrillero Gigante de Wranja                               | Frutales     | Árboles pequeños de producción frutal            |
+| Mentha Sativa                                               | Aromáticas   | Plantas aromáticas                               |
+| Mimosa DEALBATA Gaulois Astier                              | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Mimosa Semilla Bayleyana                                    | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Mimosa Semilla Cyanophylla                                  | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Morus Alba  calibre 8/10                                    | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Naranjo -Plantón joven 1 año injerto                        | Frutales     | Árboles pequeños de producción frutal            |
+| Naranjo 2 años injerto                                      | Frutales     | Árboles pequeños de producción frutal            |
+| Naranjo calibre 8/10                                        | Frutales     | Árboles pequeños de producción frutal            |
+| Nectarina                                                   | Frutales     | Árboles pequeños de producción frutal            |
+| Nerium oleander ARBOL Calibre 8/10                          | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Níspero                                                     | Frutales     | Árboles pequeños de producción frutal            |
+| Níspero Tanaca                                              | Frutales     | Árboles pequeños de producción frutal            |
+| Nogal                                                       | Frutales     | Árboles pequeños de producción frutal            |
+| Nogal Común                                                 | Frutales     | Árboles pequeños de producción frutal            |
+| Olea-Olivos                                                 | Frutales     | Árboles pequeños de producción frutal            |
+| Pala                                                        | Herramientas | Herramientas para todo tipo de acción            |
+| Peral                                                       | Frutales     | Árboles pequeños de producción frutal            |
+| Peral Blanq. de Aranjuez                                    | Frutales     | Árboles pequeños de producción frutal            |
+| Petrosilium Hortense (Peregil)                              | Aromáticas   | Plantas aromáticas                               |
+| Philadelphus "Virginal"                                     | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Phoenix Canariensis                                         | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Phylostachys biseti                                         | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Pinus Canariensis                                           | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Pitimini rojo                                               | Frutales     | Árboles pequeños de producción frutal            |
+| Pitimini rojo                                               | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Prunus pisardii                                             | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Rastrillo de Jardín                                         | Herramientas | Herramientas para todo tipo de acción            |
+| Rhaphis Humilis                                             | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Robinia Pseudoacacia Casque Rouge                           | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Rosal bajo 1Âª -En maceta-inicio brotación                  | Frutales     | Árboles pequeños de producción frutal            |
+| Rosal copa                                                  | Frutales     | Árboles pequeños de producción frutal            |
+| ROSAL TREPADOR                                              | Frutales     | Árboles pequeños de producción frutal            |
+| Salvia Mix                                                  | Aromáticas   | Plantas aromáticas                               |
+| Santolina Chamaecyparys                                     | Aromáticas   | Plantas aromáticas                               |
+| Sasa palmata                                                | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Sesbania Punicea                                            | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Sierra de Poda 400MM                                        | Herramientas | Herramientas para todo tipo de acción            |
+| Tamarix  Ramosissima Pink Cascade                           | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Thymus Citriodra (Tomillo limón)                            | Aromáticas   | Plantas aromáticas                               |
+| Thymus Vulgaris                                             | Aromáticas   | Plantas aromáticas                               |
+| Trachycarpus Fortunei                                       | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Tuja Occidentalis Woodwardii                                | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Tuja orientalis "Aurea nana"                                | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Viburnum Tinus "Eve Price"                                  | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Washingtonia Robusta                                        | Ornamentales | Plantas vistosas para la decoración del jardín   |
+| Yucca Jewel                                                 | Ornamentales | Plantas vistosas para la decoración del jardín   |
++-------------------------------------------------------------+--------------+--------------------------------------------------+
+117 rows in set (0.00 sec)
+
++--------------+-----------+-----------+--------------+
+| Nombre       | Apellido1 | Apellido2 | CodigoPostal |
++--------------+-----------+-----------+--------------+
+| Emmanuel     | Magaña    | Perez     | 08019        |
+| José Manuel  | Martinez  | De la Osa | 08019        |
+| David        | Palma     | Aceituno  | 08019        |
+| Oscar        | Palma     | Aceituno  | 08019        |
++--------------+-----------+-----------+--------------+
+4 rows in set (0.01 sec)
+
++----------------+--------------------------------------------------+
+| CodigoProducto | DescripcionTexto                                 |
++----------------+--------------------------------------------------+
+| 11679          | Herramientas para todo tipo de acción            |
+| 21636          | Herramientas para todo tipo de acción            |
+| 22225          | Herramientas para todo tipo de acción            |
+| 30310          | Herramientas para todo tipo de acción            |
+| AR-001         | Plantas aromáticas                               |
+| AR-002         | Plantas aromáticas                               |
+| AR-003         | Plantas aromáticas                               |
+| AR-004         | Plantas aromáticas                               |
+| AR-005         | Plantas aromáticas                               |
+| AR-006         | Plantas aromáticas                               |
+| AR-007         | Plantas aromáticas                               |
+| AR-008         | Plantas aromáticas                               |
+| AR-009         | Plantas aromáticas                               |
+| AR-010         | Plantas aromáticas                               |
+| FR-1           | Árboles pequeños de producción frutal            |
+| FR-10          | Árboles pequeños de producción frutal            |
+| FR-100         | Árboles pequeños de producción frutal            |
+| FR-101         | Árboles pequeños de producción frutal            |
+| FR-102         | Árboles pequeños de producción frutal            |
+| FR-103         | Árboles pequeños de producción frutal            |
+| FR-104         | Árboles pequeños de producción frutal            |
+| FR-105         | Árboles pequeños de producción frutal            |
+| FR-106         | Árboles pequeños de producción frutal            |
+| FR-107         | Árboles pequeños de producción frutal            |
+| FR-108         | Árboles pequeños de producción frutal            |
+| FR-11          | Árboles pequeños de producción frutal            |
+| FR-12          | Árboles pequeños de producción frutal            |
+| FR-13          | Árboles pequeños de producción frutal            |
+| FR-14          | Árboles pequeños de producción frutal            |
+| FR-15          | Árboles pequeños de producción frutal            |
+| FR-16          | Árboles pequeños de producción frutal            |
+| FR-17          | Árboles pequeños de producción frutal            |
+| FR-18          | Árboles pequeños de producción frutal            |
+| FR-19          | Árboles pequeños de producción frutal            |
+| FR-2           | Árboles pequeños de producción frutal            |
+| FR-20          | Árboles pequeños de producción frutal            |
+| FR-21          | Árboles pequeños de producción frutal            |
+| FR-22          | Árboles pequeños de producción frutal            |
+| FR-23          | Árboles pequeños de producción frutal            |
+| FR-24          | Árboles pequeños de producción frutal            |
+| FR-25          | Árboles pequeños de producción frutal            |
+| FR-26          | Árboles pequeños de producción frutal            |
+| FR-27          | Árboles pequeños de producción frutal            |
+| FR-28          | Árboles pequeños de producción frutal            |
+| FR-29          | Árboles pequeños de producción frutal            |
+| FR-3           | Árboles pequeños de producción frutal            |
+| FR-30          | Árboles pequeños de producción frutal            |
+| FR-31          | Árboles pequeños de producción frutal            |
+| FR-32          | Árboles pequeños de producción frutal            |
+| FR-33          | Árboles pequeños de producción frutal            |
+| FR-34          | Árboles pequeños de producción frutal            |
+| FR-35          | Árboles pequeños de producción frutal            |
+| FR-36          | Árboles pequeños de producción frutal            |
+| FR-37          | Árboles pequeños de producción frutal            |
+| FR-38          | Árboles pequeños de producción frutal            |
+| FR-39          | Árboles pequeños de producción frutal            |
+| FR-4           | Árboles pequeños de producción frutal            |
+| FR-40          | Árboles pequeños de producción frutal            |
+| FR-41          | Árboles pequeños de producción frutal            |
+| FR-42          | Árboles pequeños de producción frutal            |
+| FR-43          | Árboles pequeños de producción frutal            |
+| FR-44          | Árboles pequeños de producción frutal            |
+| FR-45          | Árboles pequeños de producción frutal            |
+| FR-46          | Árboles pequeños de producción frutal            |
+| FR-47          | Árboles pequeños de producción frutal            |
+| FR-48          | Árboles pequeños de producción frutal            |
+| FR-49          | Árboles pequeños de producción frutal            |
+| FR-5           | Árboles pequeños de producción frutal            |
+| FR-50          | Árboles pequeños de producción frutal            |
+| FR-51          | Árboles pequeños de producción frutal            |
+| FR-52          | Árboles pequeños de producción frutal            |
+| FR-53          | Árboles pequeños de producción frutal            |
+| FR-54          | Árboles pequeños de producción frutal            |
+| FR-55          | Árboles pequeños de producción frutal            |
+| FR-56          | Árboles pequeños de producción frutal            |
+| FR-57          | Árboles pequeños de producción frutal            |
+| FR-58          | Árboles pequeños de producción frutal            |
+| FR-59          | Árboles pequeños de producción frutal            |
+| FR-6           | Árboles pequeños de producción frutal            |
+| FR-60          | Árboles pequeños de producción frutal            |
+| FR-61          | Árboles pequeños de producción frutal            |
+| FR-62          | Árboles pequeños de producción frutal            |
+| FR-63          | Árboles pequeños de producción frutal            |
+| FR-64          | Árboles pequeños de producción frutal            |
+| FR-65          | Árboles pequeños de producción frutal            |
+| FR-66          | Árboles pequeños de producción frutal            |
+| FR-67          | Árboles pequeños de producción frutal            |
+| FR-68          | Árboles pequeños de producción frutal            |
+| FR-69          | Árboles pequeños de producción frutal            |
+| FR-7           | Árboles pequeños de producción frutal            |
+| FR-70          | Árboles pequeños de producción frutal            |
+| FR-71          | Árboles pequeños de producción frutal            |
+| FR-72          | Árboles pequeños de producción frutal            |
+| FR-73          | Árboles pequeños de producción frutal            |
+| FR-74          | Árboles pequeños de producción frutal            |
+| FR-75          | Árboles pequeños de producción frutal            |
+| FR-76          | Árboles pequeños de producción frutal            |
+| FR-77          | Árboles pequeños de producción frutal            |
+| FR-78          | Árboles pequeños de producción frutal            |
+| FR-79          | Árboles pequeños de producción frutal            |
+| FR-8           | Árboles pequeños de producción frutal            |
+| FR-80          | Árboles pequeños de producción frutal            |
+| FR-81          | Árboles pequeños de producción frutal            |
+| FR-82          | Árboles pequeños de producción frutal            |
+| FR-83          | Árboles pequeños de producción frutal            |
+| FR-84          | Árboles pequeños de producción frutal            |
+| FR-85          | Árboles pequeños de producción frutal            |
+| FR-86          | Árboles pequeños de producción frutal            |
+| FR-87          | Árboles pequeños de producción frutal            |
+| FR-88          | Árboles pequeños de producción frutal            |
+| FR-89          | Árboles pequeños de producción frutal            |
+| FR-9           | Árboles pequeños de producción frutal            |
+| FR-90          | Árboles pequeños de producción frutal            |
+| FR-91          | Árboles pequeños de producción frutal            |
+| FR-92          | Árboles pequeños de producción frutal            |
+| FR-93          | Árboles pequeños de producción frutal            |
+| FR-94          | Árboles pequeños de producción frutal            |
+| FR-95          | Árboles pequeños de producción frutal            |
+| FR-96          | Árboles pequeños de producción frutal            |
+| FR-97          | Árboles pequeños de producción frutal            |
+| FR-98          | Árboles pequeños de producción frutal            |
+| FR-99          | Árboles pequeños de producción frutal            |
+| OR-001         | Plantas vistosas para la decoración del jardín   |
+| OR-100         | Plantas vistosas para la decoración del jardín   |
+| OR-101         | Plantas vistosas para la decoración del jardín   |
+| OR-102         | Plantas vistosas para la decoración del jardín   |
+| OR-103         | Plantas vistosas para la decoración del jardín   |
+| OR-104         | Plantas vistosas para la decoración del jardín   |
+| OR-105         | Plantas vistosas para la decoración del jardín   |
+| OR-106         | Plantas vistosas para la decoración del jardín   |
+| OR-107         | Plantas vistosas para la decoración del jardín   |
+| OR-108         | Plantas vistosas para la decoración del jardín   |
+| OR-109         | Plantas vistosas para la decoración del jardín   |
+| OR-110         | Plantas vistosas para la decoración del jardín   |
+| OR-111         | Plantas vistosas para la decoración del jardín   |
+| OR-112         | Plantas vistosas para la decoración del jardín   |
+| OR-113         | Plantas vistosas para la decoración del jardín   |
+| OR-114         | Plantas vistosas para la decoración del jardín   |
+| OR-115         | Plantas vistosas para la decoración del jardín   |
+| OR-116         | Plantas vistosas para la decoración del jardín   |
+| OR-117         | Plantas vistosas para la decoración del jardín   |
+| OR-118         | Plantas vistosas para la decoración del jardín   |
+| OR-119         | Plantas vistosas para la decoración del jardín   |
+| OR-120         | Plantas vistosas para la decoración del jardín   |
+| OR-121         | Plantas vistosas para la decoración del jardín   |
+| OR-122         | Plantas vistosas para la decoración del jardín   |
+| OR-123         | Plantas vistosas para la decoración del jardín   |
+| OR-124         | Plantas vistosas para la decoración del jardín   |
+| OR-125         | Plantas vistosas para la decoración del jardín   |
+| OR-126         | Plantas vistosas para la decoración del jardín   |
+| OR-127         | Plantas vistosas para la decoración del jardín   |
+| OR-128         | Plantas vistosas para la decoración del jardín   |
+| OR-129         | Plantas vistosas para la decoración del jardín   |
+| OR-130         | Plantas vistosas para la decoración del jardín   |
+| OR-131         | Plantas vistosas para la decoración del jardín   |
+| OR-132         | Plantas vistosas para la decoración del jardín   |
+| OR-133         | Plantas vistosas para la decoración del jardín   |
+| OR-134         | Plantas vistosas para la decoración del jardín   |
+| OR-135         | Plantas vistosas para la decoración del jardín   |
+| OR-136         | Plantas vistosas para la decoración del jardín   |
+| OR-137         | Plantas vistosas para la decoración del jardín   |
+| OR-138         | Plantas vistosas para la decoración del jardín   |
+| OR-139         | Plantas vistosas para la decoración del jardín   |
+| OR-140         | Plantas vistosas para la decoración del jardín   |
+| OR-141         | Plantas vistosas para la decoración del jardín   |
+| OR-142         | Plantas vistosas para la decoración del jardín   |
+| OR-143         | Plantas vistosas para la decoración del jardín   |
+| OR-144         | Plantas vistosas para la decoración del jardín   |
+| OR-145         | Plantas vistosas para la decoración del jardín   |
+| OR-146         | Plantas vistosas para la decoración del jardín   |
+| OR-147         | Plantas vistosas para la decoración del jardín   |
+| OR-148         | Plantas vistosas para la decoración del jardín   |
+| OR-149         | Plantas vistosas para la decoración del jardín   |
+| OR-150         | Plantas vistosas para la decoración del jardín   |
+| OR-151         | Plantas vistosas para la decoración del jardín   |
+| OR-152         | Plantas vistosas para la decoración del jardín   |
+| OR-153         | Plantas vistosas para la decoración del jardín   |
+| OR-154         | Plantas vistosas para la decoración del jardín   |
+| OR-155         | Plantas vistosas para la decoración del jardín   |
+| OR-156         | Plantas vistosas para la decoración del jardín   |
+| OR-157         | Plantas vistosas para la decoración del jardín   |
+| OR-158         | Plantas vistosas para la decoración del jardín   |
+| OR-159         | Plantas vistosas para la decoración del jardín   |
+| OR-160         | Plantas vistosas para la decoración del jardín   |
+| OR-161         | Plantas vistosas para la decoración del jardín   |
+| OR-162         | Plantas vistosas para la decoración del jardín   |
+| OR-163         | Plantas vistosas para la decoración del jardín   |
+| OR-164         | Plantas vistosas para la decoración del jardín   |
+| OR-165         | Plantas vistosas para la decoración del jardín   |
+| OR-166         | Plantas vistosas para la decoración del jardín   |
+| OR-167         | Plantas vistosas para la decoración del jardín   |
+| OR-168         | Plantas vistosas para la decoración del jardín   |
+| OR-169         | Plantas vistosas para la decoración del jardín   |
+| OR-170         | Plantas vistosas para la decoración del jardín   |
+| OR-171         | Plantas vistosas para la decoración del jardín   |
+| OR-172         | Plantas vistosas para la decoración del jardín   |
+| OR-173         | Plantas vistosas para la decoración del jardín   |
+| OR-174         | Plantas vistosas para la decoración del jardín   |
+| OR-175         | Plantas vistosas para la decoración del jardín   |
+| OR-176         | Plantas vistosas para la decoración del jardín   |
+| OR-177         | Plantas vistosas para la decoración del jardín   |
+| OR-178         | Plantas vistosas para la decoración del jardín   |
+| OR-179         | Plantas vistosas para la decoración del jardín   |
+| OR-180         | Plantas vistosas para la decoración del jardín   |
+| OR-181         | Plantas vistosas para la decoración del jardín   |
+| OR-182         | Plantas vistosas para la decoración del jardín   |
+| OR-183         | Plantas vistosas para la decoración del jardín   |
+| OR-184         | Plantas vistosas para la decoración del jardín   |
+| OR-185         | Plantas vistosas para la decoración del jardín   |
+| OR-186         | Plantas vistosas para la decoración del jardín   |
+| OR-187         | Plantas vistosas para la decoración del jardín   |
+| OR-188         | Plantas vistosas para la decoración del jardín   |
+| OR-189         | Plantas vistosas para la decoración del jardín   |
+| OR-190         | Plantas vistosas para la decoración del jardín   |
+| OR-191         | Plantas vistosas para la decoración del jardín   |
+| OR-192         | Plantas vistosas para la decoración del jardín   |
+| OR-193         | Plantas vistosas para la decoración del jardín   |
+| OR-194         | Plantas vistosas para la decoración del jardín   |
+| OR-195         | Plantas vistosas para la decoración del jardín   |
+| OR-196         | Plantas vistosas para la decoración del jardín   |
+| OR-197         | Plantas vistosas para la decoración del jardín   |
+| OR-198         | Plantas vistosas para la decoración del jardín   |
+| OR-199         | Plantas vistosas para la decoración del jardín   |
+| OR-200         | Plantas vistosas para la decoración del jardín   |
+| OR-201         | Plantas vistosas para la decoración del jardín   |
+| OR-202         | Plantas vistosas para la decoración del jardín   |
+| OR-203         | Plantas vistosas para la decoración del jardín   |
+| OR-204         | Plantas vistosas para la decoración del jardín   |
+| OR-205         | Plantas vistosas para la decoración del jardín   |
+| OR-206         | Plantas vistosas para la decoración del jardín   |
+| OR-207         | Plantas vistosas para la decoración del jardín   |
+| OR-208         | Plantas vistosas para la decoración del jardín   |
+| OR-209         | Plantas vistosas para la decoración del jardín   |
+| OR-210         | Plantas vistosas para la decoración del jardín   |
+| OR-211         | Plantas vistosas para la decoración del jardín   |
+| OR-212         | Plantas vistosas para la decoración del jardín   |
+| OR-213         | Plantas vistosas para la decoración del jardín   |
+| OR-214         | Plantas vistosas para la decoración del jardín   |
+| OR-215         | Plantas vistosas para la decoración del jardín   |
+| OR-216         | Plantas vistosas para la decoración del jardín   |
+| OR-217         | Plantas vistosas para la decoración del jardín   |
+| OR-218         | Plantas vistosas para la decoración del jardín   |
+| OR-219         | Plantas vistosas para la decoración del jardín   |
+| OR-220         | Plantas vistosas para la decoración del jardín   |
+| OR-221         | Plantas vistosas para la decoración del jardín   |
+| OR-222         | Plantas vistosas para la decoración del jardín   |
+| OR-223         | Plantas vistosas para la decoración del jardín   |
+| OR-224         | Plantas vistosas para la decoración del jardín   |
+| OR-225         | Plantas vistosas para la decoración del jardín   |
+| OR-226         | Plantas vistosas para la decoración del jardín   |
+| OR-227         | Plantas vistosas para la decoración del jardín   |
+| OR-228         | Plantas vistosas para la decoración del jardín   |
+| OR-229         | Plantas vistosas para la decoración del jardín   |
+| OR-230         | Plantas vistosas para la decoración del jardín   |
+| OR-231         | Plantas vistosas para la decoración del jardín   |
+| OR-232         | Plantas vistosas para la decoración del jardín   |
+| OR-233         | Plantas vistosas para la decoración del jardín   |
+| OR-234         | Plantas vistosas para la decoración del jardín   |
+| OR-235         | Plantas vistosas para la decoración del jardín   |
+| OR-236         | Plantas vistosas para la decoración del jardín   |
+| OR-237         | Plantas vistosas para la decoración del jardín   |
+| OR-238         | Plantas vistosas para la decoración del jardín   |
+| OR-239         | Plantas vistosas para la decoración del jardín   |
+| OR-240         | Plantas vistosas para la decoración del jardín   |
+| OR-241         | Plantas vistosas para la decoración del jardín   |
+| OR-242         | Plantas vistosas para la decoración del jardín   |
+| OR-243         | Plantas vistosas para la decoración del jardín   |
+| OR-244         | Plantas vistosas para la decoración del jardín   |
+| OR-245         | Plantas vistosas para la decoración del jardín   |
+| OR-246         | Plantas vistosas para la decoración del jardín   |
+| OR-247         | Plantas vistosas para la decoración del jardín   |
+| OR-248         | Plantas vistosas para la decoración del jardín   |
+| OR-249         | Plantas vistosas para la decoración del jardín   |
+| OR-250         | Plantas vistosas para la decoración del jardín   |
+| OR-251         | Plantas vistosas para la decoración del jardín   |
+| OR-99          | Plantas vistosas para la decoración del jardín   |
++----------------+--------------------------------------------------+
+276 rows in set (0.00 sec)
+
++--------------------------------+-----------+
+| NombreCliente                  | Estado    |
++--------------------------------+-----------+
+| Beragua                        | Entregado |
+| Beragua                        | Rechazado |
+| Dardena S.A.                   | Entregado |
+| Dardena S.A.                   | Pendiente |
+| Dardena S.A.                   | Rechazado |
+| FLORES S.L.                    | Entregado |
+| FLORES S.L.                    | Pendiente |
+| FLORES S.L.                    | Rechazado |
+| Jardin de Flores               | Entregado |
+| Jardin de Flores               | Pendiente |
+| Jardin de Flores               | Rechazado |
+| Jardinerías Matías SL          | Entregado |
+| Jardinerías Matías SL          | Pendiente |
+| Jardines y Mansiones CACTUS SL | Entregado |
+| Jardines y Mansiones CACTUS SL | Pendiente |
+| Naturagua                      | Entregado |
+| Naturagua                      | Pendiente |
+| Naturagua                      | Rechazado |
++--------------------------------+-----------+
+18 rows in set (0.00 sec)
+
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
++---------------+-----------+
+| COUNT(Codigo) | Division  |
++---------------+-----------+
+|            72 | Atlantic  |
+|            73 | Central   |
+|            71 | NorthWest |
+|            72 | Pacific   |
+|            71 | SouthEast |
+|            73 | SouthWest |
++---------------+-----------+
+6 rows in set (0.00 sec)
+
++---------------------+---------------+-------------------------+
+| Nombre              | Nombre_equipo | AVG(Puntos_por_partido) |
++---------------------+---------------+-------------------------+
+| Jorge Garbajosa     | Raptors       |       5.799999952316284 |
+| Jose Calderon       | Raptors       |       8.600000063578287 |
+| Juan Carlos Navarro | Grizzlies     |      10.899999618530273 |
+| Pau Gasol           | Lakers        |       18.88571412222726 |
+| Sergio Rodriguez    | Trail Blazers |       3.100000023841858 |
++---------------------+---------------+-------------------------+
+5 rows in set (0.00 sec)
+
++------------------+---------------+-----------+
+| Nombre           | Nombre_equipo | Division  |
++------------------+---------------+-----------+
+| Wally Szczerbiak | Cavaliers     | Central   |
+| Nene             | Nuggets       | NorthWest |
+| Leandro Barbosa  | Suns          | Pacific   |
++------------------+---------------+-----------+
+3 rows in set (0.00 sec)
+
++--------------------+---------------+--------------+
+| Nombre             | Nombre_equipo | Ciudad       |
++--------------------+---------------+--------------+
+| Elton brand        | Clippers      | Los Angeles  |
+| Pau Gasol          | Lakers        | Los Angeles  |
+| Chris Mihm         | Lakers        | Los Angeles  |
+| Rasho Nesterovic   | Raptors       | Toronto      |
+| Eddy Curry         | Knicks        | New York     |
+| Calvin Booth       | 76ers         | Philadelphia |
+| Zydrunas Ilgauskas | Cavaliers     | Cleveland    |
+| Joe Smith          | Cavaliers     | Cleveland    |
+| Ben Wallace        | Cavaliers     | Cleveland    |
+| Dan Gadzuric       | Bucks         | Milwaukee    |
+| Kevin Garnett      | Celtics       | Boston       |
+| Marcus Banks       | Heat          | Miami        |
+| Mark Blount        | Heat          | Miami        |
+| Shawn Marion       | Heat          | Miami        |
+| Brad Miller        | Kings         | Sacramento   |
+| Chris Andersen     | Hornets       | New Orleans  |
+| Tyson Chandler     | Hornets       | New Orleans  |
+| Dikembre Mutombo   | Rockets       | Houston      |
+| Yao Ming           | Rockets       | Houston      |
+| Tim Duncan         | Spurs         | San Antonio  |
+| Kurt Thomas        | Spurs         | San Antonio  |
+| Brendan Haywood    | Wizards       | Washington   |
+| Etan Thomas        | Wizards       | Washington   |
+| Adonal Foyle       | Magic         | Orlando      |
+| Erick Dampier      | Mavericks     | Dallas       |
+| Jamaal Magloire    | Mavericks     | Dallas       |
+| Dirk Nowitzki      | Mavericks     | Dallas       |
+| Stromile Swift     | Nets          | New Jersey   |
+| Marcus Camby       | Nuggets       | Denver       |
+| Steven Hunter      | Nuggets       | Denver       |
+| Kenyon Martin      | Nuggets       | Denver       |
+| Andrei Kirilenko   | Jazz          | Utah         |
+| Jermaine O'Neal    | Pacers        | Indiana      |
+| Theo Ratliff       | Pistons       | Detroit      |
+| Rasheed Wallace    | Pistons       | Detroit      |
+| Donyell Marshall   | Supersonics   | Seattle      |
+| Shaquille ONeal    | Suns          | Phoenix      |
+| Brian Skinner      | Suns          | Phoenix      |
+| Amare Stoudemire   | Suns          | Phoenix      |
++--------------------+---------------+--------------+
+39 rows in set (0.00 sec)
+
+mysql> notee
