@@ -5,14 +5,15 @@ import java.util.ArrayList;
 
 public class RegistroVentasDiaria
 {
-    ArrayList<Float> listaVentas = new ArrayList<Float>();
+    ArrayList<Venta> listaVentas = new ArrayList<Venta>();
     ArrayList<Integer> listaCodProd = new ArrayList<Integer>();
     DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 
 
     public RegistroVentasDiaria()
+
     {
-        gethora();
+        Venta.gethora();
     }
 
 
