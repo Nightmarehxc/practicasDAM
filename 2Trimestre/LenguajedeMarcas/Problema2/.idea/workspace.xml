@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2238488b-8d08-4e64-97a0-da281ccad5c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/RegistroVentasDiaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/RegistroVentasDiaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/UT4y5Ventas/src/Venta.java" afterDir="false" />
-    </list>
+    <list default="true" id="2238488b-8d08-4e64-97a0-da281ccad5c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -57,7 +52,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,7 +69,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,17 +119,18 @@
       <workItem from="1550075844032" duration="5258000" />
       <workItem from="1550154034671" duration="1128000" />
       <workItem from="1550497824780" duration="586000" />
+      <workItem from="1550582541956" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6972000" />
+    <option name="totallyTimeSpent" value="6983000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28997868" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

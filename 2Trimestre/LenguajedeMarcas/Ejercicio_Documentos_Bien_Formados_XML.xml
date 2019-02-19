@@ -71,3 +71,144 @@ G. Medios de transporte (bf_07.xml)
     <bicicleta velocidad="v&lt;100km/h" />
     <patinete velocidad-maxima="50 km/h" />
 </mediosDeTransporte>
+
+
+        8. 1. Definir un documento XML que permita representar un libro. Deber� contener los atributos t�picos como t�tulo, autores, editorial, fecha de publicaci�n, isbn, etc.
+<Libros>
+    <Libro>
+        <titulo>
+            Moby Dick
+        </titulo>
+        <autor>
+            Herman Melville
+        </autor>
+        <editorial>
+            Richard Bentley
+        </editorial>
+        <isbn>
+            41651864165a1
+        </isbn>
+        <fecha>
+            1851
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            El hobbit
+        </titulo>
+        <autor>
+            JRR TOLKIEN
+        </autor>
+        <editorial>
+            El anillo podrido
+        </editorial>
+        <isbn>
+            6541684161865404
+        </isbn>
+        <fecha>
+            1916
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            El señor de los anillos
+        </titulo>
+        <autor>
+            JRR TOLKIEN
+        </autor>
+        <editorial>
+            El anillo podrido
+        </editorial>
+        <isbn>
+                16651891984198161
+        </isbn>
+        <fecha>
+            1945
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero "El portatil perdido"
+        </titulo>
+        <autor>
+            Jorge de la cierva
+        </autor>
+        <editorial>
+            10101101
+        </editorial>
+        <isbn>
+            101101001 1001010 101001010
+        </isbn>
+        <fecha>
+            2016
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero " La  venganza del MAC"
+        </titulo>
+        <autor>
+            Jorge de la Cierva
+        </autor>
+        <editorial>
+            No sin mi IMEI
+        </editorial>
+        <isbn>
+            19163513510
+        </isbn>
+        <fecha>
+            1965
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero "La clase abstracta y la variable perdida"
+        </titulo>
+        <autor>
+            Jorge de la Cierva
+        </autor>
+        <editorial>
+            404 Not Found
+        </editorial>
+        <isbn>
+             198181361
+        </isbn>
+        <fecha>
+            1999
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero " Viaja en el tiempo"
+        </titulo>
+        <autor>
+            Jorge de la Cierva
+        </autor>
+        <editorial>
+            Aprovechar el tiempo 
+        </editorial>
+        <isbn>
+            1651891913
+        </isbn>
+        <fecha>
+            1987
+        </fecha>
+    </Libro>
+    <Libro>
+        <titulo>
+            Pepe Torero "Y el delorian prodigioso"
+        </titulo>
+        <autor>
+            Jorge de la Cierva
+        </autor>
+        <editorial>
+            
+        </editorial>
+        <isbn>
+            1651891913
+        </isbn>
+        <fecha>
+            1988
+        </fecha>
+    </Libro>
+</Libros>

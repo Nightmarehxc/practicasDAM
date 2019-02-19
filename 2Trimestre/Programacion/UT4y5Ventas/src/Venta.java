@@ -1,6 +1,4 @@
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 
 public class Venta
@@ -26,13 +24,16 @@ public class Venta
         Venta.cod = cod;
     }
 
-    public static float getPrecio() {
+    public static float getPrecio()
+    {
         System.out.println("El precio es: "+precio);
         return precio;
     }
 
-    public static void setPrecio(float precio) {
-        Venta.precio = precio;
+    public static void setPrecio
+            (float a_precio)
+    {
+        Venta.precio = a_precio;
     }
 
     public static String gethora()
@@ -40,23 +41,17 @@ public class Venta
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
         hora = dtf.format(now);
+
         System.out.println(hora);
 
 
         return hora;
     }
-    public void modYear(String a_year)
+    public void modYear(int a_year)
     {
+        Year modAño = Year.of(1999);
+        System.out.println("El año ahora es:" +modAño);
 
-
-
-        for ( int i=0;i<4;i++)
-        {
-
-            for(int j=0;j<4;j++) {
-                hora.charAt(i) =
-            }
-        }
     }
 
 

@@ -1,52 +1,61 @@
-.cabecera
+body
 {
+    background-color: #ccccff;
+}
+.cabecera {
     text-decoration-color: azure;
-    background-color: darkblue;  
+    background-color: darkblue;
 }
-.header
-{
-    text-decoration-color: aliceblue;    color: azure;
+
+.header {
+    text-decoration-color: aliceblue;
+    color: azure;
 }
-.naveg
-{
-    background-color:darkslateblue;
+
+.naveg {
+    background-color: darkslateblue;
 }
-.container
-{
+
+.container {
     background-color: gray;
-    border:1px;
+    border-width: 2px;
+    border: 1px;
     border-style: solid;
 }
 
-.h1
-{
- background-color: gray;
+.h1 {
+    background-color: gray;
 }
-article
-{
+
+article {
     background-color: white;
     border-color: gray;
     border-style: solid;
     
+
 }
-.contenedor
-{
+
+.contenedor {
     background-color: gray;
     width: 80%;
-    
-    float :left;
+
+    float: left;
 }
-.right
-{
+
+.right {
     background-color: gray;
-    float: right;   
+    float: right;
     width: 20%;
     padding-top: 2%;
+    height: 50%;
+    margin-top: 2%;
 }
-footer
-{
+
+footer {
     text-decoration-color: aliceblue;
-    background-color: azure;
+    background-color: darkslateblue;
     float: left;
     clear: both;
+    width: 100%;
+    
 }
