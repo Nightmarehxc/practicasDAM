@@ -49,7 +49,7 @@ public class Venta
     }
     public void modYear(int a_year)
     {
-        Year modAño = Year.of(1999);
+        Year modAño = Year.of(a_year);
         System.out.println("El año ahora es:" +modAño);
 
     }

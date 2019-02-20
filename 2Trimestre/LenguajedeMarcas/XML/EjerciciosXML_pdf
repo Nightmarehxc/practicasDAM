@@ -1,0 +1,99 @@
+<!--EJERCICIO 1-->
+<Pedido>
+    <DestinatarioPedido>Juan Delgado Martínez</DestinatarioPedido> 
+    <ArticuloPedido>Bicicleta A2023</ArticuloPedido>
+    <DireccionEntrega>calle Barco, 4, 3 A</DireccionEntrega>
+    <FechaEntrega>19-5-2000</FechaEntrega>
+</Pedido>
+
+<!--EJERCICIO 2-->
+<mensaje>
+    
+    <remite>
+        <nombre>Alfredo Reino</nombre>
+        <email>alf@ibium.com</email>
+    </remite>
+    
+    <destinatario>
+        <nombre>Bill Clinton</nombre>
+        <email>president@whitehouse.gov</email>
+    </destinatario>
+    
+    <asunto>Hola Bill</asunto>
+    
+    <texto>
+        <p>¿Hola, qué tal?</p>
+        <p>Hace mucho tiempo que no escribes. A ver sis llamas y quedamos pronto.</p>
+        <p>Un saludo.</p>
+    </texto>
+    
+</mensaje>
+
+<!--EJERCICIO 3-->
+<CartaDesayunos>
+        <Gofres_Belgas>
+            <Precio_en_euros>5.95</Precio_en_euros>
+            <Descripción>Dos de nuestros famosos Gofres Belgas con abundante sirope</Descripción>
+            <Calorías>650</Calorías>
+        </Gofres_Belgas>
+        
+        <Gofres_Belgas_Con_Fresas>
+            <Precio_en_euros>7.95</Precio_en_euros>
+            <Descripción>Ligeros gofres belgas cubiertos de fresas y nata montada</Descripción>
+            <Calorías>900</Calorías>
+        </Gofres_Belgas_Con_Fresas>
+        
+        <Gofres_Belgas_Con_Frutas_Del_Bosque>
+            <Precio_en_euros>8.95</Precio_en_euros>
+            <Descripción>Ligeros gofres belgas cubiertos con frutas del bosque y nata montada</Descripción>
+            <Calorías>900</Calorías>
+        </Gofres_Belgas_Con_Frutas_Del_Bosque>
+        
+        <Tostada_Francesa>
+            <Precio_en_euros>4.50</Precio_en_euros>
+            <Descripción>Dos gruesas rebanadas de nuestro pan francés casero</Descripción>
+            <Calorías>600</Calorías>
+        </Tostada_Francesa>
+        
+        <Desayuno_De_La_Casa>
+            <Precio_en_euros>6.95</Precio_en_euros>
+            <Descripción>Dos huevos, bacon o salchicha, tostada y patatas fritas</Descripción>
+            <Calorías>950</Calorías>
+        </Desayuno_De_La_Casa>
+</CartaDesayunos>
+
+<!--EJERCICIO 4-->
+<ofertaCD>
+    <1>
+        <nombre>
+            sill got the blues
+        </nombre>
+        <artista>
+            Gary Moore
+        </artista>
+        <pais>UK
+        </pais>
+        <discografica>
+            Virgin Records
+        </discografica>
+        <precio>10.20
+        </precio>
+        <año>1990</año>
+    </1>
+    <2>
+        <nombre>
+            One night only
+        </nombre>
+        <artista>
+            Bee Gees
+        </artista>
+        <pais>UK
+        </pais>
+        <discografica>
+            Polydor
+        </discografica>
+        <precio>10.90
+        </precio>
+        <año>1998</año>
+    </2>
+</ofertaCD>

@@ -17,7 +17,8 @@ public class Main
     {
         int opcion;
        do {
-           System.out.println("Selecciona una opción:\n1)Para crear venta\n2)Imprimir registro de ventas\n3)BuscarVenta\n4)Salir");
+           System.out.println("Selecciona una opción:\n1)Para crear venta\n" +
+                   "2)Imprimir registro de ventas\n3)BuscarVenta\n4)Modificar año\n4Salir");
            opcion=sc.nextInt();
            switch (opcion) {
                case 1:
@@ -27,11 +28,17 @@ public class Main
                    rv.imprimirRegistroVentas();
                    break;
                case 3:
+                   rv.imprimirRegistroVentas();
                    rv.buscarVenta(sc.nextInt());
                    break;
                case 4:
+
+                   System.out.println("Introduce el codigo del año a modificar");
+                   rv.modAño(sc.nextInt());
+                   break;
+               case 5:
                    break;
            }
-       }while(opcion!=4);
+       }while(opcion!=5);
     }
 }

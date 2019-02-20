@@ -4,3 +4,28 @@
  Duración: Metadato con la duracion de la pista
  Número de pista: Metadato el numero de pista
  Género: Metadato con el genero musical
+
+
+Tarea 2 Sistemas Informáticos.
+
+Tipo: Te informa del modelo del archivo.
+
+Atributo: Los atributos están definidos por una letra que identifica el tipo de atributo a la cual se
+le antecede el símbolo + en caso que queramos agregarle dicho atributo o el símbolo - en caso que 
+queramos quitarle dicho atributo.
+Atributo	Significado		Ejemplo quitando atributo	Ejemplo agregando atributo
+r	read, archivo de solo lectura		-r					+r
+a	archive, tipo archivo comun		-a					+a
+s	system, archivo del sistema		-s					+s
+h	Hidden, archivo oculto			-h					+h
+
+Paginas: Sale en documentos que contengan páginas como Word o Powerpoint, en los que te indica el número de páginas
+que contiene el documento.
+
+Duración: Es para archivos como vídeos o música, archivos que tienen una duración determinada y este
+detalle de archivo te la indica.
+
+Número de pista: Suele estar indicado para el reproductor de Windows media, para llevar una organización
+en la reproducción de pistas y el orden que quieres que sucedan.
+
+Género: No esta en uso actualmente.
