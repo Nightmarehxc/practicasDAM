@@ -33,7 +33,7 @@ public class Main
                    break;
                case 4:
 
-                   System.out.println("Introduce el codigo del año a modificar");
+                   System.out.println("Introduce el codigo de venta del año a modificar");
                    rv.modAño(sc.nextInt());
                    break;
                case 5:
