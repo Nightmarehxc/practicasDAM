@@ -1,0 +1,1 @@
+El gestor de arranque que se utiliza en los equipos de clase, es el grub.

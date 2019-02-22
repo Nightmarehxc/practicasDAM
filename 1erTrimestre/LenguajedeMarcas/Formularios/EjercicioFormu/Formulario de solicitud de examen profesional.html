@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario de solicitud</title>
+    <link link rel="stylesheet" href="./css/FormularioSolicitudExamenEstilos.css" />
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1 class=cabecera> FORMULARIO DE SOLICITUD DE EXAMEN PROFESIONAL</h1>
+        </header>
+
+        <div class="imagen"><img src="pc.jpg" width="100%"></div>
+        <form>
+
+            <fieldset>
+                <table>
+                    <legend>Datos Personales</legend>
+                    <tr>
+                        <td class="datos">Tipo de Documento*</td>
+                        <td class="campos">
+                            <select name="Documento">
+                                <option value="Selecciona" selected>Selecciona...</option>
+                                <option value="NIF">NIF</option>
+                                <option value="NIE">NIE</option>
+                                <option value="Pasaporte">Pasaporte</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="datos"> Número*</td>
+                        <td class="campos"> <input type="text" name="Número" style="width:100%"></td>
+                    </tr>
+                    <tr>
+                        <td class="datos"> Nombre*</td>
+                        <td class="campos"> <input type="text" name="Nombre" style="width:100%"></td>
+                    </tr>
+                    <tr>
+                        <td class="datos"> Apellidos*</td>
+                        <td class="campos"> <input type="text" name="Apellidos" style="width:100%"></td>
+                    </tr>
+                    <tr>
+                        <td class="datos"> Sexo*</td>
+                        <td class="campos"><input type="radio" name="Sexo" value="Hombre">Hombre<input type="radio" name="Sexo" value="Mujer">Mujer</td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <table>
+                    <legend>Datos de Contacto</legend>
+                    <tr>
+                        <td class="datos">Correo electrónico</td>
+                        <td class="campos"><input type="text" name="Email" style="width:100%"</td>
+                    </tr>
+
+                    <tr>
+                        <td class="datos">Teléfono fijo</td>
+                        <td class="campos"><input type="text" name="TeléfonoFijo" style="width:100%"</td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <table>
+                    <legend>Datos del Examen</legend>
+                    <tr>
+                        <td class="datos">¿En qué ciudades te gustaría realizar el examen?*</td>
+                        <td class="campos">
+                            <input type="checkbox" name="ciudad" value="Madrid">Madrid
+                            <input type="checkbox" name="ciudad" value="Bcn">Barcelona
+                            <input type="checkbox" name="ciudad" value="Coruña">La Coruña
+                            <input type="checkbox" name="ciudad" value="Sevilla">Sevilla
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="datos">Selecciona los exámenes que vas a realizar*</td>
+                        <td class="campos">
+                            <select size="4">
+                                <optgroup label=---"Programación---">
+                                    <option value="C">C</option>
+                                    <option value="C++">C++</option>
+                                    <option value="Java">Java</option>
+                                    <option value="HTML">Html</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="datos">Fecha de solicitud*</td>
+                        <td class="campos">
+                            <input type="date" style="width:100%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="datos">Información adicional</td>
+                        <td class="campos"><textarea rows="5" style="width:100%"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td class="datos">Méritos</td>
+                        <td class="campos"><input name="browse" type="button" value="Browse..." disabled="yes" style="border-radius: 5px"> No file selected.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <center>
+                                <button name="enviar" type="submit" value="enviar">Enviar</button>
+                                <button name="borrar" type="reset" value="borrar">Borrar</button>
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </center>
+</body>
+
+</html>
+
+<!--<div class="datos">
+               <label for="datos">Tipo de documento* </label>
+           </div>
+           <div class="campos">
+               <select name="Documento">
+                   <option value="Selecciona" selected>Selecciona...</option>
+                   <option value="NIF">NIF</option>
+                   <option value="NIE">NIE</option>
+                   <option value="Pasaporte">Pasaporte</option>
+               </select>
+           </div>
+           <div class="datos">
+               <label for="campos">Número* </label>
+           </div>
+           <div class="campos">
+               <input type="text" name="Número">
+           </div>
+           <div class="datos">
+               <label for="campos">Número* </label>
+           </div>-->

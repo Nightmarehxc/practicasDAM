@@ -1,0 +1,64 @@
+
+.subtitulocapitulo-incompleto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #FF0000;
+	background-color: #FAF9FA;
+}
+
+.preguntas-cues-incompleta {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #FF0000;
+	background-color: #FBF9FB;
+}
+
+.respuestas-cues-incompleta {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;	
+	color: #FF0000;
+}
+
+.chart {
+   border-style:solid;
+   border-width:1px;
+}
+
+div.container{
+width: 100%;
+background:  url(../img/bordo_inf_dx.gif) no-repeat bottom right;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+div.head{
+background:  url(../img/bordo_sup_dx.gif) no-repeat top right;
+margin: 0;
+padding: 0;
+}
+
+p.sabias{
+	background: url(../img/bordo_sup_sx.gif) no-repeat top left;
+	margin:0;
+	padding: 20px 0 5px 28px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #401C38;	
+	font-style: normal;	
+}
+
+div.container div.body{
+background: url(../img/bordo_inf_sx.gif) no-repeat bottom left;
+margin: 0;
+padding: 10px 10px 20px 15px;
+font-size:.95em;
+}
+
+div.body p{
+padding: 0 10px 0 15px;
+}

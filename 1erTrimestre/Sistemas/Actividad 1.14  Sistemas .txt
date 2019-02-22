@@ -1,0 +1,4 @@
+Averigua si en tu centro se utiliza algún punto de acceso o medio no guiado.
+
+En el centro sí hay un punto de acceso o medio no guiado, ya que existe señal 
+wifi, en el que no se está utilizando ningún tipo de cable

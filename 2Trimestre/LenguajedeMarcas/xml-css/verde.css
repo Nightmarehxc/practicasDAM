@@ -1,0 +1,17 @@
+libro
+{
+    display: block;
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    width: auto;
+}
+titulo,autor,fecha
+{
+    background-color: aquamarine;
+    font-weight: bold;
+      display: block;
+    font-family: sans-serif;
+    font font-size: 24px;
+}

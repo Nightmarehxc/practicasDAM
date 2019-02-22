@@ -1,0 +1,21 @@
+WINDOWS  				DB Student / student*
+GMAIL					dawmiellago2018@gmail.com / dawmi2018*
+
+USUARIO DE ORACLE SUPPORT               dawmiellago2018@gmail.com  / Dawmi2018*
+
+
+ORACLE DATABASE
+USUARIO DE WINDOWS EN QUE SE INSTALA	oracleadministrador / oracleadministrador
+BASE DE DATOS GLOBAL  			dborcl
+BASE DE DATOS DE CONEXION 		dborcl
+ADMINISTRADOR ORACLE  			oracledawmi *cambiada despues de la instalacion a oracle
+SYSTEM					oracle
+SYS					oracle
+ANONYMOUS				anonymous
+
+
+
+
+
+
+

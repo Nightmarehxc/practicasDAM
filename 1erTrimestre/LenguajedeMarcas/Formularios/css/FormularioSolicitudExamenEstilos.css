@@ -1,0 +1,41 @@
+.cabecera{
+	background-color:maroon;
+	color:white;
+	text-align:center;
+
+}
+
+.imagen {
+	width: 33%;
+	padding-left:33%;
+	padding-right:33%;
+	align-content: center;
+}
+table{
+    width:100%;
+}
+fieldset {
+	width: 75%;
+	color: darkred;
+	text-align: left;
+	border-color: darkred;
+}
+.datos {
+	text-align: right;
+	color: white;
+	background-color: darkred;
+	width: 25%;
+}
+.campos {
+    text-align: left;
+    width: 75%;
+
+}
+input [type="radio"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox; /* Firefox */
+    -ms-appearance: checkbox; /* IExplorer */
+}
+option{
+    background-color:orangered;
+}

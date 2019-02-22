@@ -1,0 +1,10 @@
+Busca información sobre el procesador de tu equipo
+
+Frecuencia básica del procesador 2,00 GHz
+Caché 3 MB SmartCache
+Velocidad del bus 4 GT/s OPI
+TDP 15 W
+El Intel Core I3-6006U es un procesador de bajo consumo basado en Skylake y dirigido a equipos portátiles.
+
+Como todos los Core i3 tiene 2 núcleos y 4 hilos, aunque al ser de bajo consumo su frecuencia de trabajo es de apenas 2 GHz,
+por lo que no es recomendable para aplicaciones muy exigentes, como juegos.

@@ -1,0 +1,4 @@
+Busca información sobre los conectores externos disponibles en tu equipo
+
+Mi equipo tiene tres conectores USB, un puerto ethernet, jack para auriculares y micrófono, un puerto HDMI y 
+lector de tarjetas SD

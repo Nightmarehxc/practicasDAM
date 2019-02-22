@@ -1,0 +1,20 @@
+Busca información sobre la capacidad y precio de los distintos tipos de discos que se encuentran en el mercado
+
+Las clases de discos duros que existen se conocen como: disco duro SAS, el disco duro SCSI, 
+el disco duro IDE, ATA, PATA; así mismo como los discos duros SATA y SATA 2.
+
+Los discos SAS tienen capacidades de entre 300GB y 900GB y su precio es de 90-250€
+
+Para discos duros SCSI la capacidad puede estar entre 10 MegaBytes (MB) hasta 300 GB y su precio 100-300€
+
+Los discos duros IDE se encuentran en el rango de los 30 MB (Megabytes) hasta 750 GB (Gigabytes) y su precio es de 30-250€
+
+Los discos duros SATA se encuentran en el rango de los 80 GB hasta 400 GB y su precio puede rondar los 50-400€
+
+Los discos duros SATA II se encuentran entre los 80 GB hasta 2 TB y el precio es de 50-900€
+
+
+
+
+
+

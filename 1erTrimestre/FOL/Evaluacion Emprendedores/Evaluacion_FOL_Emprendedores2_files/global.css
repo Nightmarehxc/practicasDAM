@@ -1,0 +1,148 @@
+.titulocapitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-style: normal;
+	font-weight: bold;
+	color: #5f294f;
+}
+.subtitulocapitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #990066;
+	background-color: #FAF9FA;
+}
+.texto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #333333;
+}
+.titulo-cues {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #401C38;
+	background-color: #D6CBD2;
+	font-style: normal;
+	vertical-align: middle;
+	line-height: normal;
+}
+.subtitulo-cues {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #000000;
+	background-color: #FBF9FB;
+}
+.preguntas-cues {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #401C38;
+	background-color: #FBF9FB;
+}
+.respuestas-cues {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #875A7C;
+	text-align: left;
+}
+.tablageneral {
+	background-image: url(../img/final-etapas.gif);
+	text-decoration: overline;
+}
+.fondogris {
+	background-image: url(../img/fondo-gris.gif);
+	background-repeat: repeat-x;
+}
+.sino {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	color: #401C38;
+	background-color: #D6CBD2;
+	font-style: normal;
+	text-align: center;
+}
+.tablasfondos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #5F294F;
+	background-color: #FCFBFD;
+	vertical-align: top;
+	text-align: left;
+}
+.tablascontenedores {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #5F294F;
+	background-color: #FCFBFD;
+	vertical-align: middle;
+	text-align: center;
+}
+.tablascontenedores-info {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #5F294F;
+	background-color: #FCFBFD;
+	vertical-align: middle;
+	text-align: center;
+}
+.cajaconfe {
+	background-image: url(../img/fconfe.gif);
+	background-repeat: repeat;
+}
+.vinculospag {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #3B1F38;
+	text-align: right;
+}
+.subtitulo-res {
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #666666;
+}
+.textonav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: normal;
+	color: #333333;
+	text-align: justify;
+}
+.lista {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #492942;
+	background-color: #D6CBD2;
+	font-style: normal;
+}
+.titulo-cues-bn {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #401C38;
+	background-color: #f0f0f0;
+	font-style: normal;
+	vertical-align: middle;
+	line-height: normal;
+}
+.fondosabiasque {
+	background-image: url(../img/fconfemorado.gif);
+	background-repeat: repeat;
+}
+.respuestas-sabiasque {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #875A7C;
+	text-align: center;
+}

@@ -1,0 +1,4 @@
+Busca información sobre los discos duros de tu equipo (tipo, particiones, unidades y sistemas
+de archivo)
+
+SATA de 1 TB 5400 rpm, tiene dos particiones, una de 914GB y otra de 15,9GB
