@@ -7,36 +7,37 @@ public class RegistroVentasDiaria {
     //ArrayList<Venta> listaVentas = new ArrayList<Venta>();
     //ArrayList<Integer> listaCodProd = new ArrayList<Integer>();
     DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-    static int nVentas = 1;
+    public static int nVentas = 1;
     int ventasPopulares[] = new int[11];////////////////////0,1,2,3,4,5,6,7,8,9,10
     static Scanner scanner = new Scanner(System.in);
-    public static Venta [] listaVentas = new Venta[nVentas];
+    static Venta [] listaVentas = new Venta[nVentas];
 
     public RegistroVentasDiaria() {
 
     }
 
-    void crearVenta() {
-
-        System.out.println("Introduce  el codigo");
+    public static void crearVenta() {
+        System.out.println("Venta numero "+ nVentas);
+        System.out.println("Introduce  el codigo de producto");
         int a_cod = scanner.nextInt();
         System.out.println("Introduce  el precio");
         float a_price = scanner.nextFloat();
         System.out.println("Confirmar Venta\nS)Confirmar\n N)Cancelar)");
 
-        switch (scanner.next()) {
-            case "s":
-                int i = 0;
-                for (i = 0; i < listaVentas.length; i++) {
-                    ///Insertar el bucle
-                    listaVentas[i] = new Venta(a_cod, a_price);
 
-                }
+        switch (scanner.next()) {
+
+            case "s":
+
+                listaVentas[nVentas] = new Venta(a_cod, a_price);
+                int i =nVentas;
                 nVentas++;
-                System.out.println("Cuenta creada satisfactoriamente");
+                System.out.println("Venta"+i+ "creada satisfactoriamente");
+
+                break;
 
             case "n":
-                System.out.println("Creacion de cuenta cancelada");
+                System.out.println("Venta cancelada");
                 break;
         }
                /* ///Metodo para gestionar la popularidad
@@ -79,9 +80,12 @@ public class RegistroVentasDiaria {
     }
 
 
-    void imprimirRegistroVentas() {
+    void imprimirRegistroVentas()
+    {
         System.out.println("Nº de ventas: " + listaVentas.length);
-        for (int i = 0; i < listaVentas.length; i++) {
+        for (int i = 0; i < listaVentas.length; i++)
+        {
+            System.out.println("Numero de venta" + i);
             listaVentas[i].gethora();
             listaVentas[i].getCod();
             listaVentas[i].getPrecio();
@@ -97,23 +101,23 @@ public class RegistroVentasDiaria {
         }
     }
 
-    static int buscaProductoEstrella(Venta [] listaVentas){
+    static int buscaProductoEstrella(Venta [] listaVentas)
+    {
         int i;
-        int productoEstrella;
+        int productoEstrella = 0;
 
         for (i=0;i<listaVentas.length;i++){
 
             productoEstrella = listaVentas[i].cod;
-
-            if (listaVentas[i]=)
 
         }
 
         return productoEstrella;
     }
 
-    static void modAño(int a_cod) {
-
+    static void modAño(int a_cod)
+    {
+        System.out.println("Indroduce el año a modificar");
         listaVentas[a_cod].modYear(scanner.nextInt());
 
     }

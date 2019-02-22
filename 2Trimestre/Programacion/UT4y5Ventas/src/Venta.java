@@ -4,12 +4,14 @@ import java.time.format.DateTimeFormatter;
 public class Venta
 {
     public static String hora;
+
     public static int cod;
     public static float precio;
 
 
     public Venta(int a_cod, float a_precio)
     {
+
         hora = gethora();
         cod = a_cod;
         precio = a_precio;
@@ -21,6 +23,7 @@ public class Venta
     }
 
     public static void setCod(int cod) {
+
         Venta.cod = cod;
     }
 
@@ -30,8 +33,7 @@ public class Venta
         return precio;
     }
 
-    public static void setPrecio
-            (float a_precio)
+    public static void setPrecio (float a_precio)
     {
         Venta.precio = a_precio;
     }
@@ -44,12 +46,13 @@ public class Venta
 
         System.out.println(hora);
 
-
         return hora;
     }
     public void modYear(int a_year)
     {
+
         Year modAño = Year.of(a_year);
+
         System.out.println("El año ahora es:" +modAño);
 
     }
