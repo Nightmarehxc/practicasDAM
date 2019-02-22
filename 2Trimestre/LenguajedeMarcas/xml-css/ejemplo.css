@@ -1,8 +1,12 @@
-biblioteca,titulo,autor,fecha
+biblioteca,autor,fecha
 {
 
     font-weight: bold;
-      display: block;
+    display: block;
     font-family: sans-serif;
-    font font-size: 24px;
+    font-size: 24px;
+}
+titulo
+{
+    font-size: 32px;
 }
