@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./css/blanco.css"?>
+<biblioteca>
+    <libro>
+        <titulo>EL SEÑOR DE LOS ANILLOS</titulo>
+        <autor>J.R.R. Tolkien</autor>
+        <fecha>1954</fecha>
+    </libro>
+    <libro>
+        <titulo>EL LABERINTO DE LOS ESPÍRITUS</titulo>
+        <autor>Carlos Ruíz Zafón</autor>
+        <fecha>2016</fecha>
+    </libro>
+    <libro>
+        <titulo>LA CHICA DEL TREN</titulo>
+        <autor>Paula Hawkins</autor>
+        <fecha>2015</fecha>
+    </libro>
+</biblioteca>
