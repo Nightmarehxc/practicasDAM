@@ -1,0 +1,9 @@
+Busca información de la memoria RAM de tu equipo
+
+La memoria RAM de mi equipo es HP DDR3-1600 de 8 GB (1x8 GB) MHz ECC lo que permite:
+
+-Tiempos de puesta en marcha más rápidos con menos retrasos durante operaciones rutinarias
+
+-Más programas en ejecución a la vez
+
+-Alternancia fácil entre varias aplicaciones abiertas

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head><title>PAGINA CON UN FORMULARIO COMPLETO</title></head>
+<body bgcolor="ORANGE">
+  <center>
+  <h1>FORMULARIO COMPLETO</h1>
+  <form method="get" action="http://www.eui.upm.es/~salonso/curso/procesa.php">
+   <table border="1" cellspacing="10">
+   <tr>
+     <td>Texto:</td>
+     <td><input type="Text" name="Texto"></td>
+     <td>Password:</td>
+     <td><input type="Password" name="Password"></td>
+   </tr>
+   <tr>
+     <td>Textarea:</td>
+     <td colspan="3">
+       <textarea name="Textarea" rows="5" cols="55">
+       </textarea></td>
+     <td></td>
+   </tr>
+   <tr>
+     <td align="right">
+        Campo check 1:  <input type="Checkbox" name="elcheck1" value="si"><br>
+        Campo check 2:  <input type="Checkbox" name="elcheck2" value="si"><br>
+        Campo check 3:  <input type="Checkbox" name="elcheck3" value="si"></td>
+     <td align="center">
+       Radio1:<input type="Radio" name="Radio" value="r1"><br>
+       Radio2:<input type="Radio" name="Radio" value="r2"></td>
+     <td valign="top" align="center">Selecci&oacute;n: 
+        <select name="Seleccion_simple">
+          <option value="primera">primera</option>
+          <option value="segunda">segunda</option>
+          <option value="tercera">tercera</option>
+        </select></td>
+     <td align="center">Selecci&oacute;n Multiple:<br>
+        <select name="Seleccion_multiple[]" multiple>
+          <option value="primera">primera</option>
+          <option value="segunda">segunda</option>
+          <option value="tercera">tercera</option>
+        </select><br>
+        <br><br></td>
+   </tr>
+  </table>
+  <br>
+   <input type="button" name="Un Boton" value="Boton"> 
+   <input type="reset" name="Restablecer" value="Iniciar"> 
+   <input type="submit" name="Enviar" value="Enviar">
+ </form>
+ </center>
+</body>
+</html>

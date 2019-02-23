@@ -1,0 +1,5 @@
+Actividad 1.1 
+
+Disipador para procesador Intel Core i5-6600k (cuyo TDP es de 91W) recomendado: Cooler Master Hyper 212X.
+
+Fuente: https://www.gizcomputer.com/cooler-master-hyper-212x-opiniones-precio/

@@ -1,0 +1,5 @@
+Busca información sobre el conector USB otg
+El OTG o USB OTG (On-The-Go), es una extensión de USB 2.0 que permite a los dispositivos 
+con puertos USB más flexibilidad en la gestión de dicha conexión pudiendo conectar cualquier 
+dispositivo mediante USB a nuestro smartphone o tablet ya sea una cámara digital, un pendrive,
+un módem USB, un teclado, un ratón, etc.

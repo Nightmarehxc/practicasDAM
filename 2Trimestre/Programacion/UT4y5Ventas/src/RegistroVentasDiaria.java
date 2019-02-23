@@ -7,10 +7,11 @@ public class RegistroVentasDiaria {
     //ArrayList<Venta> listaVentas = new ArrayList<Venta>();
     //ArrayList<Integer> listaCodProd = new ArrayList<Integer>();
     DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-    public static int nVentas = 1;
+    static int nVentas = 1;
     int ventasPopulares[] = new int[11];////////////////////0,1,2,3,4,5,6,7,8,9,10
     static Scanner scanner = new Scanner(System.in);
     static Venta [] listaVentas = new Venta[nVentas];
+    static int i=0;
 
     public RegistroVentasDiaria() {
 
@@ -29,9 +30,9 @@ public class RegistroVentasDiaria {
 
             case "s":
 
-                listaVentas[nVentas] = new Venta(a_cod, a_price);
-                int i =nVentas;
+                listaVentas[i] = new Venta(a_cod, a_price);
                 nVentas++;
+                i++;
                 System.out.println("Venta"+i+ "creada satisfactoriamente");
 
                 break;

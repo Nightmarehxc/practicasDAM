@@ -1,0 +1,22 @@
+Indica las diferencias de los distintos conectores de la tarjeta gráfica.
+
+El conector VGA es un conector completamente analógico, lo que significa que 
+para usar una adaptador desde este conector al HDMI y al DisplayPort, deberá de ser un 
+adaptador activo que transforme la señal analógica en digital. Este tipo de conector solo 
+se emplea en tarjetas gráficas muy antiguas o de gama muy baja
+
+El conector DVI es el primer modelo de conector de datos completamente digital que se 
+empleó para transmitir la imagen desde la gráfica hasta el monitor, superando bastante la 
+calidad de la imagen analógica que proveía el conector VGA.
+
+El conector HDMI se ha convertido, desde su introducción en el ámbito del hardware, en el 
+sucesor de facto del antiguo conector VGA, incorporándolo ahora mismo casi todas las 
+tarjetas gráficas y monitores del mercado. Es el único cable que era capaz de transmitir 
+tanto imagen como sonido a la vez por un mismo cable.
+
+El DisplayPort es el tipo de conector que más recientemente ha llegado al mercado de hardware
+informático y pretende ser el sustituto del actual HDMI y al más antiguo DVI. Esencialmente, 
+este conector también puede transmitir audio y vídeo de manera simultánea entre la tarjeta 
+gráfica y el monitor y, aunque para las interfaces digitales no se necesitan adaptadores 
+activos, sí es necesario en caso de querer convertir una señal analógica como la del 
+conector VGA al estándar de datos.

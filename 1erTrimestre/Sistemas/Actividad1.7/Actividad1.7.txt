@@ -1,0 +1,6 @@
+Busca información sobre el conector USB tipo C
+El USB tipo C (USB-C) es un conector USB que permite transferir datos, vídeo y energía de forma
+simultánea entre dispositivos USB y otros dispositivos como discos duros, monitores o hubs. 
+La velocidad será de 10 Gbps, lo que supone el doble de velocidad que el actual USB 3.0 capaces 
+de soportar potencias eléctricas de 100W (20V y 5A) que son más que suficientes para cargar 
+portátiles pero también para cargar simultáneamente varios dispositivos móviles. 

@@ -1,0 +1,24 @@
+libro
+{
+    background-color: lightgreen;
+    border-style: solid;
+    border-color: black;
+    width: auto;
+    margin: 10px;
+    display: block;
+}
+titulo
+{
+       font-weight: bold;
+    display: block;
+    font-size: 32px;
+    
+}
+autor,fecha
+{
+
+    
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+}

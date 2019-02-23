@@ -1,0 +1,6 @@
+Busca información sobre la tarjeta grafica de tu equipo
+
+la tarjeta gráfica de mi equipo es Intel HD Graphics 520 es una unidad gráfica integrada de la generación Skylake,que puede
+ser encontrada en varios procesadores ULV (Ultra Low Voltage) de la generación Skylake.Debido a la falta de memoria gráfica
+dedicada o cache eDRAM, la HD 520 debe acceder la memoria principal.
+ 
