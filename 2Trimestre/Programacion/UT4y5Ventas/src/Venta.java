@@ -22,9 +22,9 @@ public class Venta
         return cod;
     }
 
-    public static void setCod(int cod) {
+    public static void setCod(int a_cod) {
 
-        Venta.cod = cod;
+        cod = a_cod;
     }
 
     public static float getPrecio()

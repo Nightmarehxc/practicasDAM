@@ -1,5 +1,6 @@
 import java.time.Year;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 @SuppressWarnings("SyntaxError")
@@ -7,17 +8,19 @@ public class RegistroVentasDiaria {
     //ArrayList<Venta> listaVentas = new ArrayList<Venta>();
     //ArrayList<Integer> listaCodProd = new ArrayList<Integer>();
     DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-    static int nVentas = 1;
+    static int nVentas = 0;
     int ventasPopulares[] = new int[11];////////////////////0,1,2,3,4,5,6,7,8,9,10
     static Scanner scanner = new Scanner(System.in);
     static Venta [] listaVentas = new Venta[nVentas];
-    static int i=0;
+    static ArrayList<Venta>  lVentas = new ArrayList<Venta>();
+    static int i=1;
 
     public RegistroVentasDiaria() {
 
     }
 
-    public static void crearVenta() {
+    public static void crearVenta()
+    {
         System.out.println("Venta numero "+ nVentas);
         System.out.println("Introduce  el codigo de producto");
         int a_cod = scanner.nextInt();
@@ -29,12 +32,21 @@ public class RegistroVentasDiaria {
         switch (scanner.next()) {
 
             case "s":
+                 nVentas = lVentas.size();
 
-                listaVentas[i] = new Venta(a_cod, a_price);
+                System.out.println(nVentas);
+                lVentas.add(
+                        new Venta(a_cod,a_price));
+                System.out.println(lVentas.get(nVentas));
+
+/*
+
                 nVentas++;
-                i++;
+                i=nVentas;
+                listaVentas[nVentas] = new Venta(a_cod, a_price);
+                System.out.println(listaVentas.length);
                 System.out.println("Venta"+i+ "creada satisfactoriamente");
-
+*/
                 break;
 
             case "n":
@@ -45,7 +57,7 @@ public class RegistroVentasDiaria {
                 switch (listaVentas[i].cod)
                 {
                     case 0:
-                        ventasPopulares[i] = ventasPopulares[i] + 1;
+                        ventasPopulares[i] = ventasPopulares[i] + 1;f
                         break;
                     case 1:
                         ventasPopulares[i] = ventasPopulares[i] + 1;
@@ -83,20 +95,25 @@ public class RegistroVentasDiaria {
 
     void imprimirRegistroVentas()
     {
-        System.out.println("Nº de ventas: " + listaVentas.length);
+        for(i=0;i < lVentas.size();i++) {
+
+            lVentas.get(i).getCod();
+            lVentas.get(i).getPrecio();
+        }
+        /*System.out.println("Nº de ventas: " + listaVentas.length);
         for (int i = 0; i < listaVentas.length; i++)
         {
             System.out.println("Numero de venta" + i);
             listaVentas[i].gethora();
             listaVentas[i].getCod();
             listaVentas[i].getPrecio();
-        }
+        }*/
     }
 
     static void buscarVenta(int codigoBusqueda) {
 
-        for (int i = 0; (i < nVentas) || (listaVentas[i].cod != codigoBusqueda); i++) {
-            if (listaVentas[i].cod == codigoBusqueda) {
+        for (int i = 0; (i < nVentas) || (lVentas.get(i).getCod() != codigoBusqueda); i++) {
+            if (lVentas.get(i).getCod() == codigoBusqueda) {
                 System.out.println("La posición en la que está el producto es en la: " + i);
             }
         }

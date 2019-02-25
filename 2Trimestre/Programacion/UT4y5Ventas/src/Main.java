@@ -23,6 +23,7 @@ public class Main
            switch (opcion) {
                case 1:
                    rv.crearVenta();
+
                    break;
                case 2:
                    rv.imprimirRegistroVentas();
