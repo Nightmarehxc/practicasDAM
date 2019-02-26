@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="estilo1.css" type="text/css"?>
+<programacion>
+    <programa>
+        <titulo>HOUSE</titulo>
+        <descripcion>House discute con el jefe de control del
+            CDC.</descripcion>
+        <creditos>
+            <productor>David Shore</productor>
+            <actor>Hugh Laurie</actor>
+            <actor>Lisa Edelstein</actor>
+            <actor>Robert Sean Leonard</actor>
+        </creditos>
+        <fecha>2004</fecha>
+        <categoria>Serie</categoria>
+    </programa>
+</programacion>

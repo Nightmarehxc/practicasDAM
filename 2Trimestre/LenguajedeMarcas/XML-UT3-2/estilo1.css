@@ -1,0 +1,20 @@
+programacion
+{
+    background-color: red;
+}
+programa {
+    display: block;
+    color: blue;
+}
+
+titulo {
+    display: block;
+    font-size: 2em;
+    color: silver;
+    text-align: center;
+}
+
+actor {
+    display: block;
+    background-color: silver;
+}
