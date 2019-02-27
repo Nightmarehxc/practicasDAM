@@ -11,7 +11,7 @@ public class Main {
     {
 
         ArrayList<Integer> arl = new ArrayList<Integer>();
-        //int numM = sc.nextInt();
+
         int maxN=0;
 
     boolean activado=true;
