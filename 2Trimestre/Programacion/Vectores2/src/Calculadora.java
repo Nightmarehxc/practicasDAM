@@ -2,7 +2,9 @@ public class Calculadora
 {
     public static int v,v1;
     static int  resultado;
+    static int max;
     public Calculadora()
+
     {
         int v,v1;
     }
@@ -19,4 +21,16 @@ public class Calculadora
 
         return resultado;
     }
+
+    public static void Max(int a_1,int a2)
+    {
+        max = a_1;
+        if (a_1 > a2)
+        {
+            max = a_1;
+
+        }
+
+    }
+
 }
