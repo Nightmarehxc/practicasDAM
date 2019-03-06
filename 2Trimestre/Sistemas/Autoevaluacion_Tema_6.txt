@@ -1,0 +1,131 @@
+RESPUESTAS:
+1. b
+2. a
+3. a
+4. b
+5. c
+6. b
+7. a
+8. b
+9. b
+10. a
+11. a
+12. c
+13. b
+14. c
+15. b
+16. b
+17. c
+18. b
+
+PREGUNTAS:
+1 AUTOEVALUACIÓN
+En un sistema en red, el transmisor:
+a) Genera los datos a transmitir
+b) Transmite la información
+c) Permite la transmisión
+d) Recibe la información
+
+2 AUTOEVALUACIÓN
+Cuando utilizamos ficheros de otros usuarios, estamos:
+a) Compartiendo información dentro de una red
+b) Compartiendo recursos dentro de una red
+c) Las dos respuestas son correctas
+
+3 AUTOEVALUACIÓN
+Las redes de área local son redes que:
+a) Conectan equipos dentro de un entorno físico reducido, como puede ser una empresa, una universidad, un colegio, etc…
+b) Cubren extensiones mayores como puede ser una ciudad, municipio, polígono o un distrito
+c) Cubren grandes regiones geográficas como un país, un continente o incluso el mundo
+
+4 AUTOEVALUACIÓN
+Las redes punto a punto se caracterizan por:
+a) Ser muy baratas
+b) Su alta velocidad de transmisión y seguridad
+c) Las dos respuestas son correctas
+
+5 AUTOEVALUACIÓN
+La técnica de conmutación mas antigua es la técnica de:
+a) Paquetes
+b) Circuitos
+c) Mensajes
+
+6 AUTOEVALUACIÓN
+En un sistema de transmisión por conmutación de circuitos…
+a) La información que se va a transmitir se divide en trozos llamados paquetes
+b) Cuando se establece una comunicación, primero se establece el camino que va a seguir la información, posteriormente se transmite y finalmente se procede a la desconexión
+c) La información llega desordenada por lo tanto es necesario de un mecanismo de ordenación en el receptor
+
+7 AUTOEVALUACIÓN
+En un sistema de transmisión por conmutación de paquetes…
+a) La información se transmite de un nodo a otro sin tener en cuenta los demás nodos que intervienen, por tanto la información puede llegar desordenada al destino
+b) La información es dividida en trozos llamados paquetes y son transmitidos por los nodos de la red estableciendo para todos ellos el mismo camino
+c) El uso mas común que se da a este sistema es el de las llamadas telefónicas.
+d) La información llega de manera ordenada al destino
+
+8 AUTOEVALUACIÓN
+En los sistemas distribuidos, a los equipos, se les da el nombre de:
+a) Terminales
+b) Terminales tontos
+c) Servidores
+
+9 AUTOEVALUACIÓN
+En la topología en bus:
+a) El equipo siempre recibe mensajes del anterior, y cuando no van dirigidos a el los transmite al equipo siguiente
+b) Los mensajes se envían, a través del canal, a todas las estaciones, y rebotan de un extremo a otro del canal para, posteriormente, ser admitidos por el equipo al que van dirigidos
+c) Los mensajes que van de un equipo a otro deben pasar por un nodo central
+
+10 AUTOEVALUACIÓN
+Un protocolo de comunicación consiste en:
+a) Un conjunto de reglas que posibilitan que dos entidades puedan intercambiar información de manera ordenada y libre de errores
+b) La división en capas o niveles
+c) Las dos son correctas
+
+11 AUTOEVALUACIÓN
+Cuando se envía un mensaje de un equipo a otro:
+a) El emisor actúa sobre la capa superior y ésta con la inmediatamente inferior hasta llegar a la última del protocolo y el destino recibe la información a través de la inferior hacia la más superior
+b) Las capas del protocolo intercambian información entre capas de distinto nivel del protocolo de comunicación
+c) El emisor se comunica de la más inferior hacia la más superior y en el destino ocurre a la inversa
+d) El emisor y el receptor actúan sobre la misma capa del protocolo de comunicación
+
+12 AUTOEVALUACIÓN
+El nivel de enlace se encarga de transmitir correctamente pequeñas unidades de información, denominadas:
+a) Paquetes
+b) Bits
+c) Tramas
+
+13 AUTOEVALUACIÓN
+Indica la respuesta correcta
+a) Las entidades en un nivel n-1 ofrecen servicios que son utilizados por las entidades del nivel n+1
+b) Las entidades en un nivel n ofrecen servicios que son utilizados por las entidades del nivel n+1
+c) Las entidades en un nivel n ofrecen servicios que son utilizados por las entidades del nivel n
+
+14 AUTOEVALUACIÓN
+Indica la respuesta correcta:
+a) La capa de aplicación añade a la información que recibe una cabecera llamada APH
+b) La capa de aplicación añade a la información que recibe dos cabeceras llamadas: DH, DT
+c) La capa de aplicación añade a la información que recibe una cabecera llamada AH
+
+15 AUTOEVALUACIÓN
+Los servidores de FTP y SMTP:
+a) Actúan en el nivel de red
+b) Actúan en el nivel de aplicación
+c) Actúan en el nivel de transporte
+d) Actúan en el nivel de internet
+
+16 AUTOEVALUACIÓN
+El tipo de conexión para cable coaxial se denomina:
+a) RJ-45
+b) BNC
+c) AUI
+
+17 AUTOEVALUACIÓN
+Sobre la malla metálica decimos que:
+a) Reduce las interferencias
+b) Cuando el cable tiene puesta esta malla metálica, se dice que está apantallado.
+c) Las dos son correctas
+
+18. El puente trabaja a nivel:
+a) Red
+b) Enlace
+c) Físico

@@ -8,33 +8,45 @@ public class Main {
 
         System.out.println("BIENVENIDO AL AHORCADO\nNúmero de intentos:3");
 
-        int intentos = 3;
-        boolean acierto = false;
-        String frase = "El rey es mi padre";
-        String caracterStr;
-        char [] caracter;
+        int intentos = 3, aciertos=0;
+        boolean palabraAcertada=false;
+        String frase = "programacion";
+        String caracter;
+        char [] respuesta=new char[frase.length()];
+
+        for (int i=0;i<respuesta.length;i++){
+            respuesta[i]='_';
+            System.out.print(respuesta[i]+" ");
+        }
 
         do {
-            System.out.println("\nIntroduzca caracter a buscar");
-            caracterStr = sc.nextLine();
-            caracter=caracterStr.toCharArray();
-            for (int i = 0; i < caracter.length; i++) {
+            System.out.println("\nIntentos: "+intentos+"\nIntroduzca caracter: ");
+            caracter = sc.next();
 
-                if (caracter[i]==(frase.charAt(i))) {
-                    System.out.print(frase.charAt(i));
-                    acierto = true;
-                } else {
-                    System.out.print("_");
+            if (frase.contains(caracter)){
+
+                for(int i=0; i<frase.length();i++){
+                    if(frase.charAt(i)==caracter.charAt(0)) {
+                        respuesta[i] = frase.charAt(i);
+                        aciertos++;
+                    }
                 }
+            }else intentos--;
+
+            for(int i=0; i<respuesta.length;i++){
+                System.out.print(respuesta[i]+" ");
             }
-            if (acierto) {
-                acierto = false;
-            } else
-                intentos--;
 
-        } while (intentos != 0);
+            if (aciertos==frase.length()) {
+                palabraAcertada=true;
+            }
 
+        } while ((intentos != 0)&&(!palabraAcertada));
+
+        if (intentos==0){
+            System.out.println("\nHas perdido");
+        }else{
+            System.out.println("\nENHORABUENA, has ganado!");
+        }
     }
-
-
 }
