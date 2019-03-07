@@ -44,4 +44,8 @@ public class Producto
     public void setPrice(double price) {
         this.price = price;
     }
+    public void vender(int a_venta)
+    {
+        stock = stock - a_venta;
+    }
 }
