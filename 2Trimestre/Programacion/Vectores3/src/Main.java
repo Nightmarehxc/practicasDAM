@@ -15,9 +15,35 @@ public class Main {
         System.out.println("Introduce el numero de articulos que quieres añadir");
         x = sc.nextInt();
         productos = new Producto[x];
+        menuPrincipal(productos,x);
+////Termina el primer arranque
+        //menuEntrada(productos, x);
+        //menuVenta(productos);
+    }
+    static void menuPrincipal(Producto productos[],int x)
+    {
+        Scanner sc = new Scanner(System.in);
 
-        menuEntrada(productos, x);
-        menuVenta(productos);
+        boolean t=false;
+
+        while (t == false){
+            System.out.println("1) Crear item\n 2) Menu de Ventas \n cerrar) Cierra la aplicacion ");
+            System.out.println();
+            String input = sc.next();
+            switch (input) {
+                case "1":
+                    menuEntrada(productos, x);
+                    break;
+                case "2":
+                    menuVenta(productos);
+                    break;
+                case "cerrar":
+                    t = true;
+                    break;
+            }
+        }
+
+
     }
     static void menuEntrada(Producto productos[], int x) {
         Scanner sc = new Scanner(System.in);
@@ -58,8 +84,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("----------Panel de ventas---------");
         System.out.println("Introduce el codigo del producto");
+        for (int j = 0 ; j< productos.length;j++)
+        {
+            System.out.println("Cod.Producto: "+j+" Nombre: "+productos[j].getName()+" Stock: "+productos[j].getStock());
+        }
+        System.out.println("Introduce el codigo del producto");
         int i = sc.nextInt();
-        System.out.println(productos[i].getStock());
+        //System.out.println(productos[i].getStock());
         System.out.println("Introduce el numero de " + productos[i].name + " a vender");
         productos[i].vender(sc.nextInt());
         System.out.println("Quedan " + productos[i].getStock() + " de " + productos[i].getName() + " en stock");

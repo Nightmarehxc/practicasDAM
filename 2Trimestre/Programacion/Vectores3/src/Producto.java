@@ -1,12 +1,11 @@
-public class Producto
-{
+public class Producto {
 
     int cod;
     String name;
     int stock;
     double price;
-    public Producto()
-    {
+
+    public Producto() {
 
     }
 
@@ -41,17 +40,19 @@ public class Producto
     public void setPrice(double price) {
         this.price = price;
     }
-<<<<<<< HEAD
+
     public int vender(int a_items)
     {
-        stock = stock - a_items;
-        double total = price * a_items;
-        System.out.println("el precio de "+a_items+ " es"+total+ " € en total");
+        if(stock < a_items)
+        {
+            System.out.println("No hay suficientes unidades de "+ getName());
+        }
+        else {
+            stock = stock - a_items;
+            double total = price * a_items;
+            System.out.println("el precio de " + a_items + " es" + total + " € en total");
+
+        }
         return stock;
-=======
-    public void vender(int a_venta)
-    {
-        stock = stock - a_venta;
->>>>>>> f3ed25ced45f5eec97904adf5b011b92160227c4
     }
 }
