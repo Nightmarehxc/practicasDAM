@@ -1,3 +1,6 @@
+import com.sun.org.apache.xalan.internal.xsltc.dom.ArrayNodeListIterator;
+import jdk.nashorn.internal.runtime.arrays.ArrayIndex;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,6 +14,8 @@ public class Main {
         Producto productos[];
         Scanner sc = new Scanner(System.in);
         System.out.println("--Bienvenido a mi tienda de deportes --");
+        System.out.println("La tienda esta vacia añade al menos un item al inventario");
+
 
         System.out.println("Introduce el numero de articulos que quieres añadir");
         x = sc.nextInt();
@@ -37,6 +42,9 @@ public class Main {
                 case "2":
                     menuVenta(productos);
                     break;
+                case "3":
+                    addItem(productos, x);
+                    break;
                 case "cerrar":
                     t = true;
                     break;
@@ -48,9 +56,8 @@ public class Main {
     static void menuEntrada(Producto productos[], int x) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println(productos.length);
-///crear metodo para volver a usar este bucle
-///Crear metodo para ventas....
+
+
 
         for (int i = 0; i < productos.length; i++) {
 
@@ -64,7 +71,9 @@ public class Main {
             productos[i].setPrice(sc.nextDouble());
             System.out.println("Introduce la cantidad en stock");
             productos[i].setStock(sc.nextInt());
+
         }
+
 
         ///Crear metodo para recogerDatos
 
@@ -96,5 +105,15 @@ public class Main {
         System.out.println("Quedan " + productos[i].getStock() + " de " + productos[i].getName() + " en stock");
 
 
+    }
+    static int addItem(Producto productos[], int x)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduce el numero de articulos que quieres añadir");
+        x = sc.nextInt();
+        ///
+
+
+        return productos.length;
     }
 }
