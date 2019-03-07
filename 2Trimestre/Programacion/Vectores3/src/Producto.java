@@ -7,10 +7,7 @@ public class Producto
     double price;
     public Producto()
     {
-        int cod;
-        String name;
-        int stock;
-        double price;
+
     }
 
     public int getCod() {
@@ -43,5 +40,12 @@ public class Producto
 
     public void setPrice(double price) {
         this.price = price;
+    }
+    public int vender(int a_items)
+    {
+        stock = stock - a_items;
+        double total = price * a_items;
+        System.out.println("el precio de "+a_items+ " es"+total+ " € en total");
+        return stock;
     }
 }
