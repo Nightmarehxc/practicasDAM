@@ -1,6 +1,6 @@
 public class Producto {
 
-    int cod;
+   private int cod;
     String name;
     int stock;
     double price;

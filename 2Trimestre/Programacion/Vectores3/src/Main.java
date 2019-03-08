@@ -77,6 +77,7 @@ public class Main {
 
         ///Crear metodo para recogerDatos
 
+/*
         for (int i = 0; i < productos.length; i++) {
             System.out.println("Producto numero" + i);
 
@@ -85,8 +86,22 @@ public class Main {
             System.out.println(productos[i].stock);
 
         }
+*/
+    recogerDatos(productos);
 
+    }
+    static int recogerDatos(Producto[]productos)
+    {
 
+        for (int i = 0; i < productos.length; i++) {
+            System.out.println("Producto numero" + i);
+
+            System.out.println(productos[i].getName());
+            System.out.println(productos[i].price);
+            System.out.println(productos[i].stock);
+
+        }
+        return 0;
     }
 
     static void menuVenta(Producto productos[]) {
@@ -103,6 +118,19 @@ public class Main {
         System.out.println("Introduce el numero de " + productos[i].name + " a vender");
         productos[i].vender(sc.nextInt());
         System.out.println("Quedan " + productos[i].getStock() + " de " + productos[i].getName() + " en stock");
+        ///¿Quieres comprar mas articulos?
+        System.out.println("¿Quieres comprar mas articulos?");
+        switch (sc.next())
+        {
+            case "si":
+                recogerDatos(productos);
+                break;
+            case "no":
+                {
+                    break;
+                }
+        }
+
 
 
     }
@@ -110,10 +138,19 @@ public class Main {
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce el numero de articulos que quieres añadir");
-        x = sc.nextInt();
-        ///
+        int nx = sc.nextInt();
+/*
+
+        Crear bucle para rellenarel nuevo array;
+         */
+        Producto[] productos1 = new Producto[nx];
+        for(int i = 0 ; i < x;i++) {
+            productos1[i] = productos[i];
+            ///Seria aqui la ampliación
 
 
-        return productos.length;
+
+        }
+        return nx;
     }
 }
