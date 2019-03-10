@@ -7,8 +7,8 @@ public class Empleados extends Direccion {
     String nombre;
     double salario;
 
-    public Empleados(String calle, int numero, String puerta, String ciudad) {
-        super(calle, numero, puerta, ciudad);
+    public Empleados() {
+
     }
     //  Direccion direccion;
 //    Scanner sc = new Scanner(System.in);
