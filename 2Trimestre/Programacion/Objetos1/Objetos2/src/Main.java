@@ -18,7 +18,7 @@ public class Main {
                     "3) Gestion de Empleados");
             int x = sc.nextInt();
 /*
-            if (x < 1) {
+if (x < 1) {
                 throw new ArithmeticException("Opcion equivocada");
             } else if (x > 3) {
                 throw new ArithmeticException("Opcion equivocada");
@@ -45,7 +45,7 @@ public class Main {
                                 getEmpleados();
                             case 3:
                                 getEmpleados();
-                                System.out.println("introduce la ID ");
+                                System.out.println("introduce la ID: ");
                                 modDireccion(sc.nextInt());
                         }
                         break;
