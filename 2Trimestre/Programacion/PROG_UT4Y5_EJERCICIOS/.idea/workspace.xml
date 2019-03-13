@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f227eec4-2f2d-438b-a84b-171bc3e0171d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PROG_UT4Y5_EJERCICIOS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vectores2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vectores2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="f227eec4-2f2d-438b-a84b-171bc3e0171d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +24,9 @@
         <entry file="file://$PROJECT_DIR$/src/TiendaVirtual/RegistroVentasDiaria.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1040" />
     <option name="height" value="1047" />
@@ -78,8 +65,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +87,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,27 +131,23 @@
       <option name="presentableId" value="Default" />
       <updated>1552413329949</updated>
       <workItem from="1552413332178" duration="2270000" />
+      <workItem from="1552485892584" duration="426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2270000" />
+    <option name="totallyTimeSpent" value="2696000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1040" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18265305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09754797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -172,28 +155,31 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="PlantUML" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zEA789.tmp/RegistroVentasDiaria.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zE5C63.tmp/RegistroVentasDiaria.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zEA789.tmp/RegistroVentasDiaria.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zE5C63.tmp/RegistroVentasDiaria.java" />
+    <entry file="file://$USER_HOME$/Downloads/UT4Y5EJERCICIO1Y2/UT4Y5-EJERCICIO1/UT4Y5-EJERCICIO1/src/Main.java" />
+    <entry file="file://$USER_HOME$/Downloads/UT4Y5EJERCICIO1Y2/UT4Y5-EJERCICIO1/UT4Y5-EJERCICIO1/src/RegistroVentasDiaria.java" />
     <entry file="file://$PROJECT_DIR$/src/TiendaVirtual/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -201,38 +187,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/UT4Y5EJERCICIO1Y2/UT4Y5-EJERCICIO1/UT4Y5-EJERCICIO1/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/UT4Y5EJERCICIO1Y2/UT4Y5-EJERCICIO1/UT4Y5-EJERCICIO1/src/RegistroVentasDiaria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-          <folding>
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TiendaVirtual/RegistroVentasDiaria.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
           </folding>
         </state>
       </provider>
