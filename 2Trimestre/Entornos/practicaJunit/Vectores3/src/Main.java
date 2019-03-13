@@ -34,18 +34,18 @@ public class Main {
         while (t == false){
             System.out.println("1) Crear item\n 2) Menu de Ventas \n cerrar) Cierra la aplicacion ");
             System.out.println();
-            int input = sc.nextInt();
+            String input = sc.next();
             switch (input) {
-                case 1:
+                case "1":
                     menuEntrada(productos, x);
                     break;
-                case 2:
+                case "2":
                     menuVenta(productos);
                     break;
-                case 3:
+                case "3":
                     addItem(productos, x);
                     break;
-                case 4:
+                case "cerrar":
                     t = true;
                     break;
             }
