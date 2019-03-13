@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7fdbde5-90d5-441f-9406-55654c58ec4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Sol2/src/rectan/Rectangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Objetos1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Objetos1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROG_UT4Y5_EJERCICIOS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROG_UT4Y5_EJERCICIOS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sol2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sol2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +57,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552492149695" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552492184667" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../export/Examen2Eval" />
   </component>
   <component name="RunDashboard">
@@ -148,16 +146,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552486324669</updated>
-      <workItem from="1552486329146" duration="4235000" />
+      <workItem from="1552486329146" duration="4464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4235000" />
+    <option name="totallyTimeSpent" value="4464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
