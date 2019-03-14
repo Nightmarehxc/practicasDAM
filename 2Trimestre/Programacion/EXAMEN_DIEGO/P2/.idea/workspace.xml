@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7fdbde5-90d5-441f-9406-55654c58ec4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Examen/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Objetos1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Objetos1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sol2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sol2/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2a98cb0f-39c5-4073-bceb-4dcf0d567c6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Examen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examen/out/production/Examen/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examen/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examen/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Objetos1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Objetos1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sol2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sol2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-574">
-              <caret line="20" column="196" selection-start-line="20" selection-start-column="196" selection-end-line="20" selection-end-column="196" />
+            <state relative-caret-position="510">
+              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,7 +32,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,26 +53,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Examen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="P2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552493444467" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../export/Examen2Eval" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552499163281" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -89,57 +93,10 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Sol1" />
+      <module name="P2" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Sol1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Sol1" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,17 +112,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e7fdbde5-90d5-441f-9406-55654c58ec4c" name="Default Changelist" comment="" />
-      <created>1552486324669</created>
+      <changelist id="2a98cb0f-39c5-4073-bceb-4dcf0d567c6c" name="Default Changelist" comment="" />
+      <created>1552495726829</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552486324669</updated>
-      <workItem from="1552486329146" duration="5745000" />
+      <updated>1552495726829</updated>
+      <workItem from="1552495728432" duration="3436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5745000" />
+    <option name="totallyTimeSpent" value="3436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -176,7 +133,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09434968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -186,8 +143,8 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6327194" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -207,10 +164,26 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../../1erTrimestre/Programacion/Java/1er_EXAMEN/Diego/1c/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../1erTrimestre/Programacion/Java/1er_EXAMEN/Diego/1b/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../1erTrimestre/Programacion/Java/1er_EXAMEN/Diego/1a/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../1erTrimestre/Programacion/Java/1er_EXAMEN/Diego/2/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-574">
-          <caret line="20" column="196" selection-start-line="20" selection-start-column="196" selection-end-line="20" selection-end-column="196" />
+        <state relative-caret-position="510">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

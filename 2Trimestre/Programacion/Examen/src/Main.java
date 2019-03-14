@@ -109,7 +109,7 @@ public class Main
             if(lista[i] < menor)
             {
                 menor = lista[i];
-                System.out.println(i);
+                //System.out.println(i);
 
 
             }
