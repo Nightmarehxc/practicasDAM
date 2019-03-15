@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE note SYSTEM "question1.dtd">
-
+<!DOCTYPE note SYSTEM "dtdext.dtd">
 <lista_de_notas>
     <nota>
         <nota_dia="impar">
@@ -8,12 +7,14 @@
         <de>Laura</de>
         <titulo>Recordatorio</titulo>
         <contenido>A las 7:00 pm en la puerta del teatro</contenido>
+        </nota_dia>
     </nota>
     <nota>
-        <nota_dia="par">
+    <nota_dia="par">
         <para>Pedro</para>
         <de>Juan</de>
         <titulo>Informes</titulo>
         <contenido>Te he dejado los informes en el casillero</contenido>
+        </nota_dia>
     </nota>
 </lista_de_notas>

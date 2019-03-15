@@ -2,18 +2,10 @@
 <?xml-stylesheet href="./css/verde.css"?>
 <biblioteca>
     <libro>
-        <titulo>EL SEÑOR DE LOS ANILLOS</titulo>
+        <titulo>La vida esta en otra parte</titulo>
         <autor>J.R.R. Tolkien</autor>
         <fecha>1954</fecha>
     </libro>
     <libro>
-        <titulo>EL LABERINTO DE LOS ESPÍRITUS</titulo>
-        <autor>Carlos Ruíz Zafón</autor>
-        <fecha>2016</fecha>
-    </libro>
-    <libro>
-        <titulo>LA CHICA DEL TREN</titulo>
-        <autor>Paula Hawkins</autor>
-        <fecha>2015</fecha>
     </libro>
 </biblioteca>

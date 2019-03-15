@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista_de_notas [
+        <!ELEMENT lista_de_notas (nota)*>
+        <!ELEMENT nota (nota_dia|para|de|titulo|contenido)*>
+        <!ELEMENT nota_dia (#PCDATA)>
+        <!ATTLIST  nota_dia (par|impar) #PCDATA default-value)>
+        <!ELEMENT para (#PCDATA)>
+        <!ELEMENT de (#PCDATA)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT contenido (#PCDATA)>
+        ]>

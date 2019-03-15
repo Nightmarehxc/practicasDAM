@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula [
+        <!ELEMENT matricula(personal,pago)*>
+        <!ELEMENT personal(dni,nombre,titulacion,domicilios+)*>
+        <!ELEMENT domicilios(nombre)>
+        <!ATTLIST domicilios((tipo)#PCDATA)>
+        <!ELEMENT pago (tipo_matricula)>
+        <!ELEMENT dni (#PCDATA)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT titulacion (#PCDATA)>
+        <!ELEMENT tipo_matricula (#PCDATA)>
+        ]>
