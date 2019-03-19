@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE clientes[
+                <!ELEMENT clientes (cliente*)>
+                <!ELEMENT cliente (nombre+,apellido+,sexo+)>
+                <!ELEMENT nombre (#PCDATA)>
+                <!ELEMENT apellido (#PCDATA)>
+                <!ELEMENT sexo (#PCDATA)>
+                
+        ]>
+<clientes>
+    <cliente>
+    <nombre>hola</nombre>
+    <apellido>pepe</apellido>
+    <sexo>Hombre</sexo>
+    </cliente>
+    <cliente>
+        <nombre>peter </nombre>
+        <apellido>hola</apellido>
+        <sexo>hola</sexo>
+    </cliente>
+</clientes>
