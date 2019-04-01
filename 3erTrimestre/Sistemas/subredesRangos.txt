@@ -1,0 +1,18 @@
+Indica si las direcciones IP de la segunda columna pertenecen a la subred donde se encuentran las de las primera columna 
+192.168.30.1/24  192.168.30.155 SI
+
+192.168.20.1/25  192.168.20.128 NO
+
+10.1.1.1/22  10.1.1.222  SI
+
+10.1.1.1/25  10.1.2.1  NO
+
+15.222.246.4/26 15.222.246.100 NO
+
+22.22.22.92/27 22.22.22.42  NO
+
+10.1.4.1/16  10.3.2.1  NO
+
+15.222.236.4/16 15.223.236.100 NO
+
+22.22.22.22/29 22.22.22.28  NO
