@@ -1,8 +1,16 @@
 public class Jugador
 {
-    int[][] lhd = new int[1][5] ;
-    int[][] acorazado = new int[1][4];
-    int[][] crucero = new int[1][3];
-    int[][] destructor =new int[1][2];
-    int[][] submarino= new int[2][1];
+  String nombre;
+
+    public Jugador(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
