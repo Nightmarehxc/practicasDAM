@@ -1,0 +1,15 @@
+<personas>
+  <!--1 or more repetitions:-->
+  <persona>
+    <nombre>string</nombre>
+    <apellido>string</apellido>
+    <fechanacimiento>2008-09-29</fechanacimiento>
+    <numerodocumento>3</numerodocumento>
+    <trianero>true</trianero>
+  </persona>
+  <!--Qué diferencia existe entre usar el compositor "sequence" o usar el compositor
+"all"? Verifique su hipótesis con un documento xml de ejemplo
+
+ ¿Y si usar el compositor "choice" en sustitución de "all"?
+ -->
+</personas>
