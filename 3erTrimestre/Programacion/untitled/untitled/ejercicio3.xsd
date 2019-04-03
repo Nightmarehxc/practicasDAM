@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="supermercado" type="supermercadoType"/>
+  <xs:complexType name="articuloType">
+    <xs:sequence>
+      <xs:element name="descripcion">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Leche desntada"/>
+            <xs:enumeration value="Leche entera"/>
+            <xs:enumeration value="Tomate"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="marca" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Pascual"/>
+            <xs:enumeration value="Puleva"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="medida">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1 L"/>
+            <xs:enumeration value="1,5 L"/>
+            <xs:enumeration value="1 Kg"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="seccion">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Leche y Batidos"/>
+            <xs:enumeration value="Frutas y verduras"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="oferta" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Lote descuento"/>
+            <xs:enumeration value="Dos por uno"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="perecederoType" name="perecedero" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="perecederoType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="fabricacion" minOccurs="0"/>
+      <xs:element type="xs:string" name="caducidad" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="supermercadoType">
+    <xs:sequence>
+      <xs:element type="articuloType" name="articulo" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -14,6 +14,9 @@ public class Partida
         System.out.println("Introduce el nombre del P2");
         p2 = new Jugador(sc.next());
         Tablero tableroP2 = new Tablero();
+        tableroP1.CrearTablero();
+        tableroP2.CrearTablero();
+
 
     }
 

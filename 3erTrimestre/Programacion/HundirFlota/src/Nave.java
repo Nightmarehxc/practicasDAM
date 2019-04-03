@@ -6,6 +6,7 @@ public class Nave
     int azimut; //Rumbo 0 Horzizontal 1 Vertical
 
 
+<<<<<<< HEAD
     void CrearLancha()
     {
         this.name = "Lancha";
@@ -37,4 +38,8 @@ public class Nave
         this.name = "PortaAviones";
         this.longitud= 6;
     }
+=======
+
+
+>>>>>>> 434081468041aa80a83a413a99ca419e2cd3e174
 }
