@@ -37,9 +37,4 @@ public class Nave
         this.name = "PortaAviones";
         this.longitud= 6;
     }
-    public int Impacto(heal)
-    {
-        int
-        return heal[][];
-    }
 }
