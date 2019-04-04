@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1e91828-fb96-45a5-9cc9-ff0cfc6252b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/.netbeans_update_resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/Coordenada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/GestorBotones.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/GestorJugadores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/GestorLabelTiempo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/GestorMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/GestorSonido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/GestorTablero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/GestorTiempo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/HundirLaFlota$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/HundirLaFlota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hundirlaflota/Interfaz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/imagenes/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/imagenes/agua.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/imagenes/aguaJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/imagenes/barco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/imagenes/xJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hundirlaflota/Coordenada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/hundirlaflota/Coordenada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hundirlaflota/GestorBotones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/hundirlaflota/GestorBotones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hundirlaflota/GestorJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/hundirlaflota/GestorJugadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hundirlaflota/GestorLabelTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/hundirlaflota/GestorLabelTiempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hundirlaflota/GestorMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/hundirlaflota/GestorMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hundirlaflota/GestorTablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/hundirlaflota/GestorTablero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hundirlaflota/GestorTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/hundirlaflota/GestorTiempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hundirlaflota/HundirLaFlota.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/hundirlaflota/HundirLaFlota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hundirlaflota/Interfaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/hundirlaflota/Interfaz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d1e91828-fb96-45a5-9cc9-ff0cfc6252b5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,16 +216,15 @@
       <option name="presentableId" value="Default" />
       <updated>1554295364545</updated>
       <workItem from="1554295365926" duration="640000" />
-      <workItem from="1554377386713" duration="676000" />
+      <workItem from="1554377386713" duration="783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1316000" />
+    <option name="totallyTimeSpent" value="1423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

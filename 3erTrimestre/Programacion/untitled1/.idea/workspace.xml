@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b249ab1d-a3ac-407f-9a06-2e9a2080255c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HundirLaFlota/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HundirLaFlota/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HundirLaFlota/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/.netbeans_update_resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/Coordenada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/GestorBotones.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/GestorJugadores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/GestorLabelTiempo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/GestorMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/GestorSonido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/GestorTablero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/GestorTiempo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/HundirLaFlota$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/HundirLaFlota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/hundirlaflota/Interfaz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/imagenes/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagenes/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/imagenes/agua.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagenes/agua.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/imagenes/aguaJ.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagenes/aguaJ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/imagenes/barco.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagenes/barco.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/build/classes/imagenes/xJ.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagenes/xJ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/hundirlaflota/Coordenada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hundirlaflota/Coordenada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/hundirlaflota/GestorBotones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hundirlaflota/GestorBotones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/hundirlaflota/GestorJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hundirlaflota/GestorJugadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/hundirlaflota/GestorLabelTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hundirlaflota/GestorLabelTiempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/hundirlaflota/GestorMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hundirlaflota/GestorMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/hundirlaflota/GestorTablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hundirlaflota/GestorTablero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/hundirlaflota/GestorTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hundirlaflota/GestorTiempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/hundirlaflota/HundirLaFlota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hundirlaflota/HundirLaFlota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/hundirlaflota/Interfaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hundirlaflota/Interfaz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/imagenes/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/imagenes/agua.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/imagenes/aguaJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/imagenes/barco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HundirLaFlota/src/imagenes/xJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,16 +12,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hundirlaflota/Interfaz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="286" column="19" selection-start-line="286" selection-start-column="19" selection-end-line="286" selection-end-column="19" />
+            <state relative-caret-position="1014">
+              <caret line="268" column="33" lean-forward="true" selection-start-line="268" selection-start-column="33" selection-end-line="268" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -74,8 +28,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hundirlaflota/GestorBotones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="799">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hundirlaflota/HundirLaFlota.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hundirlaflota/GestorMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -83,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hundirlaflota/GestorTablero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+            <state relative-caret-position="1496">
+              <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -92,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/javax/swing/ImageIcon.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="1275">
               <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#3793#3794#0" expanded="true" />
@@ -126,7 +98,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,10 +116,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hundirlaflota" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,29 +188,23 @@
       <option name="presentableId" value="Default" />
       <updated>1554377675091</updated>
       <workItem from="1554377678112" duration="446000" />
+      <workItem from="1554378178336" duration="764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446000" />
+    <option name="totallyTimeSpent" value="1210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3261105" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -240,17 +212,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="UML design tool window" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3261105" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="UML design tool window" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,21 +237,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hundirlaflota/GestorBotones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="799">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hundirlaflota/GestorTablero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+        <state relative-caret-position="1496">
+          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/javax/swing/ImageIcon.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="1275">
           <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#3793#3794#0" expanded="true" />
@@ -281,10 +259,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hundirlaflota/HundirLaFlota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hundirlaflota/Interfaz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="286" column="19" selection-start-line="286" selection-start-column="19" selection-end-line="286" selection-end-column="19" />
+        <state relative-caret-position="1014">
+          <caret line="268" column="33" lean-forward="true" selection-start-line="268" selection-start-column="33" selection-end-line="268" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hundirlaflota/GestorMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
