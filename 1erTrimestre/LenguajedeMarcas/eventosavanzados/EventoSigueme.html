@@ -1,0 +1,27 @@
+<HTML>
+<Head><Title></Title>
+<Script language="JavaScript">
+  
+ function MueveRaton(event){
+   capa.style.top = event.clientY+10;
+   capa.style.left = event.clientX+10;   
+
+   }
+     
+ function activar(){
+   document.addEventListener("mousemove", MueveRaton,false);
+   capa = document.getElementById("capa");
+ }
+</Script>
+
+</Head>
+<Body onload="activar()">
+Información<BR>
+<Hr>
+<Div Id='capa' STYLE="position:absolute;top:300px;left:200px;">
+<Img src="Bomba.gif" width=60px height=75px>
+</Div>
+Información 2<Br>
+<Hr>
+</Body>
+</Html>

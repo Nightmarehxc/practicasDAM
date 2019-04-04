@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+  <head> <title>Libro de visitas</title> </head>
+<body>
+ <center>
+ <h2>Libro de visitas</h2>
+ <form action="http://www.eui.upm.es/~salonso/curso/procesa.php" method="post">
+  Tu nombre:<br>
+  <input type="text" name="Nombre">
+  <p>&iquest;Cu&aacute;l es tu color preferido?<br>
+  <select name="ColorPreferido" size="2">
+    <option value="r" selected>Rojo</option>
+    <option value="v">Verde</option>
+    <option value="z">Azul</option>
+    <option value="a">Amarillo</option>
+  </select></p>
+
+  <p>&iquest;Qu&eacute; Sistema Operativo utilizas?<br>
+
+  <input type="radio" name="SistemaOperativo" value="PC" checked>PC 
+  <input type="radio" name="SistemaOperativo" value="Mac"> Mac
+  <input type="radio" name="SistemaOperativo" value="Unix">Unix</p>
+ 
+  <p>Escribe tus comentarios:<br>
+  <textarea name="Comentarios" rows="6" cols="40"></textarea></p>
+
+  <p><input type="submit" value="Enviar datos">
+     <input type="reset" value="Borrar datos"></p>
+ </form>
+ </center>
+</body>
+</html>

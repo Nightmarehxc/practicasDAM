@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head><title>HTML(5)</title></head>
+<body>
+ <a NAME='inicio'></a> 
+ <center>
+    <h2>Listas en HTML</h2>
+ </center>
+ <br>
+ <center>
+   <h4>Lista Descriptiva</h4>
+ </center>
+<dl>
+  <dt>GDSII</dt>
+    <dd>Gesti&oacute;n y Desarrollo de Sistemas Inform&aacute;ticos
+en Internet</dd>
+  <dt>EDI</dt>
+    <dd>Estructuras de Datos I</dd>
+  <dt>EDII</dt>
+    <dd>Estructuras de Datos II</dd>
+</dl>
+<center>
+ <h4>Lista No Numerada</h4>
+</center>
+<!--El tipo puede ser circle, square o disc -->
+<ul TYPE='square'>
+  <li>Primer Elemento</li>
+  <li>Segundo Elemento</li>
+  <li TYPE='square'>Tercer Elemento</li>
+</ul>
+<center>
+  <h4>Lista Numerada</h4>
+</center>
+<!--El tipo puede ser '1', 'a', 'A', 'i' ó 'I'-->
+ <ol TYPE='i' START="3">
+    <li>Primer Elemento</li>
+    <li VALUE="10">Segundo Elemento 
+       <ul TYPE='square'>
+          <li>Primer Elemento</li>
+          <li>Segundo Elemento</li>
+          <li TYPE='square'>Tercer Elemento</li>
+       </ul>
+    </li>
+    <li>Tercer Elemento</li>
+ </ol>
+</body>
+</html>

@@ -1,0 +1,30 @@
+1. La especificación define el HTML, la publicación del lenguaje de la web, 
+la cual es una subversión del  HTML 4. Hace referencia al texto, multimedia 
+y funciones del hipervínculo de las versiones previas del HTML.
+
+2.
+
+3. El objetivo del W3C es guiar la web hacia su máximo potencial a través del 
+desarrollo de protocolos y pautas que aseguren el crecimiento futuro de la web,
+los cuales promueven la visión del W3S de Web Única.
+
+4.Actualmente el World Wide Web Consortium (W3C) tiene 17 organizaciones Miembro
+en España.
+
+Adesis Netlife S.L.
+Ayuntamiento de Zaragoza
+BiscayTIK
+Cornac Servicios Editoriales
+Fundación CTIC
+Fundación ONCE
+Gobierno del Principado de Asturias
+Gobierno del País Vasco - Irekia
+Igalia
+Inclusite SL
+Ministerio de Hacienda y Administraciones Públicas
+Readspeaker
+Santillana Global
+Sociedad Asturiana de Diversificación Minera S.A. (SADIM S.A.)
+Universidad Politécnica de Madrid
+Universitat Politècnica de Catalunya
+WIRIS Science

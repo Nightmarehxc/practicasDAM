@@ -1,0 +1,20 @@
+<HTML>
+<Head><Title></Title>
+<Script language="JavaScript">
+ function eventoDocumento(event){
+   alert ("Pulsaste documento");
+   alert ("En coordenadas: "+event.clientX + ","+event.clientY);
+   }    
+  
+ function activar(){
+   document.addEventListener("click", eventoDocumento,false);
+ }
+ 
+</Script>
+
+</Head>
+<Body onload="activar()">
+Información<BR>
+<Hr>
+</Body>
+</Html>

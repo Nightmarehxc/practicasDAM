@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+  <head> <title>EJERCICIO 1</title> </head>
+<body>
+ <center>
+ <h2>FORMULARIO DE SOLICITUD DE EXAMEN PROFESIONAL</h2>
+ <form action="http://www.eui.upm.es/~salonso/curso/procesa.php" method="post">
+  <p>Tipo de Documento*<br>
+  <select name="TipoDeDocumento" size="3">
+    <option value="DNI" selected>Documento Nacional de Identidad</option>
+    <option value="v">Verde</option>
+    <option value="z">Azul</option>
+    <option value="a">Amarillo</option>
+  </select></p>
+  Número*:
+  <input type="text" name="Nombre">
+  <br>
+  Tu nombre:
+  <input type="text" name="Nombre">
+  Tu nombre:<br>
+  <input type="text" name="Nombre">
+  <p>&iquest;Cu&aacute;l es tu color preferido?<br>
+  <select name="ColorPreferido" size="2">
+    <option value="r" selected>Rojo</option>
+    <option value="v">Verde</option>
+    <option value="z">Azul</option>
+    <option value="a">Amarillo</option>
+  </select></p>
+
+  <p>&iquest;Qu&eacute; Sistema Operativo utilizas?<br>
+
+  <input type="radio" name="SistemaOperativo" value="PC" checked>PC 
+  <input type="radio" name="SistemaOperativo" value="Mac"> Mac
+  <input type="radio" name="SistemaOperativo" value="Unix">Unix</p>
+ 
+  <p>Escribe tus comentarios:<br>
+  <textarea name="Comentarios" rows="6" cols="40"></textarea></p>
+
+  <p><input type="submit" value="Enviar datos">
+     <input type="reset" value="Borrar datos"></p>
+ </form>
+ </center>
+</body>
+</html>

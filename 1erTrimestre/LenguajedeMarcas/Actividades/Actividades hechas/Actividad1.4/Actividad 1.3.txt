@@ -1,0 +1,11 @@
+<comida>
+	<entrantes><titulo>Tipos de Comida</titulo></entrantes>
+  <platos>
+
+	<tipo>Salada</tipo>
+	<tipo>Dulce</tipo>
+	<tipo>Picante</tipo>
+
+  </platos>
+
+</comida>

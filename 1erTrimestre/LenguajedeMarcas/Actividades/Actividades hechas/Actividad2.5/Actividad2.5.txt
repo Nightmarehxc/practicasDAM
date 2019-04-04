@@ -1,0 +1,15 @@
+
+<html>
+<head>
+<Title>IntrumentosRDL</Title>
+</head>
+<body>
+
+<marquee><h1 style="style="color:blue;">Bienvenidos a la tienda de Instrumentos RDL</h1></marquee>
+<p style="background-color:DarkKhaki;">En esta tienda encontraras todo tipo de instrumentos que se adapten a tus necesidades, desde guitarras acústicas
+hasta todo tipo de accesorios</p>
+<img src="https://banner2.kisspng.com/20180228/dkq/kisspng-musical-instrument-orchestra-musical-instruments-5a97196fb1b732.6309610415198518877279.jpg" width="104" height="142">
+
+</body>
+</html>
+

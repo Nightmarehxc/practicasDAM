@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Lista de definiciones>
+	</head>
+	<body>
+	<dl>
+  	<dt>HTML</dt>
+  	<dd>- Es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet.</dd>
+  	<dt>XML</dt>
+  	<dd>- Es un lenguaje que permite la organización y el etiquetado de documentos.</dd>
+	<dt>SGML</dt>
+  	<dd>- Permite que la estructura de un documento pueda ser definida en base a la relación lógica de sus partes.
+	<dt>W3C</dt>
+  	<dd>- Es un consorcio fundado en 1994 para dirigir a la Web hacia su pleno potencial
+	</dl>
+	</body>
+</html>
