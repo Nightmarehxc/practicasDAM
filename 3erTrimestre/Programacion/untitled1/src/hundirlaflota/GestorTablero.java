@@ -92,7 +92,7 @@ public class GestorTablero implements MouseListener {
     }
 
     public void ganador(String jugador) {
-        interfaz.getGlt().getHilo().stop();
+        interfaz.getGlt().getHilo().isAlive();
 
         JOptionPane.showMessageDialog(null, "GANADOR " + jugador);
         int resp = JOptionPane.showConfirmDialog(null, "¿desea jugar una nueva partida?");
