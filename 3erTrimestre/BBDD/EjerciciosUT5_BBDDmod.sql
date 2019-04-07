@@ -301,10 +301,10 @@ apellido2 VARCHAR(50),
 fecha_nacimiento DATE NOT NULL
 );
 
-INSERT INTO alumnos VALUES(1, 'José','López', 'Martínez',2000-02-01);
-INSERT INTO alumnos VALUES(2, 'María','Sánchez', 'Pérez',1997-02-03);
-INSERT INTO alumnos VALUES(3, 'Antonio','López', 'García',1998-07-15);
-INSERT INTO alumnos VALUES(4, 'Alberto','Benítez', 'Sanz',1999-08-27);
+INSERT INTO alumnos VALUES(1, 'José','López', 'Martínez','2000-02-01');
+INSERT INTO alumnos VALUES(2, 'María','Sánchez', 'Pérez','1997-02-03');
+INSERT INTO alumnos VALUES(3, 'Antonio','López', 'García','1998-07-15');
+INSERT INTO alumnos VALUES(4, 'Alberto','Benítez', 'Sanz','1999-08-27');
 
 ALTER TABLE alumnos ADD email VARCHAR(150);
 --!!!
