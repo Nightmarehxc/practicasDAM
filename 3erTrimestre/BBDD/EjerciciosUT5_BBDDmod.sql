@@ -239,7 +239,7 @@ BEGIN
 DECLARE edad INT;
 SET edad = TRUNCATE(DATEDIFF(NOW(),fecha)/365, 0);
 RETURN edad;
-end
+end$$
 
 DROP PROCEDURE IF EXISTS actualizar_columna_edad$$
 CREATE PROCEDURE actualizar_columna_edad()
