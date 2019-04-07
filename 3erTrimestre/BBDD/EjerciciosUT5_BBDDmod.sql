@@ -231,19 +231,17 @@ INSERT INTO alumnos VALUES(2,'Lucrecia','Perez','Matos','1959-12-15');
 INSERT INTO alumnos VALUES(3,'Karen','Silkwood','1946','1946-02-19');
 ALTER TABLE alumnos ADD edad INT UNSIGNED;
 
-
 DELIMITER $$
-DROP FUNCTION IF EXISTS calcular_edad;
+DROP FUNCTION IF EXISTS calcular_edad$$
 CREATE FUNCTION calcular_edad(fecha DATE)
 RETURNS INT
 BEGIN
 DECLARE edad INT;
-SET edad = TRUNCATE(DATEDIFF(NOW(), fecha)/365, 0);
+SET edad = TRUNCATE(DATEDIFF(NOW(),fecha)/365, 0);
 RETURN edad;
-END
---!!!
-DELIMITER $$
-DROP PROCEDURE IF EXISTS actualizar_columna_edad;
+end
+
+DROP PROCEDURE IF EXISTS actualizar_columna_edad$$
 CREATE PROCEDURE actualizar_columna_edad()
 BEGIN
 DECLARE fecha_nacimiento DATE;
@@ -251,21 +249,21 @@ DECLARE edad INT;
 DECLARE id INT;
 DECLARE fin INT DEFAULT 0;
 DECLARE cursor_alumnos CURSOR FOR
-SELECT alumnos.id, alumnos.fecha_nacimiento FROM alumnos;
-DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin = 1;
+ SELECT alumnos.id,alumnos.fecha_nacimiento FROM alumnos;
+DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin= 1; 
 OPEN cursor_alumnos;
-bucle: LOOP
-FETCH cursor_alumnos INTO id, fecha_nacimiento;
-IF fin = 1 THEN 
-LEAVE bucle;
-END IF;
-SET edad = calcular_edad(fecha_nacimiento);
-UPDATE alumnos SET alumnos.edad = edad
-WHERE alumnos.id = id;
+bucle:LOOP
+FETCH
+cursor_alumnos
+INTO id,fecha_nacimiento;
+IF fin = 1 
+        THEN LEAVE bucle;
+    END IF;
+    SET edad = calcular_edad(fecha_nacimiento);
+    UPDATE alumnos SET alumnos.edad=edad WHERE alumnos.id=id;
 END LOOP;
 CLOSE cursor_alumnos;
-END
-
+END$$
 DELIMITER ;
 CALL actualizar_columna_edad();
 SELECT * FROM alumnos;
@@ -322,7 +320,6 @@ SUBSTR(apellido2,1,3),
 '@', dominio);
 SET email = LOWER(email);
 END$$
----!
 DELIMITER $$
 DROP PROCEDURE IF EXISTS actualizar_columna_email;
 CREATE PROCEDURE actualizar_columna_email(IN dominio VARCHAR(50))
