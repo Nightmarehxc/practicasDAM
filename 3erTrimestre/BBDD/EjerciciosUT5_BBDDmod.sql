@@ -12,6 +12,7 @@ BEGIN
 SELECT * FROM Clientes WHERE Clientes.Pais=pais;
 END $$
 DELIMITER ;
+call clientes_del_pais('USA');
 /* Funciona */
 
 /*2.Escribe un procedimiento que reciba como parámetro de entrada una forma de pago, que será una cadena de caracteres (Ejemplo: PayPal, Transferencia, etc). Y devuelva como salida el pago de máximo valor realizado para esa forma de pago. Deberá hacer uso de la tabla pago de la base de datos jardineria.*/
@@ -130,7 +131,7 @@ DROP PROCEDURE IF EXISTS insertar_alumno$$
  CALL insertar_alumno(2,'Rodion','Romanovich','Raskolnikov',@error);
 SELECT @error;
 select * FROM alumno;
-
+/* Funciona */
 /*TRANSACCIONES CON PROCEDIMIENTOS ALMACENADOS.*/
 
 /*7. Crea una base de datos llamada cine que contenga dos tablas con las siguientes columnas.
@@ -196,6 +197,7 @@ CALL comprar_entrada('19876543B', 1, 11, @error);
 CALL comprar_entrada('13456789C', 1, 12, @error);
 CALL comprar_entrada('18765432D', 1, 13, @error);
 CALL comprar_entrada('17654321E', 1, 14, @error);
+select * from entradas;
 
 /*CURSORES*/
 
@@ -380,7 +382,6 @@ apellido1 VARCHAR(50) NOT NULL,
 apellido2 VARCHAR(50),
 nota FLOAT
 );
----!!!
 DELIMITER $$
 DROP TRIGGER IF EXISTS trigger_check_nota_before_insert;
 CREATE TRIGGER trigger_check_nota_before_insert
@@ -393,7 +394,6 @@ ELSEIF NEW.nota > 10 THEN
 SET NEW.nota = 10;
 END IF;
 END$$ 
----!!!
 DELIMITER $$
 DROP TRIGGER IF EXISTS trigger_check_nota_before_update;
 CREATE TRIGGER trigger_check_nota_before_update
@@ -406,7 +406,6 @@ ELSEIF NEW.nota > 10 THEN
 SET NEW.nota = 10;
 END IF;
 END$$
----!!!
 DELIMITER ;
 INSERT INTO alumnos VALUES(1, 'José','López', 'Martínez',13);
 INSERT INTO alumnos VALUES(2, 'María','Sánchez', 'Pérez',-3);
@@ -417,3 +416,6 @@ SELECT * FROM alumnos;
 
 UPDATE alumnos SET nota = -6 WHERE id = 2;
 UPDATE alumnos SET nota = 15 WHERE id = 3;
+
+SELECT * FROM alumnos;
+
