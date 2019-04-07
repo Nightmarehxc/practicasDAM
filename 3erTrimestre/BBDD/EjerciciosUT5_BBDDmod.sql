@@ -199,7 +199,8 @@ CALL comprar_entrada('17654321E', 1, 14, @error);
 
 /*CURSORES*/
 
-/*8.Escribe las sentencias SQL necesarias para crear una base de datos llamada test, una tabla llamada alumnos y 4 sentencias de inserción para inicializar la tabla. La tabla alumnos está formada por las siguientes columnas:
+/*8.Escribe las sentencias SQL necesarias para crear una base de datos llamada test, una tabla llamada alumnos y 4 sentencias de inserción para inicializar la tabla.
+ La tabla alumnos está formada por las siguientes columnas:
 • id (entero sin signo y clave primaria)
 • nombre (cadena de caracteres)
 • apellido1 (cadena de caracteres)
@@ -214,25 +215,23 @@ Escriba una función llamada calcular_edad que reciba una fecha y devuelva el n�
 Ahora escriba un procedimiento que permita calcular la edad de todos los alumnmos que ya existen en la tabla.
 Para esto será necesario crear un procedimiento llamado actualizar_columna_edad que calcule la edad de cada alumno y actualice la tabla. Este procedimiento hará uso de la función calcular_edad que hemos creado en el paso anterior.*/
 
-DROP DATABASE IF EXIST test;
+DROP DATABASE IF EXISTS test;
 CREATE DATABASE test;
 USE test;
 
 CREATE TABLE alumnos(
-id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+id INT UNSIGNED PRIMARY KEY NOT NULL,
 nombre VARCHAR(50) NOT NULL,
 apellido1 VARCHAR(50) NOT NULL,
-apellido2 VARCHAR(50)
-fecha_nacimiento DATE NOT NULL
-);
+apellido2 VARCHAR(50)NOT NULL,
+fecha_nacimiento DATE NOT NULL);
 
-INSERT INTO alumnos VALUES(1, 'Juan','López', 'Martínez',2000-02-01);
-INSERT INTO alumnos VALUES(2, 'Ramón','Sánchez', 'Pérez',1997-02-03);
-INSERT INTO alumnos VALUES(3, 'Antonio','López', 'García',1998-07-15);
-INSERT INTO alumnos VALUES(4, 'Alberto','Benítez', 'Sanz',1999-08-27);
-
+INSERT INTO alumnos VALUES(1, 'Pepe','Torero','',2000-02-01);
+INSERT INTO alumnos VALUES(2, 'Lucrecia','Perez','Matos',1959-15-12);
+INSERT INTO alumnos VALUES(3, 'Karen','Silkwood','1946',1946-19-2);
 ALTER TABLE alumnos ADD edad INT UNSIGNED;
---!!!
+
+
 DELIMITER $$
 DROP FUNCTION IF EXISTS calcular_edad;
 CREATE FUNCTION calcular_edad(fecha DATE)
