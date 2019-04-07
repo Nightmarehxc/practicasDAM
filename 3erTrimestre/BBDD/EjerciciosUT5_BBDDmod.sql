@@ -342,7 +342,7 @@ CALL crear_email(nombre, apellido1, apellido2, dominio, @email);
 UPDATE alumnos SET alumnos.email = @email WHERE alumnos.id = id;
 END LOOP;
 CLOSE cursor_alumnos;
-END$$
+END
 DELIMITER ;
 CALL actualizar_columna_email('ieslago.org');
 SELECT * FROM alumnos;
