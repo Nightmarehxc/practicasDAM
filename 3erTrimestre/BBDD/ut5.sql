@@ -69,7 +69,7 @@ DELIMITER ;
 SELECT numero_productos();
 /* Funciona */
 
-/*5.Escribe una función para la base de datos jardinería que devuelva el valor medio del precio de los productos de un determinado fabricante que se recibirá como parámetro de entrada. El parámetro de entrada será el nombre del fabricante.*/--ok
+/*5.Escribe una función para la base de datos jardinería que devuelva el valor medio del precio de los productos de un determinado fabricante que se recibirá como parámetro de entrada. El parámetro de entrada será el nombre del fabricante.*/
 
 DELIMITER $$ 
 DROP FUNCTION IF EXISTS calcular_precio_medio$$

@@ -1,0 +1,256 @@
+mysql> source ut5.sql
+Database changed
+Query OK, 0 rows affected (0.06 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
++---------------+----------------------+----------------+------------------+-------------+-------------+---------------------+-----------------+---------------+--------+------+--------------+-------------------------+---------------+
+| CodigoCliente | NombreCliente        | NombreContacto | ApellidoContacto | Telefono    | Fax         | LineaDireccion1     | LineaDireccion2 | Ciudad        | Region | Pais | CodigoPostal | CodigoEmpleadoRepVentas | LimiteCredito |
++---------------+----------------------+----------------+------------------+-------------+-------------+---------------------+-----------------+---------------+--------+------+--------------+-------------------------+---------------+
+|             1 | DGPRODUCTIONS GARDEN | Daniel G       | GoldFish         | 5556901745  | 5556901746  | False Street 52 2 A | NULL            | San Francisco | NULL   | USA  | 24006        |                      19 |       3000.00 |
+|             3 | Gardening Associates | Anne           | Wright           | 5557410345  | 5557410346  | Wall-e Avenue       | NULL            | Miami         | Miami  | USA  | 24010        |                      19 |       6000.00 |
+|             4 | Gerudo Valley        | Link           | Flaute           | 5552323129  | 5552323128  | Oaks Avenue nº22   | NULL            | New York      | NULL   | USA  | 85495        |                      22 |      12000.00 |
+|             5 | Tendo Garden         | Akane          | Tendo            | 55591233210 | 55591233211 | Null Street nº69   | NULL            | Miami         | NULL   | USA  | 696969       |                      22 |     600000.00 |
++---------------+----------------------+----------------+------------------+-------------+-------------+---------------------+-----------------+---------------+--------+------+--------------+-------------------------+---------------+
+4 rows in set (0.03 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
++---------+
+| @maximo |
++---------+
+|   20000 |
++---------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++---------+---------+--------+--------+---------------+
+| @maximo | @minimo | @media | @suma  | @numero_pagos |
++---------+---------+--------+--------+---------------+
+|   20000 |     232 | 7156.5 | 171756 |            24 |
++---------+---------+--------+--------+---------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+
++--------------------+
+| numero_productos() |
++--------------------+
+|                276 |
++--------------------+
+1 row in set (0.03 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 0 rows affected (0.19 sec)
+
++-------------------------------------------+
+| calcular_precio_medio("Viveros EL OASIS") |
++-------------------------------------------+
+|                        18.398693084716797 |
++-------------------------------------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.41 sec)
+
+Query OK, 1 row affected (0.10 sec)
+
+Database changed
+Query OK, 0 rows affected (0.47 sec)
+
+Query OK, 0 rows affected, 1 warning (0.10 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 1 row affected (0.07 sec)
+
+Query OK, 1 row affected (0.13 sec)
+
++--------+
+| @error |
++--------+
+|      0 |
++--------+
+1 row in set (0.00 sec)
+
++----+--------+------------+-------------+
+| id | nombre | apellido1  | apellido2   |
++----+--------+------------+-------------+
+|  1 | pepe   | torero     | torero      |
+|  2 | Rodion | Romanovich | Raskolnikov |
++----+--------+------------+-------------+
+2 rows in set (0.00 sec)
+
+Query OK, 2 rows affected (0.43 sec)
+
+Query OK, 1 row affected (0.49 sec)
+
+Database changed
+Query OK, 0 rows affected (1.84 sec)
+
+Query OK, 0 rows affected (0.46 sec)
+
+Query OK, 1 row affected (0.07 sec)
+
+Query OK, 1 row affected (0.14 sec)
+
+Query OK, 0 rows affected, 1 warning (0.08 sec)
+
+Query OK, 0 rows affected (0.28 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
++-----------+-----------+
+| id_butaca | nif       |
++-----------+-----------+
+|        10 | 12345678A |
+|        11 | 19876543B |
+|        12 | 13456789C |
+|        13 | 18765432D |
++-----------+-----------+
+4 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.18 sec)
+
+Query OK, 1 row affected (0.04 sec)
+
+Database changed
+Query OK, 0 rows affected (0.42 sec)
+
+Query OK, 1 row affected (0.07 sec)
+
+Query OK, 1 row affected (0.07 sec)
+
+Query OK, 1 row affected (0.06 sec)
+
+Query OK, 0 rows affected (0.69 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.05 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 0 rows affected, 1 warning (0.05 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 0 rows affected (0.23 sec)
+
++----+----------+-----------+-----------+------------------+------+
+| id | nombre   | apellido1 | apellido2 | fecha_nacimiento | edad |
++----+----------+-----------+-----------+------------------+------+
+|  1 | Pepe     | Torero    |           | 2000-02-01       |   19 |
+|  2 | Lucrecia | Perez     | Matos     | 1959-12-15       |   59 |
+|  3 | Karen    | Silkwood  | 1946      | 1946-02-19       |   73 |
++----+----------+-----------+-----------+------------------+------+
+3 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.40 sec)
+
+Query OK, 1 row affected (0.20 sec)
+
+Database changed
+Query OK, 0 rows affected (0.81 sec)
+
+Query OK, 1 row affected (0.20 sec)
+
+Query OK, 1 row affected (0.13 sec)
+
+Query OK, 1 row affected (0.15 sec)
+
+Query OK, 1 row affected (0.20 sec)
+
+Query OK, 0 rows affected (0.71 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.17 sec)
+
+Query OK, 0 rows affected (0.40 sec)
+
+Query OK, 0 rows affected, 1 warning (0.09 sec)
+
+Query OK, 0 rows affected (0.36 sec)
+
+Query OK, 0 rows affected (0.71 sec)
+
++----+---------+-----------+-----------+------------------+---------------------+
+| id | nombre  | apellido1 | apellido2 | fecha_nacimiento | email               |
++----+---------+-----------+-----------+------------------+---------------------+
+|  1 | José   | López    | Martínez | 2000-02-01       | jlómar@ieslago.org |
+|  2 | María  | Sánchez  | Pérez    | 1997-02-03       | msápé@ieslago.org |
+|  3 | Antonio | López    | García   | 1998-07-15       | alógar@ieslago.org |
+|  4 | Alberto | Benítez  | Sanz      | 1999-08-27       | abensan@ieslago.org |
++----+---------+-----------+-----------+------------------+---------------------+
+4 rows in set (0.00 sec)
+
+Query OK, 1 row affected (1.93 sec)
+
+Query OK, 1 row affected (0.18 sec)
+
+Database changed
+Query OK, 0 rows affected (0.41 sec)
+
+Query OK, 0 rows affected, 1 warning (0.08 sec)
+
+Query OK, 0 rows affected (0.21 sec)
+
+Query OK, 0 rows affected, 1 warning (0.06 sec)
+
+Query OK, 0 rows affected (0.14 sec)
+
+Query OK, 1 row affected (0.06 sec)
+
+Query OK, 1 row affected (0.20 sec)
+
+Query OK, 1 row affected (0.60 sec)
+
+Query OK, 1 row affected (0.14 sec)
+
++----+---------+-----------+-----------+------+
+| id | nombre  | apellido1 | apellido2 | nota |
++----+---------+-----------+-----------+------+
+|  1 | José   | López    | Martínez |   10 |
+|  2 | María  | Sánchez  | Pérez    |    0 |
+|  3 | Antonio | López    | García   |    9 |
+|  4 | Alberto | Benítez  | Sanz      |    6 |
++----+---------+-----------+-----------+------+
+4 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 1  Changed: 0  Warnings: 0
+
+Query OK, 1 row affected (0.17 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
++----+---------+-----------+-----------+------+
+| id | nombre  | apellido1 | apellido2 | nota |
++----+---------+-----------+-----------+------+
+|  1 | José   | López    | Martínez |   10 |
+|  2 | María  | Sánchez  | Pérez    |    0 |
+|  3 | Antonio | López    | García   |   10 |
+|  4 | Alberto | Benítez  | Sanz      |    6 |
++----+---------+-----------+-----------+------+
+4 rows in set (0.00 sec)
+
+mysql> notee
