@@ -226,9 +226,9 @@ apellido1 VARCHAR(50) NOT NULL,
 apellido2 VARCHAR(50)NOT NULL,
 fecha_nacimiento DATE NOT NULL);
 
-INSERT INTO alumnos VALUES(1,'Pepe','Torero','',2000-02-01);
-INSERT INTO alumnos VALUES(2,'Lucrecia','Perez','Matos',1959-12-15);
-INSERT INTO alumnos VALUES(3,'Karen','Silkwood','1946',1946-02-19);
+INSERT INTO alumnos VALUES(1,'Pepe','Torero','','2000-02-01');
+INSERT INTO alumnos VALUES(2,'Lucrecia','Perez','Matos','1959-12-15');
+INSERT INTO alumnos VALUES(3,'Karen','Silkwood','1946','1946-02-19');
 ALTER TABLE alumnos ADD edad INT UNSIGNED;
 
 
