@@ -305,7 +305,7 @@ INSERT INTO alumnos VALUES(3, 'Antonio','López', 'García','1998-07-15');
 INSERT INTO alumnos VALUES(4, 'Alberto','Benítez', 'Sanz','1999-08-27');
 
 ALTER TABLE alumnos ADD email VARCHAR(150);
---!!!
+
 DELIMITER $$
 DROP PROCEDURE IF EXISTS crear_email;
 CREATE PROCEDURE crear_email(IN nombre VARCHAR(50),
@@ -342,7 +342,7 @@ CALL crear_email(nombre, apellido1, apellido2, dominio, @email);
 UPDATE alumnos SET alumnos.email = @email WHERE alumnos.id = id;
 END LOOP;
 CLOSE cursor_alumnos;
-END
+END$$
 DELIMITER ;
 CALL actualizar_columna_email('ieslago.org');
 SELECT * FROM alumnos;
