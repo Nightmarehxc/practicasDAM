@@ -83,7 +83,7 @@ RETURN media;
 END
 $$
 DELIMITER ;
-select  calcular_precio_medio("Viveros EL OASIS")
+select  calcular_precio_medio("Viveros EL OASIS");
 /* Funciona */
 
 /*MANEJO DE ERRORES*/
@@ -93,51 +93,43 @@ select  calcular_precio_medio("Viveros EL OASIS")
 • nombre: cadena de 50 caracteres.
 • apellido1: cadena de 50 caracteres.
 • apellido2: cadena de 50 caracteres.
-Una vez creada la base de datos y la tabla deberá crear un procedimiento llamado insertar_alumno con las siguientes características. El procedimiento recibe cuatro parámetros de entrada (id, nombre, apellido1, apellido2) y los insertará en la tabla alumno. El procedimiento devolverá como salida un parámetro llamado error que tendrá un valor igual a 0 si la operación se ha podido realizar con éxito y un valor igual a 1 en caso contrario.
+Una vez creada la base de datos y la tabla deberá crear un procedimiento llamado insertar_alumno
+ con las siguientes características.
+  El procedimiento recibe cuatro parámetros de entrada 
+  (id, nombre, apellido1, apellido2) y los insertará en la tabla alumno.
+ El procedimiento devolverá como salida un parámetro llamado error que tendrá un valor igual a 0
+ si la operación se ha podido realizar con éxito y un valor igual a 1 en caso contrario.
 Deberá manejar los errores que puedan ocurrir cuando se intenta insertar una fila que contiene una clave primaria repetida.*/
 
-DROP DATABASE IF EXISTS test;
+
+DROP DATABASE if EXISTS test;
 CREATE DATABASE test;
-USE test;
+use test;
+
 
 CREATE TABLE alumno(
-id INT  UNSIGNED PRIMARY KEY,
-nombre VARCHAR(50),
-apellido1 VARCHAR(50),
-apellido2 VARCHAR(50)
+    id INT UNSIGNED PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido1 VARCHAR(50),
+    apellido2 VARCHAR(50)
 );
-
 DELIMITER $$
-DROP PROCEDURE IF EXISTS insertar_alumno;
-CREATE PROCEDURE insertar_alumno
-(
-    IN id INT UNSIGNED,
-    IN nombre VARCHAR(50),
-    IN apellido1 VARCHAR(50),
-    IN apellido2 VARCHAR(50)
-    
-)
-declare OUT error TINYINT UNSIGNED
-BEGIN
-SET error = 1;
-END;
-SET error = 0;
-INSERT INTO alumno VALUES(id, nombre, apellido1, apellido2);
-END
-$$
-
---!!!!
-DELIMITER ;
-CALL insertar_alumno(1, 'Luis', 'López', 'Ramírez', @error);
-CALL insertar_alumno(2, 'Juan', 'Sánchez', 'Martínez', @error);
+DROP PROCEDURE IF EXISTS insertar_alumno$$
+    CREATE PROCEDURE insertar_alumno(IN id INT UNSIGNED,in nombre VARCHAR(50),IN apellido1 VARCHAR(50),IN apellido2 VARCHAR(50),OUT error TINYINT UNSIGNED)
+    BEGIN
+        DECLARE CONTINUE HANDLER FOR 1062
+            BEGIN
+            set error = 1;
+            END;
+        set error = 0;
+        INSERT INTO alumno VALUES (id,nombre,apellido1,apellido2);
+    END
+    $$
+ DELIMITER ;
+ CALL insertar_alumno(1,'pepe','torero','torero',@error);
+ CALL insertar_alumno(2,'Rodion','Romanovich','Raskolnikov',@error);
 SELECT @error;
-
-
-
-
-
-SELECT * FROM alumno;
-
+select * FROM alumno;
 
 /*TRANSACCIONES CON PROCEDIMIENTOS ALMACENADOS.*/
 
@@ -164,7 +156,7 @@ CREATE DATABASE cine;
 USE cine;
 
 CREATE TABLE cuentas(
-id_cuenta INT UNSIGNED PRIMARY KEY,
+id_cuenta INTEGER UNSIGNED PRIMARY KEY,
 saldo DECIMAL(11,2) UNSIGNED CHECK (saldo >= 0)
 );
 CREATE TABLE entradas(
@@ -175,7 +167,7 @@ nif VARCHAR(9)
 INSERT INTO cuentas VALUES(1,20);
 INSERT INTO cuentas VALUES(2,10);
 
---!!!
+
 DELIMITER $$
 DROP PROCEDURE IF EXISTS comprar_entrada;
 CREATE PROCEDURE comprar_entrada(IN nif VARCHAR(9), OUT error INT)
