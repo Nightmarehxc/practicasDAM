@@ -347,7 +347,7 @@ END LOOP;
 CLOSE cursor_alumnos;
 END
 DELIMITER ;
-CALL actualizar_columna, email('ieslago.org');
+CALL actualizar_columna_email('ieslago.org');
 SELECT * FROM alumnos;
 
 /*TRIGGERS*/
