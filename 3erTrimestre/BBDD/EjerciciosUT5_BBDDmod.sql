@@ -320,7 +320,7 @@ SUBSTR(apellido2,1,3),
 '@', dominio);
 SET email = LOWER(email);
 END$$
-DELIMITER $$
+
 DROP PROCEDURE IF EXISTS actualizar_columna_email;
 CREATE PROCEDURE actualizar_columna_email(IN dominio VARCHAR(50))
 BEGIN
@@ -342,7 +342,7 @@ CALL crear_email(nombre, apellido1, apellido2, dominio, @email);
 UPDATE alumnos SET alumnos.email = @email WHERE alumnos.id = id;
 END LOOP;
 CLOSE cursor_alumnos;
-END
+END$$
 DELIMITER ;
 CALL actualizar_columna_email('ieslago.org');
 SELECT * FROM alumnos;
