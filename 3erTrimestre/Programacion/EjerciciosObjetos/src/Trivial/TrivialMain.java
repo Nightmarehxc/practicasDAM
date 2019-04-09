@@ -41,7 +41,7 @@ public class TrivialMain
         for(int i = 0 ; i < preguntas.length;i++)
         {
             System.out.println("Introduce la pregunta " +i);
-            preguntas[i].setPregunta(sc.next());
+            preguntas[i].setPregunta(sc.nextLine());
             System.out.println("Introduce la respuesta");
             preguntas[i].setRespuesta(sc.next());
 

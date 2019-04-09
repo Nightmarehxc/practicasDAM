@@ -22,7 +22,7 @@ public class Enunciado
         return respuesta;
     }
 
-    public void setRespuesta(String respuesta) {
-        this.respuesta = respuesta;
+    public void setRespuesta(String a_respuesta) {
+        this.respuesta = a_respuesta;
     }
 }
