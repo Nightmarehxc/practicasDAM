@@ -1,7 +1,8 @@
 package Trivial;
 
-import java.lang.reflect.Array;
+
 import java.util.Scanner;
+
 
 public class TrivialMain
 {
@@ -37,11 +38,21 @@ public class TrivialMain
 
     public static void CrearExamen()
     {
+        Enunciado p1=new Enunciado("hola","adios");
+        Enunciado p2=new Enunciado("hola","adios");
+        Enunciado p3=new Enunciado("hola","adios");
+        Enunciado p4=new Enunciado("hola","adios");
 
+        preguntas[0]=p1;
+        preguntas[1]=p2;
+        preguntas[2]=p3;
+        preguntas[3]=p4;
         for(int i = 0 ; i < preguntas.length;i++)
         {
             System.out.println("Introduce la pregunta " +i);
-            preguntas[i].setPregunta(sc.nextLine());
+
+
+            preguntas[i].setPregunta(sc.next());
             System.out.println("Introduce la respuesta");
             preguntas[i].setRespuesta(sc.next());
 
