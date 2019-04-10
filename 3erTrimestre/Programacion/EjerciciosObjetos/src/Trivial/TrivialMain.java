@@ -50,11 +50,9 @@ public class TrivialMain
         for(int i = 0 ; i < preguntas.length;i++)
         {
             System.out.println("Introduce la pregunta " +i);
-
-
-            preguntas[i].setPregunta(sc.next());
+            preguntas[i].setPregunta(sc.nextLine());
             System.out.println("Introduce la respuesta");
-            preguntas[i].setRespuesta(sc.next());
+            preguntas[i].setRespuesta(sc.nextLine());
 
         }
         System.out.println("Creacion de examen terminada");
@@ -65,8 +63,8 @@ public class TrivialMain
         String nombre = sc.next();
         for(int i = 0 ; i < preguntas.length;i++)
         {
-            preguntas[i].getPregunta();
-            respuestas[i]=sc.next();
+            System.out.println(preguntas[i].getPregunta());
+            respuestas[i]=sc.nextLine();
         }
     }
     static void comprobarRespuestas()
@@ -75,6 +73,10 @@ public class TrivialMain
         for(int i = 0; i < respuestas.length;i++)
         {
             respuestas[i].compareTo(preguntas[i].getRespuesta());
+            if(respuestas[i].equalsIgnoreCase(preguntas[i].getRespuesta()))
+            {
+
+            }
         }
 
     }
