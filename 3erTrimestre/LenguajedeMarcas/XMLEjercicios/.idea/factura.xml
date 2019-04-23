@@ -1,0 +1,23 @@
+<facturas>
+    <factura>
+        <n_fac></n_fac>
+        <n_cli></n_cli>
+        <n_ped></n_ped>
+        <telefonos>
+            <telefono></telefono>
+            <fax></fax>
+        </telefonos>
+        <formaPago></formaPago>
+        <fecha></fecha>
+        <moneda></moneda>
+        <iva></iva>
+        <articulos>
+            <articulo>
+                <ref></ref>
+                <desc></desc>
+                <precio></precio>
+            </articulo>
+        </articulos>
+        <cp></cp>
+    </factura>
+</facturas>
