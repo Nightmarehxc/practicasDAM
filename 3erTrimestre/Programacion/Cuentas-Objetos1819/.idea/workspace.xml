@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd1f21a9-9ac8-4ba9-9671-9edc25516bcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../EjerciciosCadenas/src/Palabras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cuentas-Objetos1819/Cuenta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cuentas-Objetos1819/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EjerciciosCadenas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EjerciciosCadenas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../EjerciciosCadenas/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../EjerciciosCadenas/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
+            <state relative-caret-position="1411">
               <caret line="84" column="77" selection-start-line="84" selection-start-column="77" selection-end-line="84" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -32,13 +35,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Cuenta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
+            <state relative-caret-position="779">
               <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
               <folding>
                 <element signature="e#1092#1093#0" expanded="true" />
                 <element signature="e#1128#1129#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1446#1447#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,6 +92,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,21 +141,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554899444560</updated>
+<<<<<<< HEAD
+      <workItem from="1554899451250" duration="1213000" />
+=======
       <workItem from="1554899451250" duration="668000" />
       <workItem from="1554990321163" duration="8187000" />
       <workItem from="1555149528294" duration="17000" />
       <workItem from="1555402418895" duration="3676000" />
+<<<<<<< HEAD
+      <workItem from="1555709879047" duration="575000" />
+      <workItem from="1555790415971" duration="11000" />
+=======
+>>>>>>> f9aebd2faead948131f718b81fddbe0389fcf60b
+>>>>>>> 080a40183dfcf8832e964ae883239bab9a62eff3
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="13134000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="1213000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+=======
     <option name="totallyTimeSpent" value="12548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
+>>>>>>> f9aebd2faead948131f718b81fddbe0389fcf60b
+>>>>>>> 080a40183dfcf8832e964ae883239bab9a62eff3
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12633263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -163,7 +187,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -193,7 +217,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="1411">
           <caret line="84" column="77" selection-start-line="84" selection-start-column="77" selection-end-line="84" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -203,13 +227,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cuenta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
+        <state relative-caret-position="779">
           <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
           <folding>
             <element signature="e#1092#1093#0" expanded="true" />
             <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
           </folding>
         </state>
       </provider>
