@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/.idea/factura.xsd" line="42" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f2fe7c-d643-43ca-94d0-0efb3d40e847" name="Default Changelist" comment="" />
+    <list default="true" id="b0f2fe7c-d643-43ca-94d0-0efb3d40e847" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,12 +129,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556025072137</updated>
       <workItem from="1556025073427" duration="2962000" />
-      <workItem from="1556200464943" duration="271000" />
+      <workItem from="1556200464943" duration="853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3233000" />
+    <option name="totallyTimeSpent" value="3815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
