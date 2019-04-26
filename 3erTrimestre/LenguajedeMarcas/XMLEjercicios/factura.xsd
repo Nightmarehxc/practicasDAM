@@ -27,7 +27,7 @@
       <xs:element type="tipoID" name="n_ped"/>
       <xs:element type="telefonosType" name="telefonos"/>
       <xs:element type="xs:string" name="formaPago"/>
-      <xs:element type="xs:string" name="fecha"/>
+      <xs:element type="xs:date" name="fecha"/>
       <xs:element type="xs:string" name="moneda"/>
       <xs:element type="xs:string" name="iva"/>
       <xs:element type="articulosType" name="articulos"/>
@@ -40,10 +40,17 @@
       <xs:element type="facturaType" name="factura"/>
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType  name="tipoID" type="xs:int">
-    <xs:restriction>
+  <xs:simpleType name="tipoID">
+    <xs:restriction base="xs:integer">
       <xs:length value="4"/>
       <xs:pattern value="[0-9][0-9][0-9][0-9]"/>
     </xs:restriction>
-  </xs:complexType>
+  </xs:simpleType>
+  <xs:simpleType name="pago">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="efectivo"/>
+      <xs:enumeration value="tarjeta”"/>
+      <xs:enumeration value="plazos”"/>
+    </xs:restriction>
+  </xs:simpleType>
 </xs:schema>
