@@ -1,13 +1,11 @@
-public class Dia
+class Dia
 {
-    float tempMin;
-    float tempMax;
+    private float tempMin;
+    private float tempMax;
+    final String[] d_names = new String[]{"Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"};
+    String d_name;
 
-    public Dia(float a_tempMin, float a_tempMax)
-    {
-        this.tempMin = a_tempMin;
-        this.tempMax = a_tempMax;
-    }
+
 
     public float getTempMin()
     {
@@ -26,5 +24,14 @@ public class Dia
     public void setTempMax(float a_tempMax)
     {
         this.tempMax = a_tempMax;
+    }
+
+    public String getD_name() {
+        return d_name;
+    }
+
+    public void setD_name(int n_day)
+    {
+        this.d_name = d_names[n_day];
     }
 }

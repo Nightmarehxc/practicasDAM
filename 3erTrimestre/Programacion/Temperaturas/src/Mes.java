@@ -1,7 +1,7 @@
-public class Mes
+class Mes
 {
-    float dia1;
-    float dia30;
+    private float dia1;
+    private float dia30;
 
 
     public float getDia1() {
