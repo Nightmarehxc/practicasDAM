@@ -1,3 +1,5 @@
+import java.util.Collections;
+
 public class Calendario
 {
     Mes[] meses = new Mes[12];
@@ -25,5 +27,10 @@ public class Calendario
     void getTemperaturas(int a_mes)
     {
         meses[a_mes].getTemperaturas();
+    }
+
+    void OrdenarTemperaturas(int a_mes)
+    {
+
     }
 }

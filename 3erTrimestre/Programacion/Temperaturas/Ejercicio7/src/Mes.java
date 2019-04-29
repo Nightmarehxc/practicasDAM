@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class Mes
 {
@@ -19,7 +21,7 @@ public class Mes
 
     void GenerarDias() {
 
-        for (int i = 0; i < 27; i++) {
+        for (int i = 0; i < 28; i++) {
             if (contador <= 6) {
 
                 Dias.add(i, new Dia());
@@ -53,5 +55,10 @@ public class Mes
                     "Temperatura minima: "+Dias.get(i).getTempMin()+"\n" +
                     "Temperatura maxima:"+Dias.get(i).getTempMax());
         }
+    }
+    void ordenarTemperaturas()
+    {
+
+
     }
 }

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0f2fe7c-d643-43ca-94d0-0efb3d40e847" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/factura.xml" beforeDir="false" afterPath="$PROJECT_DIR$/factura.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/factura.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/factura.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/Temperaturas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/Temperaturas/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0f2fe7c-d643-43ca-94d0-0efb3d40e847" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -147,8 +142,7 @@
     <option name="totallyTimeSpent" value="7515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29102844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
