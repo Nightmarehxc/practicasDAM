@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0f2fe7c-d643-43ca-94d0-0efb3d40e847" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/factura.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/factura.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/Temperaturas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/Temperaturas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/Temperaturas/Ejercicio7/src/Mes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/Temperaturas/Ejercicio7/src/Mes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BBDD/Actividad_TeoríaUT7.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../BBDD/Actividad_TeoríaUT7.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/factura.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -83,8 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,6 +97,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,16 +140,17 @@
       <workItem from="1556200464943" duration="853000" />
       <workItem from="1556287054480" duration="3700000" />
       <workItem from="1556637243264" duration="2089000" />
+      <workItem from="1556643352012" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9604000" />
+    <option name="totallyTimeSpent" value="10195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.297593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30415756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -193,7 +192,7 @@
     <entry file="file://$PROJECT_DIR$/factura.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
