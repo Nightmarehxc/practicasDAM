@@ -59,8 +59,20 @@ public class Mes
     }
     void ordenarTemperaturas()
     {
-        String[] dias;
-        //float[][] maxima = new float[][];
+        ArrayList<Float> diasCalurosos = new ArrayList<Float>();
+        float[]tempMax = new float[28];
+
+
+        for(int i=0;i < Dias.size();i++)
+        {
+
+            diasCalurosos.add(Dias.get(i).getTempMax());
+            diasCalurosos.sort(diasCalurosos.get(i));
+        }
+
+
+
+
         //Collections.max(dias,getTemperaturas());
 
     }

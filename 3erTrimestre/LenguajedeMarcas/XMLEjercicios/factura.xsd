@@ -10,7 +10,14 @@
   <xs:complexType name="articuloType">
     <xs:sequence>
       <xs:element type="xs:string" name="ref"/>
-      <xs:element type="xs:string" name="desc"/>
+      <xs:element  name="desc">
+          <xs:simpleType>
+              <xs:restriction base="xs:string">
+                  <xs:minLength value="1"/>
+                  <xs:maxLength value="150"/>
+              </xs:restriction>
+          </xs:simpleType>
+      </xs:element>
       <xs:element type="xs:string" name="precio"/>
     </xs:sequence>
   </xs:complexType>
@@ -28,11 +35,16 @@
       <xs:element type="telefonosType" name="telefonos"/>
       <xs:element type="xs:string" name="formaPago"/>
       <xs:element type="xs:date" name="fecha"/>
-      <xs:element type="xs:string" name="moneda"/>
-      <xs:element type="xs:string" name="iva"/>
+      <xs:element type="xs:string" name="moneda" fixed="Euro">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Euro"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="iva" name="iva"/>
       <xs:element type="articulosType" name="articulos"/>
       <xs:element type="xs:string" name="cp"/>
-
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="facturasType">
@@ -43,6 +55,7 @@
   <xs:simpleType name="tipoID">
     <xs:restriction base="xs:integer">
       <xs:length value="4"/>
+
       <xs:pattern value="[0-9][0-9][0-9][0-9]"/>
     </xs:restriction>
   </xs:simpleType>
@@ -53,4 +66,10 @@
       <xs:enumeration value="plazos”"/>
     </xs:restriction>
   </xs:simpleType>
+    <xs:simpleType name="iva" >
+
+        <xs:restriction base="xs:float">
+
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
