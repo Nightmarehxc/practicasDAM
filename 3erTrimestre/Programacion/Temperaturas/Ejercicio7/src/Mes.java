@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Comparator;
 
 public class Mes
@@ -59,7 +57,7 @@ public class Mes
     }
     void ordenarTemperaturas()
     {
-        ArrayList<Float> diasCalurosos = new ArrayList<Float>();
+        ArrayList<Object> diasCalurosos = new ArrayList<>();
         float[]tempMax = new float[28];
 
 
@@ -67,9 +65,10 @@ public class Mes
         {
 
             diasCalurosos.add(Dias.get(i).getTempMax());
-            diasCalurosos.sort(diasCalurosos.get(i));
-        }
+            diasCalurosos.sort((Comparator<? super Object>) diasCalurosos.get(i));
 
+        }
+        System.out.println(diasCalurosos.get(0));
 
 
 

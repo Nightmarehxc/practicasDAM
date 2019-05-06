@@ -23,7 +23,7 @@ class Menu
                 case 1:
                     /// faltaria generar un random para las temperaturas
                     System.out.println("Introduce el mes ");
-                    a_mes = sc.nextInt();
+                    a_mes = sc.nextInt()-1;
 
                     calendario.RellenarTemperaturas(a_mes);
                     System.out.println("Temperaturas del mes: "+calendario.meses[a_mes].getNombre());
@@ -36,11 +36,13 @@ class Menu
                     break;
                 case 3:
                     System.out.println("Introduce el mes ");
-                    a_mes = sc.nextInt();
+                    a_mes = sc.nextInt()-1;
                     calendario.getTemperaturas(a_mes);
                     break;
                 case 4:
-                    /// no me queda claro si el dia mas calurso del mes o del año
+                    System.out.println("Introduce el mes");
+                    a_mes = sc.nextInt()-1;
+                    calendario.OrdenarTemperaturas(a_mes);
                     break;
                 case 5:
                     t = true;

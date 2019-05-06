@@ -31,6 +31,6 @@ public class Calendario
 
     void OrdenarTemperaturas(int a_mes)
     {
-
+        meses[a_mes].ordenarTemperaturas();
     }
 }
