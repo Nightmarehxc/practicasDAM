@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57f2fd03-016f-4b91-85f9-4647ac196d03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hechizo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LenguajedeMarcas/XMLEjercicios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LenguajedeMarcas/XMLEjercicios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +119,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -154,6 +150,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -191,16 +188,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557152172481</updated>
-      <workItem from="1557152177911" duration="4002000" />
+      <workItem from="1557152177911" duration="4808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4002000" />
+    <option name="totallyTimeSpent" value="4808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
