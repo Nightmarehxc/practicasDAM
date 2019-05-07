@@ -1,0 +1,9 @@
+<persona>
+  <!--1 or more repetitions:-->
+  <nombre>string</nombre>
+  <apellido>string</apellido>
+  <apellido>string</apellido>
+  <fechanacimiento>2008-09-29</fechanacimiento>
+  <numerodocumento>3</numerodocumento>
+  <trianero>true</trianero>
+</persona>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="persona" type="personaType"/>
+  <xs:complexType name="personaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="nombre">
+        <xs:annotation>
+          <xs:documentation>1 or more repetitions:</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element type="xs:string" name="apellido" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="xs:date" name="fechanacimiento"/>
+      <xs:element type="xs:byte" name="numerodocumento"/>
+      <xs:element type="xs:string" name="trianero"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

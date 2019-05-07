@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <!-- question: 0  -->
+    <question type="category">
+        <category>
+            <text>$system$/top</text>
+
+        </category>
+    </question>
+
+    <!-- question: 0  -->
+    <question type="category">
+        <category>
+            <text>$system$/top/Default for System</text>
+
+        </category>
+    </question>
+
+    <!-- question: 350  -->
+    <question type="multichoice">
+        <name>
+            <text>Sistemas informaticos</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>¿Cuál es la definición mas concreta de red? <br></p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[<p>Explotación de sistemas informaticos parte3.pdf, página 6<br></p>]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>Correcta</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>Your answer is partially correct.</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>Incorrecta.</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p>Es un conjunto de dispositivos(nodos o estaciones)conectados por medio de enlaces.<br></p>]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="-33.33333" format="html">
+            <text><![CDATA[<p>Cualquier dispositivo que envia y recibe datos.<br></p>]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="-33.33333" format="html">
+            <text><![CDATA[<p> Dispocitivos que usan diferentes medios de transmisión.<br></p>]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="-33.33333" format="html">
+            <text><![CDATA[<p>Ninguna de las anteriores<br></p>]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+    </question>
+
+
+
+    <!-- question: 359  -->
+    <question type="multichoice">
+        <name>
+            <text>Sistemas informaticos</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>¿cual de estas es una característica de la arquitectura Harvard?<br></p>]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[<p> <a href="http://www.electrontools.com/Home/WP/2018/04/15/diferencias-entre-los-modelos-de-von-neumann-y-harvard/"><u>http://www.electrontools.com/Home/WP/2018/04/15/diferencias-entre-los-modelos-de-von-neumann-y-harvard/<br></u></a></p>]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <correctfeedback format="html">
+            <text>Correcta</text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text>Your answer is partially correct.</text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text>Incorrecta.</text>
+        </incorrectfeedback>
+        <shownumcorrect/>
+        <answer fraction="100" format="html">
+            <text><![CDATA[<p> todas son características <br></p>]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="-33.33333" format="html">
+            <text><![CDATA[<p>Ninguna es una característica<br></p>]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="-33.33333" format="html">
+            <text><![CDATA[<p>Tienen el inconveniente de tener que dividir las memorias caches entre los dos, por lo que no funciona de la mejor manera, salvo cuando la frecuencia de lectura de instrucciones y de datos es aproximadamente la misma.<br></p>]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="-33.33333" format="html">
+            <text><![CDATA[<p>Las instrucciones y los datos se almacenan en caches separadas para mejorar el rendimiento<br></p>]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+    </question>
+
+
+</quiz>
