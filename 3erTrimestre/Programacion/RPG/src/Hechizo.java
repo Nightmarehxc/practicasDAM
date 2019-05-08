@@ -20,13 +20,14 @@ public class Hechizo
         return potencia;
     }
 
-    public void setPotencia(int potencia) {
+    public void setPotencia(int potencia)
+    {
         this.potencia = potencia;
     }
 
     public static String toString(String a_datosHechizo)
     {
-
         return a_datosHechizo;
     }
+
 }

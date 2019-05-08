@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -22,13 +23,24 @@ public class Mago extends Pj
 
 
     }
-    void LanzarHechizo(String a_objetivo,int a_hechizo)
+    ///END aprender hechizo
+    ///Start Lanzar Hechizo
+    void LanzarHechizo(Pj a_target,int a_hechizo)
     {
         hechizos.get(a_hechizo).getTipoHechizo();
         hechizos.get(a_hechizo).getPotencia();
         int ataque = hechizos.get(a_hechizo).getPotencia();
-
-
     }
-    ///END aprender hechizo
+    ///End Lanzar echizo
+    void  OlvidadHechizos() throws IOException {
+        for(int i =0;i< hechizos.size();i++)
+        {
+            System.out.println(i+") Nombre Hechizo: "+hechizos.get(i).getTipoHechizo());
+
+        }
+        System.out.println("Que hechizo quieres olvidar?");
+        int i = System.in.read();
+        hechizos.remove(i);
+    }
+
 }
