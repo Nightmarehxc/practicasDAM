@@ -12,7 +12,6 @@ public class Clerigo extends Pj
     public void Curar(Pj target)
     {
         int cura = target.getHp()+11;
-
         target.setHp(cura);
     }
 

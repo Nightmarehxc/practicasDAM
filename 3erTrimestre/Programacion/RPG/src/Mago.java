@@ -18,10 +18,7 @@ public class Mago extends Pj
     void AprenderHechizo()
     {
         int indice= hechizos.size();
-
         hechizos.add(indice,new Hechizo("Fuego Nivel "+1,1));
-
-
     }
     ///END aprender hechizo
     ///Start Lanzar Hechizo
@@ -30,17 +27,19 @@ public class Mago extends Pj
         hechizos.get(a_hechizo).getTipoHechizo();
         hechizos.get(a_hechizo).getPotencia();
         int ataque = hechizos.get(a_hechizo).getPotencia();
+        int enemyHP = a_target.getHp();
+        a_target.setHp(enemyHP-hechizos.get(a_hechizo).getPotencia());
     }
     ///End Lanzar echizo
-    void  OlvidadHechizos() throws IOException {
+    void  OlvidadHechizos() throws IOException
+    {
         for(int i =0;i< hechizos.size();i++)
         {
-            System.out.println(i+") Nombre Hechizo: "+hechizos.get(i).getTipoHechizo());
-
+            System.out.println(i+") Nombre Hechizo: "+hechizos.get(i).getTipoHechizo()+"\n" +
+                    "Fza de hechizo: "+hechizos.get(i).getPotencia());
         }
         System.out.println("Que hechizo quieres olvidar?");
         int i = System.in.read();
         hechizos.remove(i);
     }
-
 }
