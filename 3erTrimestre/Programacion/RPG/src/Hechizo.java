@@ -4,8 +4,8 @@ public class Hechizo
     int potencia;
 
     public Hechizo(String tipoHechizo, int potencia) {
-        this.tipoHechizo = "Fuego";
-        this.potencia = 11;
+        this.tipoHechizo = tipoHechizo;
+        this.potencia = potencia;
     }
 
     public String getTipoHechizo() {

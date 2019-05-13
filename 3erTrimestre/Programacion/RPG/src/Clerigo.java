@@ -15,4 +15,9 @@ public class Clerigo extends Pj
         target.setHp(cura);
     }
 
+    @Override
+    public void AprenderHechizo(String a_name,int dano) {
+        super.AprenderHechizo(a_name,dano);
+
+    }
 }
