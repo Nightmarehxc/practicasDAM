@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b52783-90c2-419a-84be-650619774c0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/P_Fresco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RPG/src/Clerigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPG/src/Clerigo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RPG/src/Hechizo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPG/src/Hechizo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RPG/src/Mago.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPG/src/Mago.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RPG/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPG/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RPG/src/Pj.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPG/src/Pj.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +14,72 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Producto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/P_Fresco.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Producto.java" />
+        <option value="$PROJECT_DIR$/src/P_Fresco.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
@@ -43,12 +92,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Alimentos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alimentos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alimentos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alimentos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -86,16 +151,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557748996080</updated>
-      <workItem from="1557748999723" duration="604000" />
+      <workItem from="1557748999723" duration="1702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="604000" />
+    <option name="totallyTimeSpent" value="1702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -135,8 +199,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Producto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_Fresco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
