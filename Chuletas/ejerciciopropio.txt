@@ -1,0 +1,2 @@
+Realizar un programa que lea tantos números enteros como desee el usuario y los introduzca en una lista.
+Muestras la lista, intercambias los números que se encuentren en la 2ª y 4ª posición, y muestras el nuevo la lista por pantalla.

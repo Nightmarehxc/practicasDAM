@@ -1,0 +1,21 @@
+private static ArrayList personas = new ArrayList<>();
+................
+................
+personas.add(new Persona("Pepe", 28));
+personas.add(new Persona("Juan", 32));
+personas.add(new Persona("Paco", 40));
+personas.add(new Persona("Susi", 24));
+personas.add(new Persona("Lola", 20));
+personas.add(new Persona("Jose", 28));
+personas.add(new Persona("Dani", 24));
+personas.add(new Persona("Sara", 36));
+
+COMPARADOR
+Collections.sort(personas, new Comparator() {
+	@Override
+	public int compare(Persona p1, Persona p2) {
+		// Aqui esta el truco, ahora comparamos p2 con p1 y no al reves como antes
+		return new Integer(p2.getEdad()).compareTo(new Integer(p1.getEdad()));
+	}
+});
+
