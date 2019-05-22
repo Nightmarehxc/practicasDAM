@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<supermercado>
+<supermercado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./ejercicio3.xsd">
     <articulo id="articulo1">
         <descripcion>Leche desntada</descripcion>
         <marca>Pascual</marca>

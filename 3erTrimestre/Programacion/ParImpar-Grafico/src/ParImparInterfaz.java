@@ -43,7 +43,7 @@ public class ParImparInterfaz extends JDialog {
         ;
         ParImpar calc = new ParImpar();
         calc.Calcular(Integer.parseInt(p));
-        
+
 
         dispose();
     }

@@ -1,9 +1,10 @@
+<ies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./ejercicio1.xsd">
 <persona>
-  <!--1 or more repetitions:-->
-  <nombre>string</nombre>
-  <apellido>string</apellido>
-  <apellido>string</apellido>
+  <nombre>"Pepe"</nombre>
+  <apellido>"torero"</apellido>
+  <apellido>156156</apellido>
   <fechanacimiento>2008-09-29</fechanacimiento>
   <numerodocumento>3</numerodocumento>
   <trianero>true</trianero>
 </persona>
+</ies>
