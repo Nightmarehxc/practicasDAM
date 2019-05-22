@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cebb532-6bd1-412a-a2a0-a6664400c126" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParImpar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParImpar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParImparInterfaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParImparInterfaz.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ParImparInterfaz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="711">
+              <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParImpar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="187">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -91,6 +91,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -104,11 +105,16 @@
               <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ParImparInterfaz" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,17 +175,17 @@
       <updated>1558535246909</updated>
       <workItem from="1558535253501" duration="1665000" />
       <workItem from="1558543175038" duration="92000" />
+      <workItem from="1558566288429" duration="1500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1757000" />
+    <option name="totallyTimeSpent" value="3257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -188,7 +194,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -218,6 +224,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Impares.java" />
     <entry file="file://$PROJECT_DIR$/src/Impares.form" />
+    <entry file="file://$PROJECT_DIR$/src/ParImparInterfaz.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -225,20 +234,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParImparInterfaz.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ParImpar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ParImparInterfaz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="711">
+          <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
         </state>
       </provider>
     </entry>

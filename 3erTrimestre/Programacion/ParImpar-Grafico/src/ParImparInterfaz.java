@@ -5,7 +5,7 @@ public class ParImparInterfaz extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
     private JTextArea textArea1;
-    //private JButton buttonCancel;
+    private JButton buttonCancel;
 
     public ParImparInterfaz() {
         setContentPane(contentPane);
@@ -39,17 +39,23 @@ public class ParImparInterfaz extends JDialog {
     private void onOK() {
         // add your code here
         String p = textArea1.getText();
-
-        ;
         ParImpar calc = new ParImpar();
-        calc.Calcular(Integer.parseInt(p));
+        int a = calc.Calcular(Integer.parseInt(p));
+        if (a==0)
+        {
+            textArea1.setText("Es Par");
 
+        }
+        else
+            {
+                textArea1.setText("Es impar");
+            }
 
-        dispose();
+        //dispose();///Al comentar esta linea evitamos que no se cierre la ventana al terminar el proceso
     }
 
     private void onCancel() {
-        // add your code here if necessary
+        textArea1.setText("");
         dispose();
     }
 
