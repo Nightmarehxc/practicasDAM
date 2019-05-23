@@ -1,3 +1,5 @@
+package ParImpar;
+
 public class ParImpar
 {
     static int Calcular(int a)

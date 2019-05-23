@@ -1,3 +1,5 @@
+package ParImpar;
+
 import javax.swing.*;
 import java.awt.event.*;
 
