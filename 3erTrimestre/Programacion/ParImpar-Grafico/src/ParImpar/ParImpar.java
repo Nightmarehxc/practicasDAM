@@ -1,14 +1,16 @@
+package ParImpar;
+
 public class ParImpar
 {
-    static String Calcular(int a)
+    static int Calcular(int a)
     {
         if(a%2==0){
             System.out.println("Es par");
-            return "Es par";
+            return 0;
 
         }else{
             System.out.println("Es impar");
-            return "Es impar";
+            return 1;
         }
     }
 }
