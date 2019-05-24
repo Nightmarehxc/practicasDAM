@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<biblioteca>
+    <nombre>B.Casa campo</nombre>
+    <direccion></direccion>
+    <libros>
+        <libro ref="Teologia">
+            <titulo>La ultima cena y sus apostoles</titulo>
+            <edad>mas18</edad>
+            <publicacionTitulo año="1098"></publicacionTitulo>
+        </libro>
+        <libro ref="Cuento">
+            <titulo>Caperucita Roja</titulo>
+            <edad>menos18</edad>
+            <publicacionTitulo año="1920"></publicacionTitulo>
+        </libro>
+        <libro ref="Historia">
+            <titulo>La antigua grecia,Caligula</titulo>
+            <edad>mas18</edad>
+            <publicacionTitulo año="8"></publicacionTitulo>
+        </libro>
+    </libros>
+</biblioteca>

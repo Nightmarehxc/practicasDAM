@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vehiculo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:./empresa.xsd">
+    <lanzamiento>1999-10-20</lanzamiento>
+    <datos>
+    <macra>Mercedes</macra>
+    <modelo>S650</modelo>
+    <bastidor>65478977</bastidor>
+    </datos>
+    <observaciones>muy barato</observaciones>
+    <observaciones>muy buenos</observaciones>
+</vehiculo>

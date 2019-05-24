@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0f2fe7c-d643-43ca-94d0-0efb3d40e847" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ejercicio1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ejercicio1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ejercicio3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ejercicio3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/ParImpar-Grafico/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/ParImpar-Grafico/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacion/ParImpar-Grafico/src/ParImparInterfaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacion/ParImpar-Grafico/src/ParImparInterfaz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Examen/Xpath/Examen-xpath.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Examen/Xpath/parte2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Examen/Xpath/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Examen/empresa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +19,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/ejercicio3.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+            <state>
+              <caret selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/ejercicio3.xsd">
+        <entry file="file://$PROJECT_DIR$/.idea/Examen/empresa.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/Examen/empresa.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/Examen/Xpath/parte2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/Examen/Xpath/Examen-xpath.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/Examen/Xpath/test.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -43,6 +80,8 @@
       <find>desc</find>
       <find>moneda</find>
       <find>iva</find>
+      <find>datos</find>
+      <find>datosType</find>
     </findStrings>
     <dirStrings>
       <dir>E:\DAM1\Documents\GitHub\practicasDAM\3erTrimestre\LenguajedeMarcas\XMLEjercicios\.idea</dir>
@@ -60,6 +99,11 @@
         <option value="$PROJECT_DIR$/ejercicio1.xsd" />
         <option value="$PROJECT_DIR$/.idea/ejercicio1.xml" />
         <option value="$PROJECT_DIR$/.idea/ejercicio3.xml" />
+        <option value="$PROJECT_DIR$/.idea/Examen/empresa.xsd" />
+        <option value="$PROJECT_DIR$/.idea/Examen/empresa.xml" />
+        <option value="$PROJECT_DIR$/.idea/Examen/Xpath/parte2.xml" />
+        <option value="$PROJECT_DIR$/.idea/Examen/Xpath/test.xml" />
+        <option value="$PROJECT_DIR$/.idea/Examen/Xpath/Examen-xpath.txt" />
       </list>
     </option>
   </component>
@@ -74,6 +118,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,12 +132,23 @@
               <item name="XMLEjercicios" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="XMLEjercicios" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XMLEjercicios" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XMLEjercicios" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XMLEjercicios" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="Xpath" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -106,6 +163,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\DAM1\Documents\GitHub\practicasDAM\3erTrimestre\LenguajedeMarcas\XMLEjercicios\.idea\Examen" />
       <recent name="E:\DAM1\Documents\GitHub\practicasDAM\3erTrimestre\LenguajedeMarcas\XMLEjercicios\.idea" />
       <recent name="E:\DAM1\Documents\GitHub\practicasDAM\3erTrimestre\LenguajedeMarcas\XMLEjercicios" />
     </key>
@@ -148,23 +206,25 @@
       <workItem from="1558365065995" duration="711000" />
       <workItem from="1558366777568" duration="590000" />
       <workItem from="1558543208206" duration="2797000" />
+      <workItem from="1558704346380" duration="1193000" />
+      <workItem from="1558705627650" duration="1829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18564000" />
+    <option name="totallyTimeSpent" value="21586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -177,7 +237,8 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -261,10 +322,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Examen/empresa.xml1.xsd" />
     <entry file="file://$PROJECT_DIR$/.idea/ejercicio3.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        <state>
+          <caret selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Examen/empresa.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Examen/empresa.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Examen/Xpath/parte2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Examen/Xpath/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Examen/Xpath/Examen-xpath.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
