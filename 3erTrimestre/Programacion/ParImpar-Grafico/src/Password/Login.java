@@ -21,26 +21,24 @@ public class Login extends JDialog {
             }
         });
     }
-
     private void onOK()
     {
-        String pass = passwordField1.toString();
+        String pass = String.valueOf(passwordField1.getPassword());
         System.out.println(pass);
         Password input = new Password();
         int i = input.CheckPass(pass);
         if(i == 0)
         {
+            JOptionPane.showMessageDialog(null,"Contraseña correcta");
             System.out.println("correcto");
+            dispose();
         }
         else if (i == 1)
         {
-            System.out.println("Falso");
+            JOptionPane.showMessageDialog(null, "Contraseña invalida", "Error", JOptionPane.ERROR_MESSAGE);
+            dispose();
         }
-        // add your code here
-        //dispose();
     }
-
-
     public static void main(String[] args) {
         Login dialog = new Login();
         dialog.pack();
