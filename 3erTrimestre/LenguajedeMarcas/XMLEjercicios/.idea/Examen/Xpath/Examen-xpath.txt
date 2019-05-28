@@ -1,9 +1,0 @@
-1) /biblioteca/nombre
-2) /biblioteca/direccion
-3) /biblioteca/libros/libro/titulo
-4) /biblioteca/libros/libro/@ref
-5) /biblioteca/libros/libro/publicacionTitulo
-6) //*[@edad ="'mas18"]/nombre
-7) //*[@edad ="'menos18"]/nombre
-8) //*[@año < 1098]/..
-9) //*[@año = 8]/..
