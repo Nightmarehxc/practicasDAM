@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cebb532-6bd1-412a-a2a0-a6664400c126" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5cebb532-6bd1-412a-a2a0-a6664400c126" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Traducciones/csvReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
@@ -36,6 +34,33 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalculadoraCutre/CalculadoraGrafica.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TratamientoTexto/Tratamiento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-581">
+              <caret line="74" column="58" lean-forward="true" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Conversor/ConversorMoneda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -89,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -117,7 +142,65 @@
               <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
               <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculadoraCutre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculadoraCutre" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculadoraGrafica" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Conversor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Conversor" type="462c0819:PsiDirectoryNode" />
+              <item name="ConversorMoneda" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ParImpar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Password" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Password" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Traducciones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TratamientoTexto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParImpar-Grafico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TratamientoTexto" type="462c0819:PsiDirectoryNode" />
+              <item name="Tratamiento" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="ParImpar-Grafico" type="b2602c69:ProjectViewProjectNode" />
@@ -268,16 +351,15 @@
       <workItem from="1558690246464" duration="4077000" />
       <workItem from="1558699300027" duration="817000" />
       <workItem from="1558736058256" duration="42000" />
-      <workItem from="1558778423399" duration="616000" />
+      <workItem from="1558778423399" duration="1907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33066000" />
+    <option name="totallyTimeSpent" value="34357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,20 +397,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/TratamientoTexto/Tratamiento.java</url>
-          <line>133</line>
-          <properties class="TratamientoTexto.Tratamiento" method="setBold">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Impares.java" />
     <entry file="file://$PROJECT_DIR$/src/Impares.form" />
@@ -364,13 +432,6 @@
     <entry file="file://$PROJECT_DIR$/src/TratamientoTexto/Tratamiento.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conversor/ConversorMoneda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Password/Login.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
@@ -389,30 +450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TratamientoTexto/Tratamiento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="176" column="7" selection-start-line="176" selection-start-column="7" selection-end-line="176" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalculadoraCutre/Calculadora.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalculadoraCutre/CalculadoraGrafica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,6 +478,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Conversor/ConversorMoneda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Traducciones/csvReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -444,6 +492,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalculadoraCutre/CalculadoraGrafica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TratamientoTexto/Tratamiento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-581">
+          <caret line="74" column="58" lean-forward="true" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
         </state>
       </provider>
     </entry>
